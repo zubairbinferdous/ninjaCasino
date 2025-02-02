@@ -3,6 +3,13 @@
 
 import Carousel from 'react-bootstrap/Carousel';
 import './App.css';
+import OneX from './assets/ORG_1xbet logo1890_17014.svg';
+import bc from './assets/ORG_2515_22641.svg';
+import game from './assets/ORG_Gamdom logo2710_24394.svg';
+import met from './assets/ORG_MelBet4781_43035.svg';
+import stake from './assets/ORG_stake2726_24544.svg';
+
+
 import Footer from './pages/Footer';
 import Header from './pages/Header';
 
@@ -22,7 +29,7 @@ function App() {
           <Link to={'/about'} > About us </Link>
         </ul> */}
 
-<div className="container my-4">
+         <div className="container my-4">
             <div className="row">
                 <div className="col-md-12">
                     <Carousel indicators={true} controls={true} interval={3000} className="custom-slider">
@@ -59,41 +66,122 @@ function App() {
         <div className="container my-4">
             <div className="row">
                 <div className="col-md-6">
-                    <div className="p-3 border rounded bg-light">
+                    <div className="p-3 border rounded bg-white title">
                         <h4>Sports Events</h4>
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="p-3 border rounded bg-white">
-                        <div className="d-flex justify-content-between align-items-center mb-3">
+                        <div className="d-flex justify-content-between align-items-center mb-3 title">
                             <h4>Best Crypto Betting Sites</h4>
-                            <a href="#" className="text-primary">See all crypto betting sites</a>
+                            <a href="#" className="">See all crypto betting sites</a>
                         </div>
                         <div className="list-group">
                             {/* Example Entry */}
                             <div className="list-group-item d-flex justify-content-between align-items-center">
                                 <div className="d-flex align-items-center">
-                                    <img src="https://via.placeholder.com/50" className="me-3" alt="Site Logo" />
-                                    <div>
+                                    <div className="casino-logo">
+                                    <img src={stake} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
                                         <strong>Stake.com</strong><br />
-                                        Bonus: <span className="text-success">$3000</span><br />
-                                        Promo Code: <span className="text-primary">NEWBONUS</span>
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size'>
+                                        Bonus: <br /><span className="text-success">$3000</span>
+                                    </div>
+                                    <div className='pr-3 text-size'>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
                                     </div>
                                 </div>
-                                <button className="btn btn-success">Claim</button>
+                                <button className=" btn-box"><a href="https://stake.com/?c=newbonus">claim</a></button>
                             </div>
-                            {/* Repeat for other sites */}
                             <div className="list-group-item d-flex justify-content-between align-items-center">
                                 <div className="d-flex align-items-center">
-                                    <img src="https://via.placeholder.com/50" className="me-3" alt="Site Logo" />
-                                    <div>
+                                    <div className="casino-logo">
+                                    <img src={OneX} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
                                         <strong>1xBet</strong><br />
-                                        Bonus: <span className="text-success">10,000 BDT</span><br />
-                                        Promo Code: <span className="text-primary">NEWBONUS</span>
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size '>
+                                        Bonus: <br /><span className="text-success">$100</span>
+                                    </div>
+                                    <div className='pr-3 text-size '>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
                                     </div>
                                 </div>
-                                <button className="btn btn-success">Claim</button>
+                                <button className=" btn-box"><a href="https://1xlite-088578.top/en?tag=d_470241m_97c_NEWBONUS">claim</a></button>
                             </div>
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+                                <div className="d-flex align-items-center">
+                                    <div className="casino-logo">
+                                    <img src={bc} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
+                                        <strong>Bc.Game Sport</strong><br />
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size '>
+                                        Bonus: <br /><span className="text-success">$20,000 </span>
+                                    </div>
+                                    <div className='pr-3 text-size '>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <button className=" btn-box"><a href="https://bc.game/bn/?stag=12184_679ebd3b4473d0ffd5c0c66b&i=4cxse6dr">claim</a></button>
+                            </div>
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+                                <div className="d-flex align-items-center">
+                                    <div className="casino-logo">
+                                    <img src={game} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
+                                        <strong>Gamdom Sports</strong><br />
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size '>
+                                        
+Rewards 2.0: <br /><span className="text-success">Enabled </span>
+                                    </div>
+                                    <div className='pr-3 text-size '>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <button className=" btn-box"><a href="https://gamdom.com/landing?aff=newbonus">claim</a></button>
+                            </div>
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+                                <div className="d-flex align-items-center">
+                                    <div className="casino-logo">
+                                    <img src={met} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
+                                        <strong>Melbet</strong><br />
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size '>
+                                        
+                                    Bonus: <br /><span className="text-success">$130 </span>
+                                    </div>
+                                    <div className='pr-3 text-size '>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <button className=" btn-box"><a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">claim</a></button>
+                            </div>
+                            {/* Repeat for other sites */}
+                          
                         </div>
                         <div className="text-center mt-3">
                             <button className="btn btn-outline-dark">Load More</button>
