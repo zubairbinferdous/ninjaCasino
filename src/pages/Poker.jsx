@@ -1,28 +1,33 @@
 import React from "react";
 import '../App.css';
+import ggpoker from "../assets/ORG_GGPoker-new-logo3692_33236.svg";
 import Footer from "./Footer";
 import Header from "./Header";
-
 
 const Poker = () => {
   return (
     <div>
       <Header></Header>
       <div className="container my-4">
-        <div className="text-center text-white bg-dark p-5 rounded">
+        <div className="text-start text-white bg-dark p-5 rounded">
           <p className="text-uppercase small">Poker</p>
           <h1 className="fw-bold">Crypto Poker</h1>
         </div>
         <div className="row mt-4">
+
           <div className="col-md-12">
-            <div className="card p-3 mb-3 border-warning">
-              <div className="d-flex align-items-center">
+
+
+            <div className=" casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+              <div className="d-flex promo-area">
+
                 <img
-                  src="https://via.placeholder.com/50"
+                  src={ggpoker}
                   className="me-3"
                   alt="GGPoker Logo"
                 />
-                <div>
+
+                <div className="promo-areaa">
                   <h5 className="fw-bold mb-1">$600 sign up bonus</h5>
                   <p>
                     Use bonus code: <strong>newbonus</strong>
@@ -42,82 +47,71 @@ const Poker = () => {
                     </li>
                   </ul>
                 </div>
+                
               </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.9 ★★★★★</span>
-                <button className="btn btn-warning">Join GGPoker</button>
+
+
+              <div className="coin-rating">
+              <span className="fw-bold  text-warning"> <span className="fw-boldd">9.9</span> <br />
+                ★★★★★</span>
               </div>
+
+              <div className=" mt-2 button-area">
+             <a href="https://ggpoker.com">NEWBONUS</a>
+              </div>
+
             </div>
-            <div className="card p-3 mb-3">
-              <div className="d-flex align-items-center">
-                <img
-                  src="https://via.placeholder.com/50"
-                  className="me-3"
-                  alt="ACR Poker Logo"
-                />
-                <div>
-                  <h5 className="fw-bold mb-1">Deposit $2000 Get $2000</h5>
-                  <p>
-                    Use promo code <strong>NEWBONUS</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      Multi-million dollar jackpots on offer at ACR Poker which
-                      was previously known as America’s Cardroom
-                    </li>
-                    <li>
-                      Deposit up to $25,000 using a range of different payment
-                      methods, including Bitcoin, USDT as well as Luxon Pay
-                    </li>
-                    <li>100% welcome bonus available on all deposit methods</li>
-                  </ul>
+
+             <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+                <div className="d-flex promo-area">
+                    <img src={ggpoker} className="me-3" alt="KK Poker Logo" />
+                    <div className="promo-areaa">
+                        <h5 className="fw-bold mb-1">Get up to $1000 + 50% Rakeback</h5>
+                        <p>Use promo code: <strong>NEWBONUS</strong></p>
+                        <ul>
+                            <li>Fast-growing poker site with a strong customer base in Asia, Europe, and Latin America</li>
+                            <li>Various cryptocurrencies deposits accepted, including Bitcoin, Ethereum, Litecoin, and Tether</li>
+                            <li>Rich tournaments available across No Limit Texas Hold’em and Pot Limit Omaha game formats</li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.8 ★★★★★</span>
-                <button className="btn btn-warning">Join ACR</button>
-              </div>
-            </div>
-            <div className="card p-3 mb-3">
-              <div className="d-flex align-items-center">
-                <img
-                  src="https://via.placeholder.com/50"
-                  className="me-3"
-                  alt="KKPoker Logo"
-                />
-                <div>
-                  <h5 className="fw-bold mb-1">
-                    Get up to $1000 + 50% Rakeback
-                  </h5>
-                  <p>
-                    With invite code <strong>NEWBONUS</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      Fast-growing poker site with strong customer base in Asia,
-                      Europe and Latin America
-                    </li>
-                    <li>
-                      Various cryptocurrencies deposits accepted, including
-                      Bitcoin, Ethereum, Litecoin and Tether
-                    </li>
-                    <li>
-                      Rich tournaments available across No Limit Texas Hold’em
-                      and Pot Limit Omaha game formats
-                    </li>
-                  </ul>
+                <div className="coin-rating">
+                    <span className="fw-bold text-warning"> <span className="fw-boldd">9.6</span> <br /> ★★★★☆</span>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.6 ★★★★★</span>
-                <button className="btn btn-warning">Join KKPoker</button>
-              </div>
+                <div className="mt-2 button-area">
+                    <a href="https://kkpoker.com">NEWBONUS</a>
+                </div>
             </div>
+
+            <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+                <div className="d-flex promo-area">
+                    <img src={ggpoker} className="me-3" alt="ACR Poker Logo" />
+                    <div className="promo-areaa">
+                        <h5 className="fw-bold mb-1">Deposit $2000 Get $2000</h5>
+                        <p>Use promo code: <strong>NEWBONUS</strong></p>
+                        <ul>
+                            <li>Multi-million dollar jackpots on offer at ACR Poker which was previously known as America’s Cardroom</li>
+                            <li>Deposit up to $25,000 using a range of different payment methods, including Bitcoin, USDT as well as Luxon Pay</li>
+                            <li>100% welcome bonus available on all deposit methods</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="coin-rating">
+                    <span className="fw-bold text-warning"> <span className="fw-boldd">9.8</span> <br /> ★★★★★</span>
+                </div>
+                <div className="mt-2 button-area">
+                    <a href="https://acrpoker.com">NEWBONUS</a>
+                </div>
+
+
+
           </div>
+</div>
+
         </div>
       </div>
 
-      <div className="container my-4">
+      <div className="container content-area my-4">
         <div className="row">
           <div className="col-md-8">
             <h3 className="fw-bold">Top 10 Crypto Poker Sites</h3>

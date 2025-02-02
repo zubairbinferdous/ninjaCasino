@@ -1,5 +1,8 @@
 import React from "react";
 import '../App.css';
+import xbet from '../assets/ORG_1xbet logo1890_17014.svg';
+import bcgame from '../assets/ORG_2515_22641.svg';
+import stake from '../assets/ORG_stake2726_24544.svg';
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -8,133 +11,87 @@ const CryptoBeting = () => {
     <div>
       <Header></Header>
       <div className="container my-4">
-        <div className="text-center text-white bg-dark p-5 rounded">
-          <p className="text-uppercase small">Crypto Betting Sites</p>
-          <h1 className="fw-bold">
-            We've ranked rated and reviewed all the major crypto betting sites
-            to give you a list of the trusted sites for sports betting using
-            cryptocurrencies.
-          </h1>
+      <div className="text-start text-white bg-dark p-5 rounded">
+          <p className="text-uppercase small">Betting Sites</p>
+          <h1 className="fw-bold">Crypto Betting Sites</h1>
+          <p>
+          We've ranked rated and reviewed all the major crypto betting sites to give you a list of the trusted sites for sports betting using cryptocurrencies.
+          </p>
         </div>
         <div className="row mt-4">
           <div className="col-md-12">
-            <div className="card p-3 mb-3 border-warning">
-              <div className="d-flex align-items-center">
-                <img
-                  src="https://via.placeholder.com/50"
-                  className="me-3"
-                  alt="GGPoker Logo"
-                />
-                <div>
-                  <h5 className="fw-bold mb-1">$600 sign up bonus</h5>
-                  <p>
-                    Use bonus code: <strong>newbonus</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      The world’s biggest online crypto poker room with a choice
-                      of welcome bonuses
-                    </li>
-                    <li>
-                      Play for huge jackpots including across WSOP events and
-                      satellites
-                    </li>
-                    <li>
-                      Deposit using a wide range of crypto currencies including
-                      Bitcoin, Ethereum, USDT and many more
-                    </li>
-                  </ul>
+          <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+                <div className="d-flex promo-area">
+                    <img src={stake} className="me-3" alt="Stake Logo" />
+                    <div className="promo-areaa">
+                        <h5 className="fw-bold mb-1">Deposit $1500 Get $3000</h5>
+                        <p>Use promo code: <strong>NEWBONUS</strong></p>
+                        <ul>
+                            <li>World’s biggest crypto betting site with a huge welcome bonus and excellent VIP Program.</li>
+                            <li>Stake accepts all major crypto currencies as well as fiat including Japanese Yen, Brazilian Real, Canadian Dollars, Indian Rupees, and more.</li>
+                            <li>Exclusive games, $50,000 Leaderboard Race, Daily Promotions & Cashback Offers.</li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.9 ★★★★★</span>
-                <button className="btn btn-warning">Join GGPoker</button>
-              </div>
-            </div>
-            <div className="card p-3 mb-3">
-              <div className="d-flex align-items-center">
-                <img
-                  src="https://via.placeholder.com/50"
-                  className="me-3"
-                  alt="ACR Poker Logo"
-                />
-                <div>
-                  <h5 className="fw-bold mb-1">Deposit $2000 Get $2000</h5>
-                  <p>
-                    Use promo code <strong>NEWBONUS</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      Multi-million dollar jackpots on offer at ACR Poker which
-                      was previously known as America’s Cardroom
-                    </li>
-                    <li>
-                      Deposit up to $25,000 using a range of different payment
-                      methods, including Bitcoin, USDT as well as Luxon Pay
-                    </li>
-                    <li>100% welcome bonus available on all deposit methods</li>
-                  </ul>
+                <div className="coin-rating">
+                    <span className="fw-bold text-warning"> <span className="fw-boldd">9.9</span> <br /> ★★★★★</span>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.8 ★★★★★</span>
-                <button className="btn btn-warning">Join ACR</button>
-              </div>
-            </div>
-            <div className="card p-3 mb-3">
-              <div className="d-flex align-items-center">
-                <img
-                  src="https://via.placeholder.com/50"
-                  className="me-3"
-                  alt="KKPoker Logo"
-                />
-                <div>
-                  <h5 className="fw-bold mb-1">
-                    Get up to $1000 + 50% Rakeback
-                  </h5>
-                  <p>
-                    With invite code <strong>NEWBONUS</strong>
-                  </p>
-                  <ul>
-                    <li>
-                      Fast-growing poker site with strong customer base in Asia,
-                      Europe and Latin America
-                    </li>
-                    <li>
-                      Various cryptocurrencies deposits accepted, including
-                      Bitcoin, Ethereum, Litecoin and Tether
-                    </li>
-                    <li>
-                      Rich tournaments available across No Limit Texas Hold’em
-                      and Pot Limit Omaha game formats
-                    </li>
-                  </ul>
+                <div className="mt-2 button-area">
+                    <a href="https://stake.com/en/welcome-bonus">NEWBONUS</a>
                 </div>
-              </div>
-              <div className="d-flex justify-content-between align-items-center mt-2">
-                <span className="fw-bold text-warning">9.6 ★★★★★</span>
-                <button className="btn btn-warning">Join KKPoker</button>
-              </div>
             </div>
+
+            {/* 1xBet Section */}
+            <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+                <div className="d-flex promo-area">
+                    <img src={xbet} className="me-3" alt="1xBet Logo" />
+                    <div className="promo-areaa">
+                        <h5 className="fw-bold mb-1">Bet 10,000 Get 10,000 BDT</h5>
+                        <p>Use promo code: <strong>NEWBONUS</strong></p>
+                        <ul>
+                            <li>1xbet is a world-leading sports betting site with top odds, a range of markets, and live streaming.</li>
+                            <li>Unrivalled promotions including daily boosts, cashback, and win sports cars.</li>
+                            <li>All the cryptocurrencies as deposit and withdrawal options. Supports anonymous registration.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="coin-rating">
+                    <span className="fw-bold text-warning"> <span className="fw-boldd">9.8</span> <br /> ★★★★★</span>
+                </div>
+                <div className="mt-2 button-area">
+                    <a href="https://1xbet.com">NEWBONUS</a>
+                </div>
+            </div>
+
+            {/* BC.Game Section */}
+            <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+                <div className="d-flex promo-area">
+                    <img src={bcgame} className="me-3" alt="BC.Game Logo" />
+                    <div className="promo-areaa">
+                        <h5 className="fw-bold mb-1">$20,000</h5>
+                        <p>Use promo code: <strong>NEWBONUS</strong></p>
+                        <ul>
+                            <li>BC.Game accepts a huge number of crypto currencies including firm favourites like Bitcoin, Ethereum, Litecoin.</li>
+                            <li>Fully licensed by the Curacao government. Sponsors of Argentina National Football Team and esports team Cloud9.</li>
+                            <li>No KYC. Get up to 780% in welcome bonuses with a four-part rewards system for your first four deposits.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="coin-rating">
+                    <span className="fw-bold text-warning"> <span className="fw-boldd">9.6</span> <br /> ★★★★☆</span>
+                </div>
+                <div className="mt-2 button-area">
+                    <a href="https://bc.game">NEWBONUS</a>
+                </div>
+            </div>
+          
           </div>
         </div>
       </div>
 
-      <div className="container my-4">
+      <div className="container content-area my-4">
         <div className="row">
-          <div className="text-center text-white bg-dark p-5 rounded">
-            <h1 className="fw-bold">Crypto Betting Sites January, 2025</h1>
-            <p>
-              Looking for the best crypto betting sites and bookmakers to bet
-              online with? We have the most comprehensive guide to online
-              betting agencies right here.
-            </p>
-            <p>
-              Read our crypto bookmaker reviews, find the best crypto betting
-              apps around and get the lowdown on the top crypto bookmakers
-              before you bet. Last updated on 30 January 2025.
-            </p>
-          </div>
+
           <div className="row mt-4">
             <div className="col-md-8">
               <h3 className="fw-bold">The Top Crypto Betting Sites</h3>

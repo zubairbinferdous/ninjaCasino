@@ -1,8 +1,14 @@
 import React from "react";
 import "../App.css";
+import OneX from '../assets/ORG_1xbet logo1890_17014.svg';
+import bc from '../assets/ORG_2515_22641.svg';
+import game from '../assets/ORG_Gamdom logo2710_24394.svg';
+import met from '../assets/ORG_MelBet4781_43035.svg';
+import Root from '../assets/ORG_roobet5510_49598.svg';
 import stake from "../assets/ORG_stake2726_24544.svg";
 import Footer from "./Footer";
 import Header from "./Header";
+
 
 const Promo = () => {
   return (
@@ -38,23 +44,91 @@ const Promo = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="promo-box d-flex justify-content-between">
-              <div className="promo-header">
-                <img src={stake} alt="" />
-                <div className="promo-info">
-                  <div className="promo-title">Stake.com</div>
-                  <div className="promo-rating">⭐ 9.9</div>
+                <div className="promo-header">
+                    <img src={OneX} alt="1xBet" />
+                    <div className="promo-info">
+                        <div className="promo-title">1xBet</div>
+                        <div className="promo-rating">⭐ 9.8</div>
+                    </div>
                 </div>
-              </div>
-              <div className="promo-details">
-                <div className="promo-text">
-                  Deposit $1500 Get $3000 <br /> with promo code NEWBONUS
+                <div className="promo-details">
+                    <div className="promo-text">Bet 10,000 Get 10,000 BDT <br /> with promo code NEWBONUS</div>
+                    <div className="promo-code-box">
+                        <button className="get-code-btn"><a href="https://1xbet.com/en">NEWBONUS</a></button>
+                        <button className="claim-btn"><a href="https://1xbet.com/en">Claim</a></button>
+                    </div>
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn"> <a href="https://stake.com/en/welcome-bonus">NEWBONUS</a></button>
-                  <button className="claim-btn"><a href="https://stake.com/en/welcome-bonus">Claim</a></button>
+            </div>
+            
+            <div className="promo-box d-flex justify-content-between">
+                <div className="promo-header">
+                    <img src={bc} alt="BC.Game Sport" />
+                    <div className="promo-info">
+                        <div className="promo-title">BC.Game Sport</div>
+                        <div className="promo-rating">⭐ 9.6</div>
+                    </div>
                 </div>
-              </div>
+                <div className="promo-details">
+                    <div className="promo-text">$20,000 <br /> with promo code NEWBONUS</div>
+                    <div className="promo-code-box">
+                        <button className="get-code-btn"><a href="https://bc.game">NEWBONUS</a></button>
+                        <button className="claim-btn"><a href="https://bc.game">Claim</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="promo-box d-flex justify-content-between">
+                <div className="promo-header">
+                    <img src={game} alt="Gamdom Sports" />
+                    <div className="promo-info">
+                        <div className="promo-title">Gamdom Sports</div>
+                        <div className="promo-rating">⭐ 9.6</div>
+                    </div>
+                </div>
+                <div className="promo-details">
+                    <div className="promo-text">Rewards 2.0 enabled <br /> with promo code newbonus</div>
+                    <div className="promo-code-box">
+                        <button className="get-code-btn"><a href="https://gamdom.com">newbonus</a></button>
+                        <button className="claim-btn"><a href="https://gamdom.com">Claim</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="promo-box d-flex justify-content-between">
+                <div className="promo-header">
+                    <img src={met} alt="Melbet" />
+                    <div className="promo-info">
+                        <div className="promo-title">Melbet</div>
+                        <div className="promo-rating">⭐ 9.5</div>
+                    </div>
+                </div>
+                <div className="promo-details">
+                    <div className="promo-text">$130 Bonus - 30% extra <br /> with promo code NEWBONUS</div>
+                    <div className="promo-code-box">
+                        <button className="get-code-btn"><a href="https://melbet.com">NEWBONUS</a></button>
+                        <button className="claim-btn"><a href="https://melbet.com">Claim</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="promo-box d-flex justify-content-between">
+                <div className="promo-header">
+                    <img src={Root} alt="Roobet" />
+                    <div className="promo-info">
+                        <div className="promo-title">Roobet</div>
+                        <div className="promo-rating">⭐ 9.3</div>
+                    </div>
+                </div>
+                <div className="promo-details">
+                    <div className="promo-text">$5 Free Bet & 20% Cashback <br /> with promo code MAXBONUS</div>
+                    <div className="promo-code-box">
+                        <button className="get-code-btn"><a href="https://roobet.com">MAXBONUS</a></button>
+                        <button className="claim-btn"><a href="https://roobet.com">Claim</a></button>
+                    </div>
+                </div>
             </div>
           </div>
         </div>

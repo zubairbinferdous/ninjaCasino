@@ -210,10 +210,6 @@ body {
   border-radius: 5px;
 }
 
-.promo-info {
-  flex: 1;
-}
-
 .promo-title {
   font-size: 18px;
   font-weight: bold;
@@ -461,6 +457,19 @@ body {
   color: #252525;
 }
 
+.promo-info {
+  flex: 1;
+  width: 130px;
+}
+.button-area a {
+  color: #1c1d1c;
+  background-color: #e95d0c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -468,6 +477,34 @@ body {
   padding: 0px;
   height: 70px;
   overflow: hidden;
+}
+.casino-bg {
+  background-color: #f0ebebbb;
+  border-radius: 10px;
+}
+
+.casino-bg img {
+  width: 90px;
+  height: 50px;
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.coin-rating {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.fw-boldd {
+  font-weight: 700;
+  color: #000000;
+}
+.promo-area {
+  width: 80%;
+}
+.promo-areaa ul li {
+  font-size: 15px;
 }
 @media (max-width: 768px) {
   .promo-container {
