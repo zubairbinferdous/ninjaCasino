@@ -15,8 +15,6 @@ import Header from './pages/Header';
 
 
 function App() {
-
-
   return (
     <>
       <div>
@@ -180,6 +178,27 @@ Rewards 2.0: <br /><span className="text-success">Enabled </span>
                                 </div>
                                 <button className=" btn-box"><a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">claim</a></button>
                             </div>
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+                                <div className="d-flex align-items-center">
+                                    <div className="casino-logo">
+                                    <img src={met} className="me-3" alt="Site Logo" />
+                                    </div>
+                                    <div className='text-size title-name'>
+                                        <strong>Melbet</strong><br />
+                                    </div>
+
+                                    <div className="bonus d-flex align-items-center">
+                                    <div className='pr-3 text-size '>
+                                        
+                                    Bonus: <br /><span className="text-success">$130 </span>
+                                    </div>
+                                    <div className='pr-3 text-size '>
+                                        Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <button className=" btn-box"><a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">claim</a></button>
+                            </div>
                             {/* Repeat for other sites */}
                           
                         </div>
@@ -191,7 +210,7 @@ Rewards 2.0: <br /><span className="text-success">Enabled </span>
             </div>
         </div>
 
-        <div className="container my-4">
+        <div className="container content-area my-4">
             <h2 className="fw-bold">Trusted Crypto Betting Sites</h2>
             <p>
                 We have a full guide to the best betting sites to gamble on with and the table below is where you will find the top-ranked crypto sportsbooks.
@@ -209,39 +228,52 @@ Rewards 2.0: <br /><span className="text-success">Enabled </span>
                 On this page we aim to provide you with all the information you could possibly need in relation to crypto gambling. This information will include the advantages of using crypto to gamble and how we review and determine the best crypto sites around.
             </p>
             <div className="row text-center mt-4">
-                <div className="col-md-3">
-                    <div className="card bg-dark text-white p-3">
-                        <h5>Stake</h5>
-                        <p>Bonus <br /><span className="fw-bold">$3000</span></p>
-                        <p>Promo Code <br /><span className="text-warning">NEWBONUS</span></p>
-                        <button className="btn btn-warning fw-bold">JOIN</button>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card bg-dark text-white p-3">
-                        <h5>1XBET</h5>
-                        <p>Get <br /><span className="fw-bold">10,000 BDT</span></p>
-                        <p>Code <br /><span className="text-warning">NEWBONUS</span></p>
-                        <button className="btn btn-warning fw-bold">JOIN</button>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card bg-dark text-white p-3">
-                        <h5>BC.GAME</h5>
-                        <p>Get <br /><span className="fw-bold">$20,000</span></p>
-                        <p>Code <br /><span className="text-warning">NEWBONUS</span></p>
-                        <button className="btn btn-warning fw-bold">JOIN</button>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="card bg-dark text-white p-3">
-                        <h5>MELBET</h5>
-                        <p>Bonus <br /><span className="fw-bold">$130</span></p>
-                        <p>Promo Code <br /><span className="text-warning">NEWBONUS</span></p>
-                        <button className="btn btn-warning fw-bold">JOIN</button>
-                    </div>
-                </div>
+
+
+                <div className="promo-container">
+        <div className="promo-card stake">
+            <img src={stake} alt="" />
+          
+            <p>Bonus</p>
+            <p>$3000</p>
+            <p className="promo-code">Promo Code: <br /> NEWBONUS</p>
+            <a href="https://stake.com/?c=newbonus" className="join-button">JOIN</a>
+        </div>
+        <div className="promo-card xbet">
+            <img src={OneX} alt="" />
+           
+            <p>Get</p>
+            <p>10,000 BDT</p>
+            <p className="promo-code">Code: <br /> NEWBONUS</p>
+            <a href="https://1xlite-088578.top/en?tag=d_470241m_97c_NEWBONUS" className="join-button">JOIN</a>
+        </div>
+        <div className="promo-card bcgame">
+            <img src={bc} alt="" />
+          
+            <p>Get</p>
+            <p>$20,000</p>
+            <p className="promo-code">Use Code: <br /> NEWBONUS</p>
+            <a href="https://bc.game/bn/?stag=12184_679ebd3b4473d0ffd5c0c66b&i=4cxse6dr" className="join-button">JOIN</a>
+        </div>
+        <div className="promo-card gamdom">
+            <img src={game} alt="" />
+          
+            <p>Rewards 2.0 <br /> Enabled</p>
+            <p className="promo-code">Code: <br /> newbonus</p>
+            <a href="https://gamdom.com/landing?aff=newbonus" className="join-button">JOIN</a>
+        </div>
+        <div className="promo-card melbet">
+        <img src={met} alt="" />
+          
+            <p>Bonus</p>
+            <p>$130</p>
+            <p className="promo-code">Promo Code: <br /> NEWBONUS</p>
+            <a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus" className="join-button">JOIN</a>
+        </div>
+    </div>
             </div>
+
+            
 
             <h2 className="fw-bold">Best Esports Crypto Betting Sites</h2>
             <p>

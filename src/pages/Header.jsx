@@ -34,36 +34,36 @@ const Header = () => {
             </div>
             <nav className="nav">
               <ul>
-                <li>
+                <li >
                   <span className="text-center">
-                    <FontAwesomeIcon icon={faAtom}  className='icon-nav'/> <br />
+                    <FontAwesomeIcon icon={faAtom}  className='icon-nav'/> 
                     <a href="/Promo">Promo Codes</a>
                   </span>
                 </li>
                 <li>
                   <span className="text-center">
-                    <FontAwesomeIcon icon={faReceipt}  className='icon-nav'/> <br />
+                    <FontAwesomeIcon icon={faReceipt}  className='icon-nav'/> 
                     <a href="">Betting Sites</a>
                   </span>
                 </li>
 
                 <li>
                   <span className="text-center">
-                    <FontAwesomeIcon icon={faUsersBetweenLines}  className='icon-nav'/> <br />
+                    <FontAwesomeIcon icon={faUsersBetweenLines}  className='icon-nav'/> 
                     <a href="/Poker">Poker</a>
                   </span>
                 </li>
 
                 <li>
                   <span className="text-center">
-                    <FontAwesomeIcon icon={faSackDollar}  className='icon-nav'/> <br />
+                    <FontAwesomeIcon icon={faSackDollar}  className='icon-nav'/> 
                     <a href="">Casinos</a>
                   </span>
                 </li>
 
                 <li>
                   <span className="text-center">
-                    <FontAwesomeIcon icon={faCoins}  className='icon-nav'/> <br />
+                    <FontAwesomeIcon icon={faCoins}  className='icon-nav'/> 
                     <a href="">Currencies</a>
                   </span>
                 </li>
@@ -84,44 +84,62 @@ const Header = () => {
           <div className="icons-bar">
             <div className="icon">
               <span className="badge">1</span>
-              <img src={stake} alt="" />
+              <a href="https://stake.com/?c=newbonus">
+                <img src={stake} alt="" />
+              </a>
             </div>
             <div className="icon">
               <span className="badge">2</span> 
-              <img src={OneX} alt="" />
+              <a href="https://1xlite-088578.top/en?tag=d_470241m_97c_NEWBONUS">
+                <img src={OneX} alt="" />
+              </a>
             </div>
             <div className="icon">
               <span className="badge">3</span> 
-              <img src={bc} alt="" />
+              <a href="https://bc.game/bn/?stag=12184_679ebd3b4473d0ffd5c0c66b&i=4cxse6dr">
+                <img src={bc} alt="" />
+              </a>
             </div>
             <div className="icon">
               <span className="badge">4</span> 
-              <img src={game} alt="" />
+              <a href="https://gamdom.com/landing?aff=newbonus">
+                <img src={game} alt="" />
+              </a>
             </div>
             <div className="icon">
               <span className="badge">5</span> 
-              <img src={met} alt="" />
+              <a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">
+                <img src={met} alt="" />
+              </a>
             </div>
             <div className="icon">
               <span className="badge">6</span> 
-              <img src={Root} alt="" />
+              <a href="https://roobet.com/en/welcome?aff=newbonus">
+                <img src={Root} alt="" />
+              </a>
             </div>
 
             <div className="icon">
               <span className="badge">7</span> 
-              <img src={bill} alt="" />
+              <a href="https://bill.com/en/welcome?aff=newbonus">
+                <img src={bill} alt="" />
+              </a>
             </div>
 
 
             <div className="icon">
               <span className="badge">8</span> 
-              <img src={razed} alt="" />
+              <a href="https://razed.com/en/welcome?aff=newbonus">
+                <img src={razed} alt="" />
+              </a>
             </div>
 
 
             <div className="icon">
               <span className="badge">9</span> 
-              <img src={onwWin} alt="" />
+              <a href="https://1win4001.com/en/welcome?aff=newbonus">
+                <img src={onwWin} alt="" />
+              </a>
             </div>
 
             <div className="icon text-center">
