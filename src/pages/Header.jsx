@@ -1,11 +1,3 @@
-import {
-  faAtom,
-  faCoins,
-  faReceipt,
-  faSackDollar,
-  faUsersBetweenLines,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import '../App.css';
 import onwWin from '../assets/ORG_1win4001_36014.svg';
@@ -23,7 +15,7 @@ const Header = () => {
     <div>
       <div className="container-fluid header-bg-color">
         <div className="container">
-          <header className="header">
+          {/* <header className="header">
             <div className="logo">
               <a href="/">
                 {" "}
@@ -39,6 +31,7 @@ const Header = () => {
                     <FontAwesomeIcon icon={faAtom}  className='icon-nav'/> 
                     <a href="/Promo">Promo Codes</a>
                   </span>
+                 
                 </li>
                 <li>
                   <span className="text-center">
@@ -76,7 +69,112 @@ const Header = () => {
                 <a href="/cryptoBetting">Crypto Betting</a>
               </button>
             </div>
-          </header>
+          </header> */}
+
+<header className="header">
+        <div className="logo">
+            <a href="/">
+                <span>CRYPTO <span className="ninjas">NINJAS</span></span>
+            </a>
+        </div>
+        <nav className="nav">
+            <ul>
+                <li className="dropdown">
+                    <span className="text-center">
+                        <a href="/Promo">Promo Codes</a>
+                    </span>
+                </li>
+                <li className="dropdown">
+                    <span className="text-center">
+                        <a href="/">Betting Sites</a>
+                    </span>
+                    <div className="dropdown-content mega-menu">
+                        <div className="mega-menu-column">
+                         
+                            <a href="/Promo/Casino/FreeSpins">Free Spins</a>
+                            <a href="/Promo/Casino/DepositBonus">Deposit Bonus</a>
+                            <a href="/Promo/Casino/NoDeposit">No Deposit Bonus</a>
+                        </div>
+                        <div className="mega-menu-column">
+                         
+                            <a href="/Promo/Sports/WelcomeBonus">Welcome Bonus</a>
+                            <a href="/Promo/Sports/Cashback">Cashback Offers</a>
+                            <a href="/Promo/Sports/BoostedOdds">Boosted Odds</a>
+                        </div>
+                        <div className="mega-menu-column">
+                          
+                            <a href="/Promo/Poker/Freerolls">Freeroll Tournaments</a>
+                            <a href="/Promo/Poker/Rakeback">Rakeback Deals</a>
+                            <a href="/Promo/Poker/SignupBonus">Signup Bonus</a>
+                        </div>
+                    </div>
+                </li>
+                <li className="dropdown">
+                    <span className="text-center">
+                        <a href="/Poker">Poker</a>
+                    </span>
+
+                </li>
+                <li className="dropdown">
+                    <span className="text-center">
+                        <a href="/Promo">casinos</a>
+                    </span>
+                    <div className="dropdown-content mega-menu">
+                        <div className="mega-menu-column">
+                         
+                            <a href="/Promo/Casino/FreeSpins">Free Spins</a>
+                            <a href="/Promo/Casino/DepositBonus">Deposit Bonus</a>
+                            <a href="/Promo/Casino/NoDeposit">No Deposit Bonus</a>
+                        </div>
+                        <div className="mega-menu-column">
+                         
+                            <a href="/Promo/Sports/WelcomeBonus">Welcome Bonus</a>
+                            <a href="/Promo/Sports/Cashback">Cashback Offers</a>
+                            <a href="/Promo/Sports/BoostedOdds">Boosted Odds</a>
+                        </div>
+                        <div className="mega-menu-column">
+                          
+                            <a href="/Promo/Poker/Freerolls">Freeroll Tournaments</a>
+                            <a href="/Promo/Poker/Rakeback">Rakeback Deals</a>
+                            <a href="/Promo/Poker/SignupBonus">Signup Bonus</a>
+                        </div>
+                    </div>
+                </li>
+                <li className="dropdown">
+                    <span className="text-center">
+                        <a href="/cryptoBetting">Currencies</a>
+                    </span>
+                    <div className="dropdown-content mega-menu">
+                        <div className="mega-menu-column">
+                           
+                            <a href="/Currencies/Bitcoin">Bitcoin</a>
+                            <a href="/Currencies/Ethereum">Ethereum</a>
+                            <a href="/Currencies/USDT">USDT</a>
+                        </div>
+                        <div className="mega-menu-column">
+                            
+                            <a href="/Currencies/DAI">DAI</a>
+                            <a href="/Currencies/BUSD">BUSD</a>
+                            <a href="/Currencies/USDC">USDC</a>
+                        </div>
+                        <div className="mega-menu-column">
+                          
+                            <a href="/Currencies/Cardano">Cardano</a>
+                            <a href="/Currencies/Solana">Solana</a>
+                            <a href="/Currencies/Polkadot">Polkadot</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div className="actions">
+            <button className="crypto-betting">
+                <a href="/cryptoBetting">Crypto Betting</a>
+            </button>
+        </div>
+    </header>
+
+
         </div>
       </div>
       <div className="container-fluid icon-bg-color">

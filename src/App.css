@@ -48,7 +48,7 @@ body {
   box-shadow: 0px 4px 5px rgba(80, 79, 79, 0.363);
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +96,7 @@ body {
   padding: 15px 20px;
   display: block;
   width: 150px;
-}
+} */
 
 .crypto-betting {
   background-color: #41b758;
@@ -470,14 +470,14 @@ body {
   text-decoration: none;
   color: #fff;
 }
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
   height: 70px;
   overflow: hidden;
-}
+} */
 .casino-bg {
   background-color: #f0ebebbb;
   border-radius: 10px;
@@ -506,6 +506,7 @@ body {
 .promo-areaa ul li {
   font-size: 15px;
 }
+
 @media (max-width: 768px) {
   .promo-container {
     flex-direction: column;
@@ -515,22 +516,287 @@ body {
     width: 90%;
   }
 }
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
+dl,
+ol,
+ul {
+  margin: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #222; */
+  position: relative;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.ninjas {
+  color: orange;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+/* .nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 20px;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.mega-menu {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: none;
+}
+
+.mega-menu-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  flex: 1;
+}
+
+.mega-menu-column h4 {
+  color: orange;
+  margin-bottom: 10px;
+  font-size: 16px !important;
+}
+
+.dropdown span a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 0px;
+  width: 120px;
+  display: block;
+  background-color: #353434;
+}
+.mega-menu-column > a {
+  color: rgb(43, 42, 42);
+  text-decoration: none;
+  padding: 5px 0;
+  transition: 0.3s;
+  font-size: 13px !important;
+  background-color: none !important;
+}
+
+.mega-menu-column a:hover {
+  color: rgb(98, 190, 11);
+}
+
+.actions .crypto-betting {
+  background-color: rgb(28, 146, 44);
+  border: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.crypto-betting a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.actions .crypto-betting a {
+  color: white;
+  text-decoration: none;
+}
+
+.bonus-card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1400px;
+}
+
+.bonus-rank {
+  background: #dcdcdc;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.bonus-details {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+.bonus-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.bonus-amount {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bonus-code {
+  background: #e6e6e6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
+}
+.bonus-rating {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.bonus-actions {
+  margin-left: 20px;
+  text-align: center;
+}
+.bonus-button {
+  background: #28a745;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.bonus-actions a {
+  color: #fff;
+}
+.bonus-link {
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: rgb(49, 49, 49) !important;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.bonus-logo {
+  width: 100px;
+}
+
+.bonus-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.bonus-logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.bonus-details {
+  width: 30%;
+}
+.bonus-rating {
+  width: 20%;
+}
+
+.bonus-actions {
+  width: 30%;
+}
+
+.bonus-details {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: #218838; */
+}
+.bonus-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0f5132; */
+}
+
+.rating-number {
+  font-size: 60px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.bonus-amount {
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bonus-card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1400px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Menu */
+
+@media (max-width: 768px) {
   .nav ul {
     flex-direction: column;
+    gap: 10px;
   }
 
-  .nav ul li {
-    margin: 5px 0;
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    display: none;
   }
 
-  .icons-bar {
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mega-menu {
+    flex-direction: column;
+    padding: 15px;
   }
 }

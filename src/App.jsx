@@ -199,7 +199,268 @@ Rewards 2.0: <br /><span className="text-success">Enabled </span>
                                 </div>
                                 <button className=" btn-box"><a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">claim</a></button>
                             </div>
+
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="BillyBets Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>BillyBets</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">100% up to €100</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Betplay Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Betplay.io</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">up to USDT 10000</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">MAX</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Razed Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Razed</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">$15,000 On Sign-up</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Referral Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="1win Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>1win</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">Max Free Bet $1025</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                    <img src={stake} className="me-3" alt="Duelbits Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Duelbits</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">Deposit Bonus up to $100</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Use Code: <br /> <span className="text-primary">MAXBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Pinnacle Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Pinnacle</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">Highest Odds & Limits</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    VIP Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
                             {/* Repeat for other sites */}
+
+
+                            <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Sportaza Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Sportaza</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bet: <br /><span className="text-success">€100</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Get: <br /> <span className="text-primary">€100</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+    
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="1xBit Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>1xBit</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Get: <br /><span className="text-success">7 BTC</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+    
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Cbet Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Cbet</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">$2000</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+    
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Betwinner Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Betwinner</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Bonus: <br /><span className="text-success">$130</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Kingmaker Sports Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Kingmaker Sports</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Deposit Bonus: <br /><span className="text-success">100% up to €500</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
+    
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Sportsbet.io Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Sportsbet.io</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Leading: <br /><span className="text-success">Sportsbook</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Immediate: <br /> <span className="text-primary">Bonuses</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Join</a></button>
+    </div>
+
+    <div className="list-group-item d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+            <div className="casino-logo">
+                <img src={stake} className="me-3" alt="Vave Logo" />
+            </div>
+            <div className='text-size title-name'>
+                <strong>Vave</strong><br />
+            </div>
+            <div className="bonus d-flex align-items-center">
+                <div className='pr-3 text-size'>
+                    Free Bet: <br /><span className="text-success">1 BTC</span>
+                </div>
+                <div className='pr-3 text-size'>
+                    Promo Code: <br /> <span className="text-primary">NEWBONUS</span>
+                </div>
+            </div>
+        </div>
+        <button className="btn-box"><a href="#">Claim</a></button>
+    </div>
                           
                         </div>
                         <div className="text-center mt-3">
