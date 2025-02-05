@@ -775,7 +775,17 @@ ul {
   max-width: 1400px;
   margin-bottom: 20px;
 }
+.btn-outline-dark {
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #000000;
+  color: #fff;
+}
 
+.promo-rating {
+  color: #121212;
+  font-size: 16px;
+}
 /* Responsive Menu */
 
 @media (max-width: 768px) {

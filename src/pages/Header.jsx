@@ -88,25 +88,39 @@ const Header = () => {
                     <span className="text-center">
                         <a href="/">Betting Sites</a>
                     </span>
+
+                    
+
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Casino/FreeSpins">Free Spins</a>
-                            <a href="/Promo/Casino/DepositBonus">Deposit Bonus</a>
-                            <a href="/Promo/Casino/NoDeposit">No Deposit Bonus</a>
+                            <a href="/Promo/Casino/FreeSpins">Esports</a>
+                            <a href="/Promo/Casino/DepositBonus">Football</a>
+                            <a href="/Promo/Casino/NoDeposit">Tennis</a>
+                            <a href="/Promo/Sports/WelcomeBonus">American Football</a>
+                            <a href="/Promo/Sports/Cashback">Basketball</a>
+                            <a href="/Promo/Poker/SignupBonus">Darts</a>
+
                         </div>
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Sports/WelcomeBonus">Welcome Bonus</a>
-                            <a href="/Promo/Sports/Cashback">Cashback Offers</a>
-                            <a href="/Promo/Sports/BoostedOdds">Boosted Odds</a>
+                            <a href="/Promo/Sports/BoostedOdds">Baseball</a>
+                            <a href="/Promo/Poker/Freerolls">Ice Hockey</a>
+                            <a href="/Promo/Poker/Rakeback">Boxing</a>
+                            <a href="/Promo/Poker/SignupBonus">Golf</a>
+                            <a href="/Promo/Poker/Rakeback">F1</a>
+
                         </div>
                         <div className="mega-menu-column">
                           
-                            <a href="/Promo/Poker/Freerolls">Freeroll Tournaments</a>
-                            <a href="/Promo/Poker/Rakeback">Rakeback Deals</a>
-                            <a href="/Promo/Poker/SignupBonus">Signup Bonus</a>
+                            <a href="/Promo/Poker/Freerolls">UFC & MMA</a>
+                            <a href="/Promo/Poker/Rakeback">Horse Racing</a>
+                            <a href="/Promo/Poker/SignupBonus">Rugby League</a>
+                            <a href="/Promo/Poker/SignupBonus">Cricket</a>
+                            <a href="/Promo/Poker/Freerolls">Rugby Union</a>
+
                         </div>
+                      
                     </div>
                 </li>
                 <li className="dropdown">
@@ -122,46 +136,66 @@ const Header = () => {
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Casino/FreeSpins">Free Spins</a>
-                            <a href="/Promo/Casino/DepositBonus">Deposit Bonus</a>
-                            <a href="/Promo/Casino/NoDeposit">No Deposit Bonus</a>
+                            <a href="/Promo/Casino/FreeSpins">Live Dealer</a>
+                            <a href="/Promo/Casino/DepositBonus">Blackjack</a>
                         </div>
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Sports/WelcomeBonus">Welcome Bonus</a>
-                            <a href="/Promo/Sports/Cashback">Cashback Offers</a>
-                            <a href="/Promo/Sports/BoostedOdds">Boosted Odds</a>
+                            <a href="/Promo/Casino/NoDeposit">Baccarat</a>
+                            <a href="/Promo/Sports/WelcomeBonus">Reviews</a>
                         </div>
                         <div className="mega-menu-column">
                           
-                            <a href="/Promo/Poker/Freerolls">Freeroll Tournaments</a>
-                            <a href="/Promo/Poker/Rakeback">Rakeback Deals</a>
-                            <a href="/Promo/Poker/SignupBonus">Signup Bonus</a>
+                            <a href="/Promo/Sports/Cashback">Crash Games</a>
+                         
                         </div>
                     </div>
                 </li>
                 <li className="dropdown">
                     <span className="text-center">
                         <a href="/cryptoBetting">Currencies</a>
+
                     </span>
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
                            
                             <a href="/Currencies/Bitcoin">Bitcoin</a>
                             <a href="/Currencies/Ethereum">Ethereum</a>
-                            <a href="/Currencies/USDT">USDT</a>
+                            <a href="/Currencies/Litecoin">Litecoin</a>
+                                <a href="/Currencies/Tether USD">Tether USD</a>
+                                <a href="/Currencies/Ripple">Ripple</a>
+                                <a href="/Currencies/BNB">BNB</a>
+                                <a href="/Currencies/Dogecoin">Dogecoin</a>
+                                <a href="/Currencies/Tron">Tron</a>
+                                <a href="/Currencies/Cardano">Cardano</a>
+                                <a href="/Currencies/Monero">Monero</a>
+                               
+                               
+                              
+                                
                         </div>
                         <div className="mega-menu-column">
-                            
-                            <a href="/Currencies/DAI">DAI</a>
-                            <a href="/Currencies/BUSD">BUSD</a>
-                            <a href="/Currencies/USDC">USDC</a>
+                        <a href="/Currencies/EOS">EOS</a>
+                        <a href="/Currencies/USD Coin">USD Coin</a>
+                                <a href="/Currencies/Shiba Inu">Shiba Inu</a>
+                                <a href="/Currencies/Solana">Solana</a>
+                                <a href="/Currencies/Terra">Terra</a>
+                                <a href="/Currencies/Avalanche">Avalanche</a>
+                                <a href="/Currencies/Polkadot">Polkadot</a>
+                                <a href="/Currencies/ApeCoin">ApeCoin</a>
+                                <a href="/Currencies/Binance USD">Binance USD</a>
+                                <a href="/Currencies/Bitcoin Cash">Bitcoin Cash</a>
                         </div>
                         <div className="mega-menu-column">
-                          
-                            <a href="/Currencies/Cardano">Cardano</a>
-                            <a href="/Currencies/Solana">Solana</a>
-                            <a href="/Currencies/Polkadot">Polkadot</a>
+                        <a href="/Currencies/Cronos">Cronos</a>
+                                <a href="/Currencies/Chainlink">Chainlink</a>
+                                <a href="/Currencies/CAD Coin">CAD Coin</a>
+                                <a href="/Currencies/Borealis">Borealis</a>
+                                <a href="/Currencies/The Sandbox">The Sandbox</a>
+                        <a href="/Currencies/DAI">DAI</a>
+                            <a href="/Currencies/Uniswap">Uniswap</a>
+                                <a href="/Currencies/JPY Coin">JPY Coin</a>
+                                <a href="/Currencies/Polygon">Polygon</a>
                         </div>
                     </div>
                 </li>
