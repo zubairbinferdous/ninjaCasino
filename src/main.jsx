@@ -6,6 +6,8 @@ import App from './App.jsx'
 import './index.css'
 import CryptoBeting from './pages/CryptoBeting.jsx'
 // import Home from './pages/Home.jsx'
+import Casinos from './pages/Casinos.jsx'
+import Currencies from './pages/Currencies.jsx'
 import Poker from './pages/Poker.jsx'
 import Promo from './pages/Promo.jsx'
 
@@ -27,6 +29,19 @@ const router = createBrowserRouter([
   {
     path:'/cryptoBetting',
     element:<CryptoBeting></CryptoBeting>
+  },
+  {
+    path:'/betting',
+    element:<CryptoBeting></CryptoBeting>
+  },
+  {
+    path:'/Casinos',
+    element:<Casinos></Casinos>
+  },
+  
+  {
+    path:'/Currencies',
+    element:<Currencies></Currencies>
   },
 
 ]);

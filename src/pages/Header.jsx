@@ -1,3 +1,4 @@
+
 import '../App.css';
 import onwWin from '../assets/ORG_1win4001_36014.svg';
 import OneX from '../assets/ORG_1xbet.svg';
@@ -14,61 +15,7 @@ const Header = () => {
     <div>
       <div className="container-fluid header-bg-color">
         <div className="container">
-          {/* <header className="header">
-            <div className="logo">
-              <a href="/">
-                {" "}
-                <span>
-                  CRYPTO <span className="ninjas">NINJAS</span>
-                </span>
-              </a>
-            </div>
-            <nav className="nav">
-              <ul>
-                <li >
-                  <span className="text-center">
-                    <FontAwesomeIcon icon={faAtom}  className='icon-nav'/> 
-                    <a href="/Promo">Promo Codes</a>
-                  </span>
-                 
-                </li>
-                <li>
-                  <span className="text-center">
-                    <FontAwesomeIcon icon={faReceipt}  className='icon-nav'/> 
-                    <a href="">Betting Sites</a>
-                  </span>
-                </li>
 
-                <li>
-                  <span className="text-center">
-                    <FontAwesomeIcon icon={faUsersBetweenLines}  className='icon-nav'/> 
-                    <a href="/Poker">Poker</a>
-                  </span>
-                </li>
-
-                <li>
-                  <span className="text-center">
-                    <FontAwesomeIcon icon={faSackDollar}  className='icon-nav'/> 
-                    <a href="">Casinos</a>
-                  </span>
-                </li>
-
-                <li>
-                  <span className="text-center">
-                    <FontAwesomeIcon icon={faCoins}  className='icon-nav'/> 
-                    <a href="">Currencies</a>
-                  </span>
-                </li>
-
-
-              </ul>
-            </nav>
-            <div className="actions">
-              <button className="crypto-betting">
-                <a href="/cryptoBetting">Crypto Betting</a>
-              </button>
-            </div>
-          </header> */}
 
 <header className="header">
         <div className="logo">
@@ -80,16 +27,16 @@ const Header = () => {
             <ul>
                 <li className="dropdown">
                     <span className="text-center">
-                        <a href="/Promo">Promo Codes</a>
+                  
+                        <a href="/Promo">   <i className="fa-solid fa-diamond"></i> <br />Promo Codes</a>
                     </span>
                 </li>
                 <li className="dropdown">
                     <span className="text-center">
-                        <a href="/">Betting Sites</a>
+                        <a href="/betting"> <i className="fa-solid fa-gear"></i> <br /> Betting Sites</a>
                     </span>
 
-                    
-
+                
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
                          
@@ -124,13 +71,13 @@ const Header = () => {
                 </li>
                 <li className="dropdown">
                     <span className="text-center">
-                        <a href="/Poker">Poker</a>
+                        <a href="/Poker"> <i className="fa-solid fa-receipt"></i> <br /> Poker</a>
                     </span>
 
                 </li>
                 <li className="dropdown">
                     <span className="text-center">
-                        <a href="/Promo">casinos</a>
+                        <a href="/Casinos"> <i className="fa-solid fa-cash-register"></i> <br />Casinos</a>
                     </span>
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
@@ -152,7 +99,7 @@ const Header = () => {
                 </li>
                 <li className="dropdown">
                     <span className="text-center">
-                        <a href="/cryptoBetting">Currencies</a>
+                        <a href="/Currencies"> <i className="fa-solid fa-money-bill-transfer"></i> <br />  Currencies</a>
 
                     </span>
                     <div className="dropdown-content mega-menu">

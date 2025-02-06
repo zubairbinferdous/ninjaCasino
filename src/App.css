@@ -839,6 +839,130 @@ ul {
 .list-unstyled li a:hover {
   color: #159220;
 }
+.button-area a {
+  color: #1c1d1c;
+  background-color: #e95d0c;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  display: block;
+}
+
+.button-area {
+  text-align: center;
+}
+
+.coin-rating {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  padding: 0px 23px;
+}
+
+.crypto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.crypto-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.crypto-card:hover {
+  background: #e9ecef;
+}
+
+.crypto-content {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.crypto-info h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.crypto-info p {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}
+
+.crypto-arrow {
+  font-size: 20px;
+  color: #333;
+}
+
+.crypto-content img {
+  width: 130px;
+  height: 40px;
+  position: relative;
+  left: -40%;
+}
+
+.crypto-content {
+  overflow: hidden;
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.crypto-table th,
+.crypto-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.crypto-table th {
+  background-color: #28a745;
+  color: white;
+}
+
+.crypto-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.dropdown span a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px 0px;
+  width: 120px;
+  display: block;
+  font-size: 14px;
+  background-color: #353434;
+  transition: all linear 0.3s;
+  border-bottom: 4px solid green;
+}
+
+.dropdown span:hover a {
+  background-color: #000000;
+  border-bottom: 4px solid green;
+}
 
 @media (max-width: 768px) {
   .nav ul {

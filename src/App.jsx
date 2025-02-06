@@ -934,9 +934,9 @@ function App() {
           <p>
             Read our crypto sports betting site reviews as well as sportsbooks
             that specialise in specific sports within our{" "}
-            <a href="#" className="text-primary">
+            
               Crypto betting sites
-            </a>{" "}
+          
             section of the site.
           </p>
           <p>
@@ -1064,9 +1064,9 @@ function App() {
           </p>
           <h3 className="fw-bold">Promo Codes</h3>
           <p>
-            <a href="#" className="text-primary">
+           
               Promo codes
-            </a>{" "}
+            
             are a fantastic tool that enables new users of a specific crypto
             casino to utilise excellent welcome offers and bonuses.
           </p>
@@ -1078,9 +1078,9 @@ function App() {
           </p>
           <p>
             Not sure where to sign up next? Check out our{" "}
-            <a href="#" className="text-primary">
+         
               crypto gambling reviews
-            </a>{" "}
+          
             where we detail the welcome bonuses that are available at each
             casino.
           </p>
@@ -1092,26 +1092,26 @@ function App() {
           </p>
           <p>
             From the top of any page, you can click the{" "}
-            <a href="#" className="text-primary">
+          
               “Cryptocurrency”
-            </a>{" "}
+           
             tab in order to discover information relating to each of the most
             popular cryptocurrencies like{" "}
-            <a href="#" className="text-primary">
+          
               Bitcoin
-            </a>
-            ,{" "}
-            <a href="#" className="text-primary">
+          
+           
+          
               Ethereum
-            </a>
-            ,{" "}
-            <a href="#" className="text-primary">
+         
+            
+         
               Litecoin
-            </a>
-            , and{" "}
-            <a href="#" className="text-primary">
+         
+            , and
+           
               BNB
-            </a>{" "}
+         
             betting sites, as well as some of the lesser known and upcoming
             digital currencies.
           </p>

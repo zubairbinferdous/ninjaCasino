@@ -1,8 +1,18 @@
 import React from "react";
 import "../App.css";
+import bg from "../assets/cryto_bg.webp";
+import oneWin from "../assets/ORG_1win4001_36014.svg";
 import xbet from "../assets/ORG_1xbet.svg";
+import oneXbit from "../assets/ORG_1xbit1956_17612.svg";
 import bcgame from "../assets/ORG_2515_22641.svg";
+import gamdom from "../assets/ORG_Gamdom logo2710_24394.svg";
+import melbet from "../assets/ORG_MelBet4781_43035.svg";
+import pinnacle from "../assets/ORG_Pinnacle2223_20016.svg";
+import shuffle from "../assets/ORG_Sportaza3214_28934.svg";
+import sportsbet from "../assets/ORG_Sportsbet.io3524_31724.svg";
 import stake from "../assets/ORG_stake2726_24544.svg";
+import thunderpick from "../assets/ORG_Thunderpick logo4610_41502.svg";
+import vave from "../assets/ORG_Vave3911_35207.svg";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -11,21 +21,25 @@ const CryptoBeting = () => {
     <div>
       <Header></Header>
       <div className="container my-4">
-        <div className="text-start text-white bg-dark p-5 rounded">
-          <p className="text-uppercase small">Betting Sites</p>
-          <h1 className="fw-bold">Crypto Betting Sites</h1>
-          <p>
-            We've ranked rated and reviewed all the major crypto betting sites
+        
+        <div className="text-start text-white bg-dark p-5 rounded d-flex justify-content-between">
+          <div className="">
+            <p className="text-uppercase small">Betting Sites</p>
+            <h1 className="fw-bold">Crypto Betting Sites</h1>
+            <p>
+              We've ranked rated and reviewed all the major crypto betting sites
             to give you a list of the trusted sites for sports betting using
             cryptocurrencies.
           </p>
+          </div>
+          <img src={bg} alt="" />
         </div>
         <div className="row mt-4">
           <div className="col-md-12">
             <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
               <div className="d-flex promo-area">
                 <img src={stake} className="me-3" alt="Stake Logo" />
-                <div className="promo-areaa">
+                <div className="promo-areaa ms-3">
                   <h5 className="fw-bold mb-1">Deposit $1500 Get $3000</h5>
                   <p>
                     Use promo code: <strong>NEWBONUS</strong>
@@ -54,7 +68,7 @@ const CryptoBeting = () => {
                 </span>
               </div>
               <div className="mt-2 button-area">
-                <a href="https://stake.com/en/welcome-bonus">NEWBONUS</a>
+                <a href="https://stake.com/en/welcome-bonus"> visit stake</a>
               </div>
             </div>
 
@@ -62,7 +76,7 @@ const CryptoBeting = () => {
             <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
               <div className="d-flex promo-area">
                 <img src={xbet} className="me-3" alt="1xBet Logo" />
-                <div className="promo-areaa">
+                  <div className="promo-areaa ms-3">
                   <h5 className="fw-bold mb-1">Bet 10,000 Get 10,000 BDT</h5>
                   <p>
                     Use promo code: <strong>NEWBONUS</strong>
@@ -90,7 +104,7 @@ const CryptoBeting = () => {
                 </span>
               </div>
               <div className="mt-2 button-area">
-                <a href="https://1xbet.com">NEWBONUS</a>
+                <a href="https://1xbet.com"> visit 1xbet</a>
               </div>
             </div>
 
@@ -98,7 +112,7 @@ const CryptoBeting = () => {
             <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
               <div className="d-flex promo-area">
                 <img src={bcgame} className="me-3" alt="BC.Game Logo" />
-                <div className="promo-areaa">
+                <div className="promo-areaa ms-3">
                   <h5 className="fw-bold mb-1">$20,000</h5>
                   <p>
                     Use promo code: <strong>NEWBONUS</strong>
@@ -127,836 +141,193 @@ const CryptoBeting = () => {
                 </span>
               </div>
               <div className="mt-2 button-area">
-                <a href="https://bc.game">NEWBONUS</a>
+                <a href="https://bc.game"> visit bc.game</a>
               </div>
             </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={xbet} alt="" />
-                </div>
-              </div>
 
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$ 1,025</div>
-                  <div className="bonus-amount">Deposit $205 Get $1025</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
+             {/* 1. 1win */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area ">
+          <img src={oneWin} className="me-3" alt="1Win Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1 ">Claim the Max Free Bet $1025</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>1win is a leading betting site with millions of customers.</li>
+              <li>Accepts Bitcoin, Ethereum, Litecoin, Tether, and more.</li>
+              <li>Fast payouts to your crypto wallet.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.6</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://1win.com"> visit onewin</a></div>
+      </div>
 
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning"> ★★★★☆</span>
-              </div>
+      {/* 2. Gamdom */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={gamdom} className="me-3" alt="Gamdom Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Rewards 2.0 Enabled</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>One of the original crypto esports betting sites.</li>
+              <li>Up to 60% rakeback when using the promo code.</li>
+              <li>Huge prize pools through King of the Hill leaderboard.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.5</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://gamdom.com"> visit gamdom</a></div>
+      </div>
 
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  {" "}
-                  <span className="rating-number">9.6</span>
-                </span>
-              </div>
+      {/* 3. Sportsbet */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={sportsbet} className="me-3" alt="Sportsbet Logo" />
+              <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Leading Sportsbook</h5>
+            <p>Immediate Bonuses</p>
+            <ul>
+              <li>One of the top crypto sportsbooks and online casinos.</li>
+              <li>Accepts Bitcoin, Ethereum, Litecoin, and more.</li>
+              <li>Up to 100,000 USDT in weekly bonuses.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.3</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://sportsbet.io"> visit sportsbet</a></div>
+      </div>
 
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Review 1Win Casino
-                </a>
-              </div>
-            </div>
+            <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={pinnacle} className="me-3" alt="Pinnacle Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Biggest Betting Limits</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>Deposit via 30+ cryptocurrencies or fiat payment methods.</li>
+              <li>Accepts Bitcoin, Ethereum, Litecoin, Dogecoin, USD Coin, Tron & more.</li>
+              <li>Unlimited bet stakes and highest sportsbook odds.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.0</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://pinnacle.com"> visit pinnacle</a></div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$3,000</div>
-                  <div className="bonus-amount">Get $3,000 Welcome Bonus</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★★</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.9</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Stake Casino
-                </a>
-              </div>
-            </div>
+      {/* 2. Shuffle */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={shuffle} className="me-3" alt="Shuffle Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Deposit $1,000 Get $1,000</h5>
+            <p>Use promo code: <strong>MAXBONUS</strong></p>
+            <ul>
+              <li>Newly launched crypto betting site with casino games & poker.</li>
+              <li>Focuses on best crypto casino & sports betting experience.</li>
+              <li>Shuffle coin available to buy via the official site.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">8.9</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://shuffle.com"> visit shuffle</a></div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$1,500</div>
-                  <div className="bonus-amount">+150 Free Spins</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.8</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Megapari Casino
-                </a>
-              </div>
-            </div>
+      {/* 3. Thunderpick */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={thunderpick} className="me-3" alt="Thunderpick Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Deposit €600 Get €600</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>Deposit & withdraw using all major crypto coins.</li>
+              <li>Participate in weekly races & giveaways.</li>
+              <li>Over 3000 casino games & top sportsbook odds.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">8.7</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://thunderpick.com"> visit thunderpick</a></div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$1,400</div>
-                  <div className="bonus-amount">$1400 cashback</div>
-                  <p>
-                    Use promo code : <strong>MAXCASH</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.6</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Roobet Casino
-                </a>
-              </div>
-            </div>
+      {/* 4. Vave */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={vave} className="me-3" alt="Vave Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">Up to 1BTC Free</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>Fast, secure & anonymous transactions.</li>
+              <li>No KYC required for betting with full privacy.</li>
+              <li>Bet on 35+ sports & 4000+ games.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.3</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://vave.com"> visit vave</a></div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$300</div>
-                  <div className="bonus-amount">125% cash match</div>
-                  <p>
-                    Use promo code : <strong>HUGE</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★★</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.5</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Mostbet Casino
-                </a>
-              </div>
-            </div>
+      {/* 5. 1xBit */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={oneXbit} className="me-3" alt="1xBit Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">7 BTC Bonus</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>Bet using Bitcoin, Ethereum & Dogecoin.</li>
+              <li>Bet against fellow bettors in exchange mode.</li>
+              <li>Trade bets on financial markets.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.2</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area">
+          <a href="https://1xbit.com"> visit 1xbit</a>
+        </div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$1,750</div>
-                  <div className="bonus-amount">+ 290 wager free spins</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.3</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Melbet Casino
-                </a>
-              </div>
-            </div>
+      {/* 6. Melbet */}
+      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+        <div className="d-flex promo-area">
+          <img src={melbet} className="me-3" alt="Melbet Logo" />
+          <div className="promo-areaa ms-3">
+            <h5 className="fw-bold mb-1">$130 Bonus - 30% Extra</h5>
+            <p>Use promo code: <strong>NEWBONUS</strong></p>
+            <ul>
+              <li>Large sportsbook, casino & bingo platform.</li>
+              <li>Supports 30+ cryptocurrencies for transactions.</li>
+              <li>Fast withdrawals using all crypto methods.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="coin-rating">
+          <span className="fw-bold text-warning"><span className="fw-boldd">9.0</span> <br /> ★★★★☆</span>
+        </div>
+        <div className="mt-2 button-area"><a href="https://melbet.com"> visit melbet</a></div>
+      </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$20,000</div>
-                  <div className="bonus-amount">$20,000 Bonus</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.3</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit BC.Game
-                </a>
-              </div>
-            </div>
 
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$500</div>
-                  <div className="bonus-amount">150% up to $500 + 25 FS</div>
-                  <p>
-                    Use invite code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.2</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit MonkeyTilt Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$8,000</div>
-                  <div className="bonus-amount">500% up to $8,000</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.0</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Ybets Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">€1,950</div>
-                  <div className="bonus-amount">+ 150 Spins</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★★</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">9.0</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit 888Starz Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$5,000</div>
-                  <div className="bonus-amount">Get $5,000 + 50 FS</div>
-                  <p>
-                    Use promo code : <strong>MAXBET</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">8.9</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Blockbet Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$600</div>
-                  <div className="bonus-amount">100% up to $600</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">8.7</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit GGPoker Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">$15,000</div>
-                  <div className="bonus-amount">300% up to $15,000</div>
-                  <p>
-                    Use referral code : <strong>MAXBET</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">8.7</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Razed Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">Get up to 200 Free spins</div>
-                  <div className="bonus-amount">Use promo code NEWBONUS</div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">8.6</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit Pinnacle Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-              <div className="bonus-logo">
-                <div className="">
-                  <img src={stake} alt="" />
-                </div>
-              </div>
-              <div className="bonus-details">
-                <div className="">
-                  <div className="bonus-title">BTC 7BTC</div>
-                  <div className="bonus-amount">
-                    Claim up to 7BTC using code NEWBONUS
-                  </div>
-                  <p>
-                    Use promo code : <strong>NEWBONUS</strong>
-                  </p>
-                </div>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">★★★★☆</span>
-              </div>
-              <div className="bonus-rating">
-                <span className="fw-bold text-warning">
-                  <span className="rating-number">8.4</span>
-                </span>
-              </div>
-              <div className="bonus-actions">
-                <a href="#" className="bonus-button">
-                  Get Bonus
-                </a>
-                <a href="#" className="bonus-link">
-                  Visit 1xBit Casino
-                </a>
-              </div>
-            </div>
-
-            <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">€1,500</div>
-                <div className="bonus-amount">+ 150 Free Spins</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★★☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">8.4</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Sapphirebet Casino</a>
-        </div>
-            </div>
-
-            <div className="bonus-card ">
-                <div className="bonus-logo">
-                    <div className="">
-                        <img src={stake} alt="" />
-                    </div>
-                </div>
-                <div className="bonus-details">
-                    <div className="">
-                        <div className="bonus-title">$5,000</div>
-                        <div className="bonus-amount">120% up to $5,000 + 75 Free Spins</div>
-                        <p>Use bonus code : <strong>NEWBONUS</strong></p>
-                    </div>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">★★★★☆</span>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">
-                        <span className="rating-number">8.3</span>
-                    </span>
-                </div>
-                <div className="bonus-actions">
-                    <a href="#" className="bonus-button">Get Bonus</a>
-                    <a href="#" className="bonus-link">Visit Wild.io Casino</a>
-                </div>
-            </div>
-
-            <div className="bonus-card ">
-                <div className="bonus-logo">
-                    <div className="">
-                        <img src={stake} alt="" />
-                    </div>
-                </div>
-                <div className="bonus-details">
-                    <div className="">
-                        <div className="bonus-title">USD 1100</div>
-                        <div className="bonus-amount">Get USDT 2,000</div>
-                        <p>Use code : <strong>MAXBET</strong></p>
-                    </div>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">★★★★☆</span>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">
-                        <span className="rating-number">8.1</span>
-                    </span>
-                </div>
-                <div className="bonus-actions">
-                    <a href="#" className="bonus-button">Get Bonus</a>
-                    <a href="#" className="bonus-link">Visit Coin Poker</a>
-                </div>
-            </div>
-
-            <div className="bonus-card ">
-                <div className="bonus-logo">
-                    <div className="">
-                        <img src={stake} alt="" />
-                    </div>
-                </div>
-                <div className="bonus-details">
-                    <div className="">
-                        <div className="bonus-title">€1,500</div>
-                        <div className="bonus-amount">+ 150 Free Spins, 100% Cash Match</div>
-                        <p>Use promo code : <strong>MAXBONUS</strong></p>
-                    </div>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">★★★★☆</span>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">
-                        <span className="rating-number">8.1</span>
-                    </span>
-                </div>
-                <div className="bonus-actions">
-                    <a href="#" className="bonus-button">Get Bonus</a>
-                    <a href="#" className="bonus-link">Visit BetAndYou Casino</a>
-                </div>
-            </div>
-
-            <div className="bonus-card ">
-                <div className="bonus-logo">
-                    <div className="">
-                        <img src={stake} alt="" />
-                    </div>
-                </div>
-                <div className="bonus-details">
-                    <div className="">
-                        <div className="bonus-title">Unlock Legendary Clubhouse Casino Boosts</div>
-                        <div className="bonus-amount">Use promo code NEWBONUS</div>
-                        <p>Use promo code : <strong>NEWBONUS</strong></p>
-                    </div>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">★★★★☆</span>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">
-                        <span className="rating-number">8.0</span>
-                    </span>
-                </div>
-                <div className="bonus-actions">
-                    <a href="#" className="bonus-button">Get Bonus</a>
-                    <a href="#" className="bonus-link">Visit Sportsbet.io Casino</a>
-                </div>
-            </div>
-
-            <div className="bonus-card ">
-                <div className="bonus-logo">
-                    <div className="">
-                        <img src={stake} alt="" />
-                    </div>
-                </div>
-                <div className="bonus-details">
-                    <div className="">
-                        <div className="bonus-title">$1,000</div>
-                        <div className="bonus-amount">200% up to $1,000</div>
-                        <p>Tracking code : <strong>MAXBONUS</strong></p>
-                    </div>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">★★★☆☆</span>
-                </div>
-                <div className="bonus-rating">
-                    <span className="fw-bold text-warning">
-                        <span className="rating-number">7.8</span>
-                    </span>
-                </div>
-                <div className="bonus-actions">
-                    <a href="#" className="bonus-button">Get Bonus</a>
-                    <a href="#" className="bonus-link">Visit Natural8 Casino</a>
-                </div>
-            </div>
-
-            <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">€600</div>
-                <div className="bonus-amount">100% cash match</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★★☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.7</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Thunderpick Casino</a>
-        </div>
-    </div>
-
-    <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">Rewards 2.0 Enabled</div>
-                <div className="bonus-amount">Use newbonus promo code</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★★☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.5</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Gamdom</a>
-        </div>
-    </div>
-
-    <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">BTC 1</div>
-                <div className="bonus-amount">100% up to 1 BTC + 100 FS</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★★☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.5</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Vave Casino</a>
-        </div>
-    </div>
-
-    <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">$2,000</div>
-                <div className="bonus-amount">Deposit your deposit up to $2,000</div>
-                <p>Use bonus code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★★☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.4</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Cbet.gg Casino</a>
-        </div>
-    </div>
-
-    <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">€1,600</div>
-                <div className="bonus-amount">100% cash match up to €1,600</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★☆☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.2</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Betibet Casino</a>
-        </div>
-    </div>
-
-    <div className="bonus-card ">
-        <div className="bonus-logo">
-            <div className="">
-                <img src={stake} alt="" />
-            </div>
-        </div>
-        <div className="bonus-details">
-            <div className="">
-                <div className="bonus-title">€6,000</div>
-                <div className="bonus-amount">100% up to €6,000 + 100 FS</div>
-                <p>Use promo code : <strong>NEWBONUS</strong></p>
-            </div>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">★★★☆☆</span>
-        </div>
-        <div className="bonus-rating">
-            <span className="fw-bold text-warning">
-                <span className="rating-number">7.2</span>
-            </span>
-        </div>
-        <div className="bonus-actions">
-            <a href="#" className="bonus-button">Get Bonus</a>
-            <a href="#" className="bonus-link">Visit Zotabet Casino</a>
-        </div>
-    </div>
- 
 
           </div>
         </div>
@@ -966,7 +337,7 @@ const CryptoBeting = () => {
         <div className="row">
           <div className="row mt-4">
             <div className="col-md-8">
-              <h3 className="fw-bold">The Top Crypto Betting Sites</h3>
+              <h3 className="fw-bold" id="the-top-crypto-betting-sites">The Top Crypto Betting Sites</h3>
               <p>
                 We've taken a look at the best crypto bookmakers and rated them
                 based on a number of factors. From highest odds to live
@@ -974,7 +345,7 @@ const CryptoBeting = () => {
                 rank the best from the rest.
               </p>
 
-              <h3 className="fw-bold">Crypto Betting Sites</h3>
+              <h3 className="fw-bold" id="crypto-betting-sites">Crypto Betting Sites</h3>
               <p>
                 Some of the world's biggest and best bookmakers allow you to
                 play with crypto and you can join the increasingly popular world
@@ -1052,7 +423,7 @@ const CryptoBeting = () => {
                 seek professional
               </p>
 
-              <h3 className="fw-bold">Top Crypto Betting Sites</h3>
+              <h3 className="fw-bold" id="top-crypto-betting-sites"   >Top Crypto Betting Sites</h3>
               <ul>
                 <li>Stake.com</li>
                 <li>BC.Game</li>
@@ -1074,7 +445,7 @@ const CryptoBeting = () => {
                 <li>Ivibet</li>
               </ul>
 
-              <h3 className="fw-bold">Crypto Betting Site Reviews</h3>
+              <h3 className="fw-bold" id="crypto-betting-site-reviews">Crypto Betting Site Reviews</h3>
               <p>
                 Crypto betting site reviews are one of the most important tools
                 that should be used when deciding where to spend your
@@ -1094,7 +465,7 @@ const CryptoBeting = () => {
                 and even the efficiency of the site’s customer support team.
               </p>
 
-              <h3 className="fw-bold">Football</h3>
+              <h3 className="fw-bold" id="football">Football</h3>
               <p>
                 One of the most consistently and commonly wagered sports around
                 the world is football. <br />
@@ -1109,7 +480,7 @@ const CryptoBeting = () => {
                 English Premier League, Ligue 1 and La Liga.
               </p>
 
-              <h3 className="fw-bold">Tennis</h3>
+              <h3 className="fw-bold" id="tennis">Tennis</h3>
               <p>
                 Tennis is another sport that has consistently remained one of
                 the most popular sports to wager on around the world. <br />
@@ -1125,7 +496,7 @@ const CryptoBeting = () => {
                 Finals
               </p>
 
-              <h3 className="fw-bold">American Football</h3>
+              <h3 className="fw-bold" id="american-football">American Football</h3>
               <p>
                 With over a million high school kids participating, American
                 Football is the most popular sport in the United States. The
@@ -1141,7 +512,7 @@ const CryptoBeting = () => {
                 takes place at the end of each NFL season
               </p>
 
-              <h3 className="fw-bold">Basketball</h3>
+              <h3 className="fw-bold" id="basketball">Basketball</h3>
               <p>
                 Since basketball was invented back in 1891, hundreds of
                 professional basketball leagues have been established around the
@@ -1157,7 +528,7 @@ const CryptoBeting = () => {
                 that the NBA in America is the first league to look at.
               </p>
 
-              <h3 className="fw-bold">Baseball</h3>
+              <h3 className="fw-bold" id="baseball"   >Baseball</h3>
               <p>
                 Major League Baseball (MLB) in America receives the most
                 exposure, although baseball is played at various levels across
@@ -1173,7 +544,7 @@ const CryptoBeting = () => {
                 it should be the World Series.
               </p>
 
-              <h3 className="fw-bold">Hockey</h3>
+              <h3 className="fw-bold" id="hockey">Hockey</h3>
               <p>
                 While hockey is certainly played all around the world, it was
                 certainly the Canadians that pioneered the sport and raised it
@@ -1190,7 +561,7 @@ const CryptoBeting = () => {
                 World Cup.
               </p>
 
-              <h3 className="fw-bold">Boxing</h3>
+              <h3 className="fw-bold" id="boxing">Boxing</h3>
               <p>
                 Boxing is one of those sports where if there’s a big event
                 happening anywhere in the world, absolutely everybody will know
@@ -1208,7 +579,7 @@ const CryptoBeting = () => {
                 title fights in particular.
               </p>
 
-              <h3 className="fw-bold">Golf</h3>
+              <h3 className="fw-bold" id="golf">Golf</h3>
               <p>
                 Golf wagering remains one of the best and most popular
                 activities throughout the globe.
@@ -1223,7 +594,7 @@ const CryptoBeting = () => {
                 to bet your crypto on, look no further than the PGA Tour.
               </p>
 
-              <h3 className="fw-bold">Crypto Betting Sites - FAQs</h3>
+              <h3 className="fw-bold" id="crypto-betting-sites-faqs" >Crypto Betting Sites - FAQs</h3>
               <div className="border-bottom pb-3 mb-3">
                 <h5 className="fw-bold">What Is A Crypto Betting Site?</h5>
                 <p>
@@ -1269,81 +640,73 @@ const CryptoBeting = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="p-3 border rounded bg-light">
-                <h5 className="fw-bold">Navigation</h5>
+              <div className="p-3 border rounded bg-light bg-menu sticky-top">
+                {/* <h5 className="fw-bold">Navigation</h5> */}
                 <ul className="list-unstyled">
+
                   <li>
-                    <a href="#" className="text-decoration-none">
-                      Crypto Betting Sites January, 2025
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#the-top-crypto-betting-sites" className="text-decoration-none">
                       The Top Crypto Betting Sites
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#crypto-betting-sites " className="text-decoration-none">
                       Crypto Betting Sites
                     </a>
                   </li>
+
                   <li>
-                    <a href="#" className="text-decoration-none">
-                      Crypto Betting Sites v Normal sites: Key Differences
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#top-crypto-betting-sites" className="text-decoration-none">
                       Top Crypto Betting Sites
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#crypto-betting-site-reviews " className="text-decoration-none">
                       Crypto Betting Site Reviews
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#football" className="text-decoration-none">
                       Football
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#tennis" className="text-decoration-none">
                       Tennis
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#american-football" className="text-decoration-none">
                       American Football
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#basketball" className="text-decoration-none">
                       Basketball
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#baseball" className="text-decoration-none">
                       Baseball
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#hockey" className="text-decoration-none">
                       Hockey
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#boxing" className="text-decoration-none">
                       Boxing
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#golf" className="text-decoration-none">
                       Golf
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-decoration-none">
+                    <a href="#crypto-betting-sites-faqs" className="text-decoration-none">
                       Crypto Betting Sites - FAQs
                     </a>
                   </li>
