@@ -1,7 +1,6 @@
-import React from "react";
 import '../App.css';
 import onwWin from '../assets/ORG_1win4001_36014.svg';
-import OneX from '../assets/ORG_1xbet logo1890_17014.svg';
+import OneX from '../assets/ORG_1xbet.svg';
 import bc from '../assets/ORG_2515_22641.svg';
 import bill from '../assets/ORG_billybets-casino-logo2422_21806.svg';
 import game from '../assets/ORG_Gamdom logo2710_24394.svg';

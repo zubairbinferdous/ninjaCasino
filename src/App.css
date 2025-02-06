@@ -786,11 +786,64 @@ ul {
   color: #121212;
   font-size: 16px;
 }
+
+.actions .crypto-betting {
+  background-color: rgb(28, 146, 44);
+  border: none;
+  padding: 9px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.casino-logo img {
+  width: 65%;
+  height: 100%;
+}
 /* Responsive Menu */
+
+.me-3 {
+  margin-right: 0px !important;
+}
+.bg-red {
+  background-color: rgba(206, 6, 6, 0.92) !important;
+}
+.bg-blue {
+  background-color: rgba(15, 30, 106, 0.92) !important;
+}
+.bg-gray {
+  background-color: rgba(77, 75, 75, 0.92) !important;
+}
+
+.bg-pink {
+  background-color: rgba(79, 23, 169, 0.92) !important;
+}
+.bg-yellow {
+  background-color: rgba(237, 199, 9, 0.954) !important;
+}
+.bg-menu {
+  background-color: #ffffff !important;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.list-unstyled li {
+  color: #121212;
+  padding: 10px;
+}
+.list-unstyled li a {
+  color: #121212;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.list-unstyled li a:hover {
+  color: #159220;
+}
 
 @media (max-width: 768px) {
   .nav ul {
     flex-direction: column;
+
     gap: 10px;
   }
 

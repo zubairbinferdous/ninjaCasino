@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import xbet from "../assets/ORG_1xbet logo1890_17014.svg";
+import xbet from "../assets/ORG_1xbet.svg";
 import bcgame from "../assets/ORG_2515_22641.svg";
 import stake from "../assets/ORG_stake2726_24544.svg";
 import Footer from "./Footer";

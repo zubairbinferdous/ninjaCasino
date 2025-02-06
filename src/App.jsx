@@ -2,11 +2,36 @@
 
 import Carousel from "react-bootstrap/Carousel";
 import "./App.css";
-import OneX from "./assets/ORG_1xbet logo1890_17014.svg";
+import Mostbet from "./assets/most.svg";
+import twbet from "./assets/ORG20bet_3331_29984.svg";
+import onewin from "./assets/ORG_1win4001_36014.svg";
+import OneX from "./assets/ORG_1xbet.svg";
+import onexbit from "./assets/ORG_1xbit1956_17612.svg";
 import bc from "./assets/ORG_2515_22641.svg";
+import betplay from "./assets/ORG_betplay-logo4912_44220.svg";
+import betwinner from "./assets/ORG_Betwinner4308_38783.svg";
+import bill from "./assets/ORG_billybets-casino-logo2422_21806.svg";
+import cabet from "./assets/ORG_Cbet4776_42996.svg";
+import duelbits from "./assets/ORG_Duelbits_logo1817_16358.svg";
 import game from "./assets/ORG_Gamdom logo2710_24394.svg";
+import kingMaker from "./assets/ORG_kingmaker3597_32376.svg";
+import Liberbet from "./assets/ORG_librabet sport2513_22625.svg";
 import met from "./assets/ORG_MelBet4781_43035.svg";
+import Monkey from "./assets/ORG_monkey-tilt-logo2137_19242.svg";
+import Mozzart from "./assets/ORG_mozzart4298_38687.svg";
+import pinnacle from "./assets/ORG_Pinnacle2223_20016.svg";
+import Planbet from "./assets/ORG_Planbet5543_49893.svg";
+import rabona from "./assets/ORG_Raban_5292_47638.svg";
+import razed from "./assets/ORG_razed-logo5431_48891.svg";
+import Rocketpot from "./assets/ORG_Rocketpot5207_46869.svg";
+import rollbet from "./assets/ORG_rollbit4274_38474.svg";
+import sportaza from "./assets/ORG_Sportaza3214_28934.svg";
+import sportsbet from "./assets/ORG_Sportsbet.io3524_31724.svg";
 import stake from "./assets/ORG_stake2726_24544.svg";
+import Vave from "./assets/ORG_Vave3911_35207.svg";
+import Fezbet from "./assets/ORGFez_4537_40837.svg";
+import WinWinBet from "./assets/ORGwinwinbet_1784_16059.svg";
+
 
 import { useState } from "react";
 import Footer from "./pages/Footer";
@@ -128,7 +153,7 @@ function App() {
                   </div>
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
+                      <div className="casino-logo bg-blue">
                         <img src={OneX} className="me-3" alt="Site Logo" />
                       </div>
                       <div className="text-size title-name">
@@ -209,7 +234,7 @@ function App() {
                   </div>
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
+                      <div className="casino-logo bg-gray">
                         <img src={met} className="me-3" alt="Site Logo" />
                       </div>
                       <div className="text-size title-name">
@@ -234,39 +259,11 @@ function App() {
                       </a>
                     </button>
                   </div>
-                  <div className="list-group-item d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={met} className="me-3" alt="Site Logo" />
-                      </div>
-                      <div className="text-size title-name">
-                        <strong>Melbet</strong>
-                        <br />
-                      </div>
-
-                      <div className="bonus d-flex align-items-center">
-                        <div className="pr-3 text-size ">
-                          Bonus: <br />
-                          <span className="text-success">$130 </span>
-                        </div>
-                        <div className="pr-3 text-size ">
-                          Promo Code: <br />{" "}
-                          <span className="text-primary">NEWBONUS</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button className=" btn-box">
-                      <a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus">
-                        claim
-                      </a>
-                    </button>
-                  </div>
-
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
                         <img
-                          src={stake}
+                          src={bill}
                           className="me-3"
                           alt="BillyBets Logo"
                         />
@@ -287,14 +284,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://billybets.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Betplay Logo" />
+                        <img src={betplay} className="me-3" alt="Betplay Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Betplay.io</strong>
@@ -312,14 +309,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://betplay.io/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Razed Logo" />
+                        <img src={razed} className="me-3" alt="Razed Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Razed</strong>
@@ -339,14 +336,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://www.razed.com/signup/?raf=NEWBONUS">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="1win Logo" />
+                      <div className="casino-logo bg-blue">
+                        <img src={onewin} className="me-3" alt="1win Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>1win</strong>
@@ -366,7 +363,7 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://1wpgjk.com/">Claim</a>
                     </button>
                   </div>
 
@@ -379,7 +376,7 @@ function App() {
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Duelbits Logo" />
+                        <img src={duelbits} className="me-3" alt="Duelbits Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Duelbits</strong>
@@ -399,14 +396,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://duelbits.com/en?cxd=35083_361581&a=maxbonus&afp=Crypto">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Pinnacle Logo" />
+                        <img src={pinnacle} className="me-3" alt="Pinnacle Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Pinnacle</strong>
@@ -426,14 +423,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://www.pinnacle.bet/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Sportaza Logo" />
+                      <div className="casino-logo bg-gray">
+                        <img src={sportaza} className="me-3" alt="Sportaza Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Sportaza</strong>
@@ -450,14 +447,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://sportaza.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="1xBit Logo" />
+                        <img src={onexbit} className="me-3" alt="1xBit Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>1xBit</strong>
@@ -475,14 +472,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://1xbit1.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Cbet Logo" />
+                        <img src={cabet} className="me-3" alt="Cbet Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Cbet</strong>
@@ -500,7 +497,7 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://cbet.fund/">Claim</a>
                     </button>
                   </div>
 
@@ -508,7 +505,7 @@ function App() {
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
                         <img
-                          src={stake}
+                          src={betwinner}
                           className="me-3"
                           alt="Betwinner Logo"
                         />
@@ -529,15 +526,15 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://betwinner.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
+                      <div className="casino-logo bg-pink">
                         <img
-                          src={stake}
+                          src={kingMaker}
                           className="me-3"
                           alt="Kingmaker Sports Logo"
                         />
@@ -558,7 +555,7 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://kingmaker.com/">Claim</a>
                     </button>
                   </div>
 
@@ -566,7 +563,7 @@ function App() {
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
                         <img
-                          src={stake}
+                          src={sportsbet}
                           className="me-3"
                           alt="Sportsbet.io Logo"
                         />
@@ -587,14 +584,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Join</a>
+                      <a href="https://sportsbet.io/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Vave Logo" />
+                      <div className="casino-logo bg-pink">
+                        <img src={Vave} className="me-3" alt="Vave Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Vave</strong>
@@ -612,14 +609,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://vave.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Rabona Logo" />
+                        <img src={rabona} className="me-3" alt="Rabona Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Rabona</strong>
@@ -637,14 +634,18 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://rabona.com/en/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Rollbit Logo" />
+                      <div className="casino-logo bg-red">
+                        <img
+                          src={rollbet}
+                          className="me-3"
+                          alt="Rollbit Logo"
+                        />
                       </div>
                       <div className="text-size title-name">
                         <strong>Rollbit</strong>
@@ -662,15 +663,15 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://rollbit.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
+                      <div className="casino-logo bg-gray">
                         <img
-                          src={stake}
+                          src={Rocketpot}
                           className="me-3"
                           alt="Rocketpot Logo"
                         />
@@ -691,14 +692,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://rocketpot.io/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Fezbet Logo" />
+                      <div className="casino-logo bg-yellow">
+                        <img src={Fezbet} className="me-3" alt="Fezbet Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Fezbet</strong>
@@ -715,7 +716,7 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://fezbet.com/">Claim</a>
                     </button>
                   </div>
 
@@ -723,7 +724,7 @@ function App() {
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
                         <img
-                          src={stake}
+                          src={Liberbet}
                           className="me-3"
                           alt="Librabet Sport Logo"
                         />
@@ -744,7 +745,7 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://librabet.com/">Claim</a>
                     </button>
                   </div>
 
@@ -752,7 +753,7 @@ function App() {
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
                         <img
-                          src={stake}
+                          src={WinWinBet}
                           className="me-3"
                           alt="WinWinBet Logo"
                         />
@@ -773,14 +774,14 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://winwin-216005.top/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Mozzart Logo" />
+                        <img src={Mozzart} className="me-3" alt="Mozzart Logo" />
                       </div>
                       <div className="text-size title-name">
                         <strong>Mozzart</strong>
@@ -794,17 +795,17 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Join</a>
+                      <a href="https://www.mozzart.com/en#/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Rabona Logo" />
+                        <img src={twbet} className="me-3" alt="Rabona Logo" />
                       </div>
                       <div className="text-size title-name">
-                        <strong>Rabona</strong>
+                        <strong>20bet</strong>
                         <br />
                       </div>
                       <div className="bonus d-flex align-items-center">
@@ -819,80 +820,80 @@ function App() {
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://20bet.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                       <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Rollbit Logo" />
+                        <img src={Planbet} className="me-3" alt="Rollbit Logo" />
                       </div>
                       <div className="text-size title-name">
-                        <strong>Rollbit</strong>
+                        <strong>Planbet</strong>
                         <br />
                       </div>
                       <div className="bonus d-flex align-items-center">
                         <div className="pr-3 text-size">
-                          Highest Rewards Program: <br />
-                          <span className="text-success">Crypto Betting</span>
+                        Deposit Bonus: <br />
+                          <span className="text-success">$130</span>
                         </div>
                         <div className="pr-3 text-size">
                           Code: <br />{" "}
-                          <span className="text-primary">TOPBONUS</span>
+                          <span className="text-primary">BIGBETS</span>
                         </div>
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://planbet.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
+                      <div className="casino-logo bg-blue">
                         <img
-                          src={stake}
+                          src={Mostbet}
                           className="me-3"
                           alt="Rocketpot Logo"
                         />
                       </div>
                       <div className="text-size title-name">
-                        <strong>Rocketpot</strong>
+                        <strong>Mostbet</strong>
                         <br />
                       </div>
                       <div className="bonus d-flex align-items-center">
                         <div className="pr-3 text-size">
                           Get: <br />
-                          <span className="text-success">$5000</span>
+                          <span className="text-success">$130</span>
                         </div>
                         <div className="pr-3 text-size">
                           Referral Code: <br />{" "}
-                          <span className="text-primary">MAXBONUS</span>
+                          <span className="text-primary">HUGE</span>
                         </div>
                       </div>
                     </div>
                     <button className="btn-box">
-                      <a href="#">Claim</a>
+                      <a href="https://mostbet.com/">Claim</a>
                     </button>
                   </div>
 
                   <div className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      <div className="casino-logo">
-                        <img src={stake} className="me-3" alt="Fezbet Logo" />
+                      <div className="casino-logo bg-yellow">
+                        <img src={Monkey} className="me-3" alt="Fezbet Logo" />
                       </div>
                       <div className="text-size title-name">
-                        <strong>Fezbet</strong>
+                        <strong>Monkey Tilt</strong>
                         <br />
                       </div>
                       <div className="bonus d-flex align-items-center">
                         <div className="pr-3 text-size">
                           Deposit: <br />
-                          <span className="text-success">€100</span>
+                          <span className="text-success">€200</span>
                         </div>
                         <div className="pr-3 text-size">
-                          Get: <br /> <span className="text-primary">€100</span>
+                        Invite Code: <br /> <span className="text-primary">NEWBONUS</span>
                         </div>
                       </div>
                     </div>
