@@ -130,8 +130,12 @@ const Poker = () => {
                   <span className="fw-boldd">9.8</span> <br /> ★★★★★
                 </span>
               </div>
+              <div className="">
+
               <div className="mt-2 button-area">
-                <a href="https://affiliates.acrpoker.eu/first-deposit-bonus/">join ACR Poker</a>
+                <a href="https://affiliates.acrpoker.eu/first-deposit-bonus/">join ACR Poker</a> <br />
+              </div>
+                <span className="acr_promo"><a href="/Acr">ACR Poker Promo Code</a></span>
               </div>
             </div>
           </div>

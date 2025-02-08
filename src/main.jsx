@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './index.css'
 import CryptoBeting from './pages/CryptoBeting.jsx'
 // import Home from './pages/Home.jsx'
+import Acr from './pages/Acr.jsx'
 import BcGameRev from './pages/BcGameRev.jsx'
 import BcPR from './pages/BcPR.jsx'
 import BetandyouRev from './pages/BetandyouRev.jsx'
@@ -234,6 +235,10 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     path:'/ShuffleR',
     element:<ShuffleR></ShuffleR>
   },
+  {
+    path:'/Acr',
+    element:<Acr></Acr>
+  },
 
   // Review pages
   {
@@ -342,6 +347,9 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     path:'/VaveRev',
     element:<VaveRev></VaveRev>
   },
+
+
+  
   {
     path:'/CbetggRev',
     element:<CbetggRev></CbetggRev>

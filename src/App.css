@@ -1332,7 +1332,12 @@ ul {
   padding: 24px;
   background-color: #000000;
 }
-
+.acr_promo {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
 /* Responsive */
 
 @media (max-width: 768px) {
