@@ -1,7 +1,19 @@
 import React from 'react';
+import mostbet from "../assets/most.svg";
 import xbet from "../assets/ORG_1xbet.svg";
+import BTC from "../assets/ORG_1xbit1956_17612.svg";
+import bc from '../assets/ORG_2515_22641.svg';
+import starz from "../assets/ORG_888-starz-logo3922_35307.svg";
+import blockBet from "../assets/ORG_block-bet-logo5215_46948.svg";
+import cbit from "../assets/ORG_Cbet4776_42996.svg";
+import ggPoker from "../assets/ORG_GGPoker-new-logo3692_33236.svg";
+import melbet from "../assets/ORG_MelBet4781_43035.svg";
+import MonkeyTilt from "../assets/ORG_monkey-tilt-logo2137_19242.svg";
+import Pinnacle from "../assets/ORG_Pinnacle2223_20016.svg";
+import Razed from "../assets/ORG_razed-logo5431_48891.svg";
+import roobet from "../assets/ORG_roobet5510_49598.svg";
 import stake from "../assets/ORG_stake2726_24544.svg";
-
+import Ybets from "../assets/ORG_ybets4069_36627.svg";
 
 const CasinoOnePart = () => {
     return (
@@ -38,11 +50,12 @@ const CasinoOnePart = () => {
 <a href="#" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/OnewinRev" className="bonus-link">
   Review 1Win Casino
 </a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -68,19 +81,20 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://stake.com/" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/RevStake" className="bonus-link">
   Visit Stake Casino
 </a>
 </div>
 </div>
 
+
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={bc} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -101,23 +115,27 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://bc.game/bn/?stag=12184_67a6fb7b1a20d4255fda90af&i=4cxse6dr&utm_source=4cxse6dr" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
-  Visit Megapari Casino
+<a href="/BcGameRev" className="bonus-link">
+  
+Visit Bc.Game Sport
 </a>
 </div>
 </div>
 
+
+
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={roobet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
 <div className="">
+
   <div className="bonus-title">$1,400</div>
   <div className="bonus-amount">$1400 cashback</div>
   <p>
@@ -134,23 +152,26 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://roobet.com/promotions/7-days-of-sportsbook-cashback/?affid=35432&cxd=35432_812940_cryptonin&utm_medium=[utm_medium]&utm_campaign=NEWBONUS&utm_content=[utm_content]&lng=en" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/RoobetRev" className="bonus-link">
   Visit Roobet Casino
 </a>
 </div>
 </div>
 
+
+
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={mostbet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
 <div className="">
+
   <div className="bonus-title">$300</div>
   <div className="bonus-amount">125% cash match</div>
   <p>
@@ -167,10 +188,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://zzbtp0p.com/?registration=1&cid=6285307656&pid=36360&sip=0" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/MostbetRev" className="bonus-link">
   Visit Mostbet Casino
 </a>
 </div>
@@ -179,11 +200,12 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={melbet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
 <div className="">
+
   <div className="bonus-title">$1,750</div>
   <div className="bonus-amount">+ 290 wager free spins</div>
   <p>
@@ -200,25 +222,27 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://melbet-516558.top/en?tag=d_2297877m_45415c_Newbonus" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/MelbetRev" className="bonus-link">
   Visit Melbet Casino
 </a>
 </div>
 </div>
 
+
+
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={cbit} alt="" />
 </div>
 </div>
 <div className="bonus-details">
 <div className="">
-  <div className="bonus-title">$20,000</div>
-  <div className="bonus-amount">$20,000 Bonus</div>
+  <div className="bonus-title">€ 200</div>
+  <div className="bonus-amount">$2000 Bonus</div>
   <p>
     Use promo code : <strong>NEWBONUS</strong>
   </p>
@@ -233,20 +257,21 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://cbet.fund/en-US/?stag=41429_67a7066bf85ea395d5ee9f27&affiliate=affilka#registration" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/CbetRev" className="bonus-link">
   Visit BC.Game
 </a>
 </div>
 </div>
 
 <div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={stake} alt="" />
+<div className="bonus-logo ">
+<div className=" ">
+  <img src={MonkeyTilt} alt=""  className='bg-yellow'/>
 </div>
+
 </div>
 <div className="bonus-details">
 <div className="">
@@ -266,10 +291,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://www.monkeytilt.com/en?cxd=cx-35193_385245" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/MonkeyTIRev" className="bonus-link">
   Visit MonkeyTilt Casino
 </a>
 </div>
@@ -278,7 +303,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={Ybets} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -299,10 +324,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://ybets.net/?stag=116632_67a70c3e1a20d4255fdbfda2&http_referrer=https%3A%2F%2Fwww.cryptoninjas.com%2F&loyaltyCode=NEWBONUS&tmp=2&tracking_link=http%3A%2F%2Fybetspromo.io%2Fdcc41354c" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/Ybets" className="bonus-link">
   Visit Ybets Casino
 </a>
 </div>
@@ -311,7 +336,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={starz} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -332,10 +357,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://saxoneu5.xyz/en/registration?tag=d_894251m_64133c_freetips_com_%7Bposition%7D_&pb=5f67f3dae1c546cc959563fb696ce998&click_id=2i60ci4bhvvo" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/StarzRev" className="bonus-link">
   Visit 888Starz Casino
 </a>
 </div>
@@ -344,7 +369,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={blockBet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -365,23 +390,25 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://www.blockbet.gg/en/promotions/welcome-bonus?affiliateid=ADdV93UBZdh_yNxZGFcdnWNd7ZgqdRLk" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/BlockbetRev" className="bonus-link">
   Visit Blockbet Casino
 </a>
 </div>
 </div>
 
+
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={ggPoker} alt="" />
 </div>
 </div>
 <div className="bonus-details">
 <div className="">
+
   <div className="bonus-title">$600</div>
   <div className="bonus-amount">100% up to $600</div>
   <p>
@@ -398,10 +425,11 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://ggpoker.com/" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/GGPokerRev" className="bonus-link">
+
   Visit GGPoker Casino
 </a>
 </div>
@@ -410,7 +438,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={Razed} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -431,10 +459,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://www.razed.com/signup/?raf=Maxbet" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/RazedrRev" className="bonus-link">
   Visit Razed Casino
 </a>
 </div>
@@ -443,7 +471,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={Pinnacle} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -464,10 +492,10 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://www.pinnacle.bet/en/" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/PinnacleRev" className="bonus-link">
   Visit Pinnacle Casino
 </a>
 </div>
@@ -476,7 +504,7 @@ const CasinoOnePart = () => {
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-  <img src={stake} alt="" />
+  <img src={BTC} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -499,14 +527,15 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">
+<a href="https://1xbit1.com/?tag=b_652505m_3425c_NEWBONUS" className="bonus-button">
   Get Bonus
 </a>
-<a href="#" className="bonus-link">
+<a href="/OnexbitRev" className="bonus-link">
   Visit 1xBit Casino
 </a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -530,10 +559,11 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Sapphirebet Casino</a>
+<a href="https://sapphirebet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/SapphirebetRev" className="bonus-link">Visit Sapphirebet Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -557,10 +587,11 @@ const CasinoOnePart = () => {
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="#" className="bonus-button">Get Bonus</a>
-    <a href="#" className="bonus-link">Visit Wild.io Casino</a>
+    <a href="https://wild.io/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+    <a href="/WildioRev" className="bonus-link">Visit Wild.io Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -584,10 +615,11 @@ const CasinoOnePart = () => {
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="#" className="bonus-button">Get Bonus</a>
-    <a href="#" className="bonus-link">Visit Coin Poker</a>
+    <a href="https://coinpoker.com/register/?token=PO1Rgmd0_xXOw9K5rdr8DmNd7ZgqdRLk&source=CoinPokerReg&affid=1104" className="bonus-button">Get Bonus</a>
+    <a href="/CoinpokerRev" className="bonus-link">Visit Coin Poker</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -611,10 +643,11 @@ const CasinoOnePart = () => {
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="#" className="bonus-button">Get Bonus</a>
-    <a href="#" className="bonus-link">Visit BetAndYou Casino</a>
+    <a href="https://refpalia.top/L?tag=d_854261m_30533c_&site=854261&ad=30533" className="bonus-button">Get Bonus</a>
+    <a href="/BetandyouRev" className="bonus-link">Visit BetAndYou Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -638,9 +671,10 @@ const CasinoOnePart = () => {
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="#" className="bonus-button">Get Bonus</a>
-    <a href="#" className="bonus-link">Visit Sportsbet.io Casino</a>
+    <a href="https://sportsbet.io/casino?refAff[aff_id]=644&refAff[asset_id]=1186753&refAff[click_id]=fbeb49a6-579e-4c79-ae48-0e5f67495ac7&refAff[referrer_url]=https%253A%252F%252Fwww.cryptoninjas.com%252F&refAff[source]=7896f8fa69" className="bonus-button">Get Bonus</a>
+    <a href="/SportsbetRev" className="bonus-link">Visit Sportsbet.io Casino</a>
 </div>
+
 </div>
 
 <div className="bonus-card ">
@@ -665,10 +699,11 @@ const CasinoOnePart = () => {
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="#" className="bonus-button">Get Bonus</a>
-    <a href="#" className="bonus-link">Visit Natural8 Casino</a>
+    <a href="https://www.natural8.com/en/sign-up?ref=MAXBONUS" className="bonus-button">Get Bonus</a>
+    <a href="/Natural8Rev" className="bonus-link">Visit Natural8 Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -692,10 +727,11 @@ const CasinoOnePart = () => {
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Thunderpick Casino</a>
+<a href="https://thunderpick.io/" className="bonus-button">Get Bonus</a>
+<a href="/ThunderpickRev" className="bonus-link">Visit Thunderpick Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">

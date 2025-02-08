@@ -1198,6 +1198,151 @@ ul {
 }
 /* Responsive */
 
+/* Overall Container */
+.stake-review-container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #0d1c2e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Breadcrumb */
+.stake-breadcrumb {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.stake-breadcrumb a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.stake-breadcrumb span {
+  margin: 0 5px;
+}
+
+/* Main Review Content */
+.stake-review-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Left Section */
+.stake-review-left {
+  display: flex;
+  align-items: center;
+}
+
+.stake-brand-logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.stake-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stake-rating {
+  font-size: 20px;
+}
+
+.stake-rating-score {
+  font-size: 18px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+/* Right Section */
+.stake-review-right {
+  text-align: right;
+}
+
+.stake-bonus-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stake-promo-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.stake-promo-details {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+/* Claim Button */
+.stake-claim-btn {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.stake-claim-btn:hover {
+  background-color: #218838;
+}
+.bg-rev {
+  background-color: #0d1c2e;
+}
+
+.stake-claim-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.stake-promo-details {
+  font-size: 10px;
+  color: #ccc;
+  margin-top: 8px;
+  max-width: 300px;
+}
+
+.bonus-logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 24px;
+  background-color: #000000;
+}
+
+.stake-rating img {
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .stake-review-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stake-review-left {
+    flex-direction: column;
+  }
+
+  .stake-review-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .promo-box {
     flex-direction: column;
