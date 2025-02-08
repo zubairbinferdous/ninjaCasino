@@ -16,7 +16,7 @@ const oneXbetR = () => {
           
 
 
-<h2 className="promoo-title mt-5 prom-title">Stake Promo Code</h2>
+<h2 className="promoo-title mt-5 prom-title"> 1xBet Promo Code</h2>
 <div className="promo-box">
   {/* Left Side (Promo Box) */}
   <div className="promo-content">
@@ -37,7 +37,7 @@ const oneXbetR = () => {
     </p>
 
     {/* Promo Code Box */}
-    <a href="https://stake.com/" className="aR">
+    <a href="https://1xbet.com/" className="aR">
     <div className="promo-code-boxx" onClick={() => setIsRevealed(true)}>
 
       {isRevealed ? (
@@ -84,10 +84,11 @@ const oneXbetR = () => {
     </ul>
 
     {/* Button */}
-    <a href="https://stake.com" className="visit-btn" target="_blank" rel="noreferrer">
-      Visit Stake.com
+    <a href="https://1xbet.com" className="visit-btn" target="_blank" rel="noreferrer">
+      Visit 1xBet.com 
     </a>
   </div>
+
 </div>
             </div>
            </div>

@@ -47,6 +47,7 @@ const StarzRev = () => {
             </div>
         </div>
       </div>
+      
 <Footer />
     </div>
     );

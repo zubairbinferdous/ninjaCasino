@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import mostbet from "../assets/most.svg";
 import xbet from "../assets/ORG_1xbet.svg";
 import BTC from "../assets/ORG_1xbit1956_17612.svg";
@@ -28,8 +28,13 @@ import Ybets from "../assets/ORG_ybets4069_36627.svg";
 import Zotabet from "../assets/ORG_zota_4383_39452.svg";
 
 const CasinoOnePart = () => {
+  const [showMore, setShowMore] = useState(false);
+
+
     return (
         <div>
+
+
         <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
@@ -312,6 +317,8 @@ Visit Bc.Game Sport
 </div>
 </div>
 
+{showMore && (
+   <div className="">
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
@@ -882,6 +889,20 @@ Visit Bc.Game Sport
 <a href="/ZotabetRev" className="bonus-link">Visit Zotabet Casino</a>
 </div>
 </div>
+  </div>
+)}
+
+<div className="text-center mt-3">
+            <button
+              className="btn btn-outline-dark"
+              onClick={() => setShowMore(!showMore)}
+            >
+              {showMore ? "Show Less" : "Show More"}
+            </button>
+    </div>
+
+
+
 </div>
 
     );

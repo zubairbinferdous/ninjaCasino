@@ -235,7 +235,7 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     element:<ShuffleR></ShuffleR>
   },
 
-  // Review 
+  // Review pages
   {
     path:'/RevStake',
     element:<RevStake></RevStake>
