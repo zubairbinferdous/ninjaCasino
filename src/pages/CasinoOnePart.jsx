@@ -35,7 +35,7 @@ const CasinoOnePart = () => {
         <div>
 
 
-        <div className="bonus-card ">
+<div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
   <img src={xbet} alt="" />
@@ -126,6 +126,8 @@ const CasinoOnePart = () => {
 <div className="bonus-rating">
 <span className="fw-bold text-warning">★★★★☆</span>
 </div>
+
+
 <div className="bonus-rating">
 <span className="fw-bold text-warning">
   <span className="rating-number">9.8</span>
@@ -213,6 +215,8 @@ Visit Bc.Game Sport
 </a>
 </div>
 </div>
+
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">

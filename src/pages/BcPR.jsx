@@ -6,7 +6,7 @@ import Header from "./Header";
 const BcPR = () => {
     const [isRevealed, setIsRevealed] = useState(false);
     return (
-        <div>
+        <div>    
       <Header />
 
       <div className="container">
@@ -29,7 +29,7 @@ const BcPR = () => {
               </p>
 
               {/* Promo Code Box */}
-              <a href="https://stake.com/" className="aR">
+              <a href="https://bc.game" className="aR">
                 <div className="promo-code-boxx" onClick={() => setIsRevealed(true)}>
                   {isRevealed ? (
                     <span className="revealed-codex">NEWBONUS</span>
@@ -283,7 +283,7 @@ BC.Game
 </span>
 </div>
 <div className="bonus-actions">
-<a href="https://stake.com/" className="bonus-button">
+<a href="https://bc.game" className="bonus-button">
   Get Bonus
 </a>
 <a href="/RevStake" className="bonus-link">
@@ -297,7 +297,7 @@ BC.Game
               <ul className="list-unstyled">
                 <li>
                   <a href="#Stake" className="text-decoration-none">
-                  How To Claim Stake Promo Code
+                  How To Claim BC.Game Promo Code
                   </a>
                 </li>
                 <li>

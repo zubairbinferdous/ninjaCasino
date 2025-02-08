@@ -254,7 +254,7 @@ BC.Game
 </span>
 </div>
 <div className="bonus-actions">
-<a href="https://stake.com/" className="bonus-button">
+<a href="https://bc.game" className="bonus-button">
   Get Bonus
 </a>
 <a href="/RevStake" className="bonus-link">
