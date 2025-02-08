@@ -8,18 +8,23 @@ import CryptoBeting from './pages/CryptoBeting.jsx'
 // import Home from './pages/Home.jsx'
 import BcGameRev from './pages/BcGameRev.jsx'
 import BcPR from './pages/BcPR.jsx'
+import BetandyouRev from './pages/BetandyouRev.jsx'
+import BetibetRev from './pages/BetibetRev.jsx'
 import Bitcoin from './pages/Bitcoin.jsx'
 import BlockBet from './pages/BlockBet.jsx'
 import BNB from './pages/BNB.jsx'
 import Cardano from './pages/Cardano.jsx'
 import Casinos from './pages/Casinos.jsx'
+import CbetggRev from './pages/CbetggRev.jsx'
 import CbetRev from './pages/CbetRev.jsx'
+import CoinpokerRev from './pages/CoinpokerRev.jsx'
 import Currencies from './pages/Currencies.jsx'
 import DAI from './pages/DAI.jsx'
 import Dogecoin from './pages/Dogecoin.jsx'
 import DuelbitsR from './pages/DuelbitsR.jsx'
 import EOS from './pages/EOS.jsx'
 import Ethereum from './pages/Ethereum.jsx'
+import GamdomRev from './pages/GamdomRev.jsx'
 import GameR from './pages/GameR.jsx'
 import GGPokerRev from './pages/GGPokerRev.jsx'
 import KingmakerR from './pages/KingmakerR.jsx'
@@ -29,6 +34,7 @@ import MetR from './pages/MetR.jsx'
 import Monero from './pages/Monero.jsx'
 import MonkeyTIRev from './pages/MonkeyTIRev.jsx'
 import MostbetRev from './pages/MostbetRev.jsx'
+import Natural8Rev from './pages/Natural8Rev.jsx'
 import OnebitR from './pages/OnebitR.jsx'
 import OnewinR from './pages/OnewinR.jsx'
 import OnewinRev from './pages/OnewinRev.jsx'
@@ -45,18 +51,24 @@ import RevStake from './pages/RevStake.jsx'
 import Ripple from './pages/Ripple.jsx'
 import RoobetRev from './pages/RoobetRev.jsx'
 import RootR from './pages/RootR.jsx'
+import SapphirebetRev from './pages/SapphirebetRev.jsx'
 import SHIBA from './pages/SHIBA.jsx'
 import ShuffleR from './pages/ShuffleR.jsx'
 import Solana from './pages/Solana.jsx'
 import SportsbetR from './pages/SportsbetR.jsx'
+import SportsbetRev from './pages/SportsbetRev.jsx'
 import StakeR from './pages/StakeR.jsx'
 import StarzRev from './pages/StarzRev.jsx'
 import Tether from './pages/Tether.jsx'
 import ThunderpickR from './pages/ThunderpickR.jsx'
+import ThunderpickRev from './pages/ThunderpickRev.jsx'
 import Tron from './pages/Tron.jsx'
 import VaveR from './pages/VaveR.jsx'
+import VaveRev from './pages/VaveRev.jsx'
+import WildioRev from './pages/WildioRev.jsx'
 import Ybets from './pages/Ybets.jsx'
 import YbetsR from './pages/YbetsR.jsx'
+import ZotabetRev from './pages/ZotabetRev.jsx'
   const router = createBrowserRouter([
   {
     path:'/',
@@ -284,7 +296,59 @@ import YbetsR from './pages/YbetsR.jsx'
   {
     path:'/OnexbitRev',
     element:<OnexbitRev></OnexbitRev>
-  }
+  },
+  {
+    path:'/SapphirebetRev',
+    element:<SapphirebetRev></SapphirebetRev>
+  },
+  {
+    path:'/Natural8Rev',
+    element:<Natural8Rev></Natural8Rev>
+  },
+  {
+    path:'/ZotabetRev',
+    element:<ZotabetRev></ZotabetRev>
+  },
+  {
+    path:'/BetibetRev',
+    element:<BetibetRev></BetibetRev>
+  },
+  {
+    path:'/WildioRev',
+    element:<WildioRev></WildioRev>
+  },
+  {
+    path:'/CoinpokerRev',
+    element:<CoinpokerRev></CoinpokerRev>
+  },
+  {
+    path:'/BetandyouRev',
+    element:<BetandyouRev></BetandyouRev>
+  },
+  {
+    path:'/SportsbetRev',
+    element:<SportsbetRev></SportsbetRev>
+  },
+  {
+    path:'/ThunderpickRev',
+    element:<ThunderpickRev></ThunderpickRev>
+  },
+  {
+    path:'/GamdomRev',
+    element:<GamdomRev></GamdomRev>
+  },
+
+  {
+    path:'/VaveRev',
+    element:<VaveRev></VaveRev>
+  },
+  {
+    path:'/CbetggRev',
+    element:<CbetggRev></CbetggRev>
+  },
+
+
+
 
 ]);
 

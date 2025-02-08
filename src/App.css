@@ -1325,6 +1325,14 @@ ul {
   margin-bottom: 30px;
 }
 
+.bonus-logo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 24px;
+  background-color: #000000;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {

@@ -4,16 +4,28 @@ import xbet from "../assets/ORG_1xbet.svg";
 import BTC from "../assets/ORG_1xbit1956_17612.svg";
 import bc from '../assets/ORG_2515_22641.svg';
 import starz from "../assets/ORG_888-starz-logo3922_35307.svg";
+import Betandyou from "../assets/ORG_betandyou-logo1518_13670.svg";
+import Betibet from "../assets/ORG_bit_3320_29888.svg";
 import blockBet from "../assets/ORG_block-bet-logo5215_46948.svg";
 import cbit from "../assets/ORG_Cbet4776_42996.svg";
+import Cbet from "../assets/ORG_cbit_5554_49999.svg";
+import coinPoker from "../assets/ORG_coinPoker_2279_20516.svg";
+import Gamdom from "../assets/ORG_Gamdom logo2710_24394.svg";
 import ggPoker from "../assets/ORG_GGPoker-new-logo3692_33236.svg";
 import melbet from "../assets/ORG_MelBet4781_43035.svg";
 import MonkeyTilt from "../assets/ORG_monkey-tilt-logo2137_19242.svg";
+import Natural8 from "../assets/ORG_nat_2985_26876.svg";
 import Pinnacle from "../assets/ORG_Pinnacle2223_20016.svg";
 import Razed from "../assets/ORG_razed-logo5431_48891.svg";
 import roobet from "../assets/ORG_roobet5510_49598.svg";
+import Sapphirebet from "../assets/ORG_sapphire-bet3244_29206.svg";
+import Sportsbet from "../assets/ORG_Sportsbet.io3524_31724.svg";
 import stake from "../assets/ORG_stake2726_24544.svg";
+import Thunderpick from "../assets/ORG_Thunderpick logo4610_41502.svg";
+import Vave from "../assets/ORG_Vave3911_35207.svg";
+import Wild from "../assets/ORG_wild-io-logo4605_41452.svg";
 import Ybets from "../assets/ORG_ybets4069_36627.svg";
+import Zotabet from "../assets/ORG_zota_4383_39452.svg";
 
 const CasinoOnePart = () => {
     return (
@@ -540,7 +552,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Sapphirebet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -568,7 +580,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
     <div className="">
-        <img src={stake} alt="" />
+        <img src={Wild} alt="" />
     </div>
 </div>
 <div className="bonus-details">
@@ -596,7 +608,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
     <div className="">
-        <img src={stake} alt="" />
+        <img src={coinPoker} alt="" />
     </div>
 </div>
 <div className="bonus-details">
@@ -624,7 +636,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
     <div className="">
-        <img src={stake} alt="" />
+        <img src={Betandyou} alt="" />
     </div>
 </div>
 <div className="bonus-details">
@@ -643,7 +655,7 @@ Visit Bc.Game Sport
     </span>
 </div>
 <div className="bonus-actions">
-    <a href="https://refpalia.top/L?tag=d_854261m_30533c_&site=854261&ad=30533" className="bonus-button">Get Bonus</a>
+    <a href="https://betandyou.com/en" className="bonus-button">Get Bonus</a>
     <a href="/BetandyouRev" className="bonus-link">Visit BetAndYou Casino</a>
 </div>
 </div>
@@ -652,7 +664,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
     <div className="">
-        <img src={stake} alt="" />
+        <img src={Sportsbet} alt="" />
     </div>
 </div>
 <div className="bonus-details">
@@ -680,7 +692,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
     <div className="">
-        <img src={stake} alt="" />
+        <img src={Natural8} alt="" />
     </div>
 </div>
 <div className="bonus-details">
@@ -708,7 +720,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Thunderpick} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -736,7 +748,7 @@ Visit Bc.Game Sport
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Gamdom} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -755,15 +767,15 @@ Visit Bc.Game Sport
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Gamdom</a>
+  <a href="https://gamdom.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/GamdomRev" className="bonus-link">Visit Gamdom</a>
 </div>
 </div>
 
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Vave} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -782,15 +794,16 @@ Visit Bc.Game Sport
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Vave Casino</a>
+<a href="https://vave.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/VaveRev" className="bonus-link">Visit Vave Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Cbet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -809,15 +822,16 @@ Visit Bc.Game Sport
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Cbet.gg Casino</a>
+<a href="https://cbet.gg/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/CbetggRev" className="bonus-link">Visit Cbet.gg Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Betibet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -836,15 +850,16 @@ Visit Bc.Game Sport
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Betibet Casino</a>
+<a href="https://betibet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/BetibetRev" className="bonus-link">Visit Betibet Casino</a>
 </div>
 </div>
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
 <div className="">
-<img src={stake} alt="" />
+<img src={Zotabet} alt="" />
 </div>
 </div>
 <div className="bonus-details">
@@ -863,11 +878,12 @@ Visit Bc.Game Sport
 </span>
 </div>
 <div className="bonus-actions">
-<a href="#" className="bonus-button">Get Bonus</a>
-<a href="#" className="bonus-link">Visit Zotabet Casino</a>
+<a href="https://zotabet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/ZotabetRev" className="bonus-link">Visit Zotabet Casino</a>
 </div>
 </div>
 </div>
+
     );
 };
 
