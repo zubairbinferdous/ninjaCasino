@@ -27,24 +27,22 @@ import solana from "../assets/solC.webp";
 
 
 const cryptoList = [
-    { name: "Bitcoin", brands: 113, icon: bitcoin },
-    { name: "Ethereum", brands: 99, icon: ethereum },
-    { name: "Litecoin", brands: 99, icon: litecoin },
-    { name: "Tether", brands: 88, icon: tether },
-    { name: "Ripple", brands: 80, icon: ripple },
-    { name: "BNB", brands: 61, icon: bnb },
-    { name: "Dogecoin", brands: 76, icon: dogecoin },
-    { name: "Tron", brands: 71, icon: tron },
-    { name: "Cardano", brands: 69, icon: cardano },
-    { name: "Monero", brands: 65, icon: monero },
-    { name: "EOS", brands: 63, icon: eos },
-    { name: "SHIBA INU", brands: 53, icon: shiba },
-    { name: "DAI", brands: 63, icon: dai },
-
-    { name: "Polkadot", brands: 62, icon: polkadot },
-    { name: "Solana", brands: 43, icon: solana },
+    { name: "Bitcoin", brands: 113, icon: bitcoin, path: "/Bitcoin" },
+    { name: "Ethereum", brands: 99, icon: ethereum, path: "/Ethereum" },
+    { name: "Litecoin", brands: 99, icon: litecoin, path: "/Litecoin" },
+    { name: "Tether", brands: 88, icon: tether, path: "/Tether" },
+    { name: "Ripple", brands: 80, icon: ripple, path: "/Ripple" },
+    { name: "BNB", brands: 61, icon: bnb, path: "/BNB" },
+    { name: "Dogecoin", brands: 76, icon: dogecoin, path: "/Dogecoin" },
+    { name: "Tron", brands: 71, icon: tron, path: "/Tron" },
+    { name: "Cardano", brands: 69, icon: cardano, path: "/Cardano" },
+    { name: "Monero", brands: 65, icon: monero, path: "/Monero" },
+    { name: "EOS", brands: 63, icon: eos, path: "/EOS" },
+    { name: "SHIBA INU", brands: 53, icon: shiba, path: "/SHIBA-INU" },
+    { name: "DAI", brands: 63, icon: dai, path: "/DAI" },
+    { name: "Polkadot", brands: 62, icon: polkadot, path: "/Polkadot" },
+    { name: "Solana", brands: 43, icon: solana, path: "/Solana" },
   ];
-
 const Currencies = () => {
     return (
         <div>
@@ -68,7 +66,9 @@ const Currencies = () => {
           <div className="crypto-content">
             <img src={crypto.icon} alt={crypto.name} className="crypto-icon" />
             <div className="crypto-info">
-              <h5>{crypto.name}</h5>
+              <h5>
+                <a href={crypto.path}>{crypto.name}</a>
+              </h5>
               <p>{crypto.brands} Brands</p>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Currencies = () => {
       </p>
       <p>
         We look at transaction processing time and consider processing cost by blockchain. We will then examine the key crypto currencies used in{" "}
-        <a href="#">crypto betting sites</a>.
+        <a href="/betting">crypto betting sites</a>.
       </p>
 
       <h3 className="fw-bold" id='ProcessingSpeeds'>Processing Speeds</h3>
@@ -146,9 +146,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Bitcoin'>Bitcoin</h3>
         <p>
-          <a href="#">Bitcoin</a> is a cryptocurrency, or virtual currency, that operates as fiat money and a form of payment while being independent of any one person, organisation, or institution, negating the need for third-party participation in financial transactions.
+          <a href="/Bitcoin">Bitcoin</a> is a cryptocurrency, or virtual currency, that operates as fiat money and a form of payment while being independent of any one person, organisation, or institution, negating the need for third-party participation in financial transactions.
         </p>
         <p>
+
           It is given to blockchain miners in return for their efforts in verifying transactions and can be bought on numerous platforms.
         </p>
       </div>
@@ -157,9 +158,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Ethereum'>Ethereum</h3>
         <p>
-          The open-source platform <a href="#">Ethereum</a> was established in 2015 and is available to programmers for the creation of new coins and digital applications.
+          The open-source platform <a href="/Ethereum">Ethereum</a> was established in 2015 and is available to programmers for the creation of new coins and digital applications.
         </p>
         <p>
+
           ETH is the trading identifier for Ethereum's native cryptocurrency, Ether, although Ethereum is essentially a specialised blockchain technology, the decentralised distributed digital ledger that keeps account of all transactions.
         </p>
       </div>
@@ -168,9 +170,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Litecoin'>Litecoin</h3>
         <p>
-          <a href="#">Litecoin</a> is a cryptocurrency that was founded in 2011 as a result of a split in the Bitcoin network.
+          <a href="/Litecoin">Litecoin</a> is a cryptocurrency that was founded in 2011 as a result of a split in the Bitcoin network.
         </p>
         <p>
+
           It was created to address developers' worries that Bitcoin was becoming too centralised, and to make it more difficult for large-scale mining companies to obtain an advantage in mining.
         </p>
         <p>
@@ -182,8 +185,9 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Dogecoin'>Dogecoin</h3>
         <p>
-          <a href="#">Dogecoin</a> is a cryptocurrency based on the Doge meme, which depicts a Shiba Inu dog with colourful Comic Sans texts intended to reflect its internet monologue.
+          <a href="/Dogecoin">Dogecoin</a> is a cryptocurrency based on the Doge meme, which depicts a Shiba Inu dog with colourful Comic Sans texts intended to reflect its internet monologue.
         </p>
+
 
         <p>
           Dogecoin sprang to prominence towards the end of 2013 at a time when developers were only starting to explore the possibilities given by the development of Bitcoin (BTC).
@@ -194,9 +198,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Binance'>Binance</h3>
         <p>
-          <a href="#">Binance</a> introduced its Binance Coin (BNB) as an ERC-20 token on Ethereum in 2017 and held an ICO to raise funds. The firm provided angel investors 10% of the stock, the founding team 40% of the stock, and the rest of the stock to the general public.
+          <a href="/BNB">Binance</a> introduced its Binance Coin (BNB) as an ERC-20 token on Ethereum in 2017 and held an ICO to raise funds. The firm provided angel investors 10% of the stock, the founding team 40% of the stock, and the rest of the stock to the general public.
         </p>
         <p>
+
           The currency is a Binance utility token that enables users to pay for transactions and trading fees at a lesser rate than they might with other currencies.
         </p>
       </div>
@@ -205,9 +210,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold">Monero</h3>
         <p>
-          <a href="#">Monero</a> (abbreviated as XMR) is a privacy-focused open-source cryptocurrency that was created in 2014.
+          <a href="/Monero">Monero</a> (abbreviated as XMR) is a privacy-focused open-source cryptocurrency that was created in 2014.
         </p>
         <p>
+
           Blockchains, the underlying technology that supports digital currencies, are public ledgers of users' activity that display all of the network’s transactions.
         </p>
         <p>
@@ -219,7 +225,8 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold">XRP</h3>
         <p>
-          Ripple, or <a href="#">XRP</a>, is a payments resolution system and currency exchange network that can handle transactions from all around the globe.
+          Ripple, or <a href="/Ripple">XRP</a>, is a payments resolution system and currency exchange network that can handle transactions from all around the globe.
+
         </p>
         <p>
           The theory is that Ripple acts as a trusted intermediary between two parties in a transaction, since the network can instantly verify that the transaction was completed successfully.
@@ -233,9 +240,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold">EOS</h3>
         <p>
-          <a href="#">EOS</a> is a blockchain-based platform that is decentralised and used for developing, hosting, and running business applications, or dApps.
+          <a href="/EOS">EOS</a> is a blockchain-based platform that is decentralised and used for developing, hosting, and running business applications, or dApps.
         </p>
         <p>
+
           The EOS platform was introduced in June 2018 and Block.one, the business that built the open-source software called EOS.IO that is utilised on the network, raised $4.1 billion in cryptocurrency via an initial coin offering.
         </p>
       </div>
@@ -244,9 +252,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Tron'>Tron</h3>
         <p>
-          Tronix, or <a href="#">TRX</a>, is the currency of <a href="#">Tron</a> - a blockchain-based decentralised digital platform, similar to Ethereum and Ether.
+          Tronix, or <a href="/Tron">TRX</a>, is the currency of <a href="/Tron">Tron</a> - a blockchain-based decentralised digital platform, similar to Ethereum and Ether.
         </p>
         <p>
+
           Tron, which was founded in 2017 by the Tron Foundation, a Singapore non-profit organisation, seeks to host a worldwide entertainment system for the cost-effective distribution of digital material.
         </p>
         <p>
@@ -258,9 +267,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Tether'>Tether</h3>
         <p>
-          <a href="#">Tether</a>, like Bitcoin, is a cryptocurrency and is the world’s third-largest digital currency in terms of market value. However, it does differ from Bitcoin and other virtual currencies in the following way.
+          <a href="/Tether">Tether</a>, like Bitcoin, is a cryptocurrency and is the world’s third-largest digital currency in terms of market value. However, it does differ from Bitcoin and other virtual currencies in the following way.
         </p>
         <p>
+
           Tether is a "stablecoin", which unlike other cryptocurrencies, which are known to be volatile, these are digital currencies that are tethered to real-world assets like the US dollar to preserve a steady value.
         </p>
       </div>
@@ -269,9 +279,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold" id='Cardano'>Cardano</h3>
         <p>
-          <a href="#">Cardano</a> is one of the most valuable cryptocurrencies in terms of market value.
+          <a href="/Cardano">Cardano</a> is one of the most valuable cryptocurrencies in terms of market value.
         </p>
         <p>
+
           It’s intended to be a next-generation version of Ethereum, with a blockchain that’s a versatile, long-lasting, and scalable platform for smart contracting.
         </p>
         <p>
@@ -282,9 +293,10 @@ const Currencies = () => {
       <div className="crypto-section">
         <h3 className="fw-bold">Uniswap</h3>
         <p>
-          <a href="#">Uniswap</a> is the largest decentralised exchange in the world, operating on the Ethereum blockchain. The cryptocurrency equivalent born from this exchange is referred to as UNI.
+          Uniswap is the largest decentralised exchange in the world, operating on the Ethereum blockchain. The cryptocurrency equivalent born from this exchange is referred to as UNI.
         </p>
         <p>
+
           The exchange is a credible DEX, and investors have a lot of faith in what the coin can achieve. Find out more about betting at top UNI sportsbooks.
         </p>
       </div>

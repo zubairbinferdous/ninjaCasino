@@ -22,6 +22,25 @@ import Footer from "./Footer";
 import Header from "./Header";
 const Promo = () => {
   const [showMore, setShowMore] = useState(false);
+  const [isRevealed, setIsRevealed] = useState(false);
+  const [stakeR, setStakeR] = useState(false);
+  const [oneXbetR, setOneXbetR] = useState(false);
+  const [bcR, setbcR] = useState(false);
+  const [gameR, setgameR] = useState(false);
+  const [metR, setmetR] = useState(false);
+  const [RootR, setRootR] = useState(false);
+  const [ShuffleR, setShuffleR] = useState(false);
+  const [SportsbetR, setSportsbetR] = useState(false);
+  const [VaveR, setVaveR] = useState(false);
+  const [YbetsR, setYbetsR] = useState(false);
+  const [DuelbitsR, setDuelbitsR] = useState(false);
+  const [PinnacleR, setPinnacleR] = useState(false);
+  const [RakeR, setRakeR] = useState(false);
+  const [ThunderpickR, setThunderpickR] = useState(false);
+  const [OnewinR, setOnewinR] = useState(false);
+  const [OnebitR, setOnebitR] = useState(false);
+  const [KingmakerR, setKingmakerR] = useState(false);
+  const [bgR, setbgR] = useState(false);
   return (
     <div>
       <Header></Header>
@@ -52,14 +71,28 @@ const Promo = () => {
                 <div className="promo-text">
                   Deposit $1500 Get $3000 <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    {" "}
-                    <a href="https://stake.com/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setStakeR(true)}>
+
+                  <a href="https://stake.com/">
+
+                        {stakeR ? (
+                          <span className="revealed-code">NEWBONUS</span>
+                        ) : (
+                          <span>
+                            Get Code <span className="hidden-code">XXXX</span>
+                          </span>
+                        )}
+                  </a>
+
+
+
+                </div>
+               
                   <button className="claim-btn">
-                    <a href="https://stake.com/">Claim</a>
+                    <a href="https://stake.com/">Claim</a><br />
                   </button>
+                    <a href="/StakeR" className="Promo-Review">Stake Promo code</a>
                 </div>
               </div>
             </div>
@@ -76,13 +109,27 @@ const Promo = () => {
                 <div className="promo-text">
                   Bet 10,000 Get 10,000 BDT <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://1xbet.com/en">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setOneXbetR(true)}>
+
+<a href="https://1xbet.com/en">
+
+      {oneXbetR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://1xbet.com/en">Claim</a>
                   </button>
+                  <a href="/oneXbetR" className="Promo-Review">1xBet Promo code</a>
                 </div>
               </div>
             </div>
@@ -99,13 +146,26 @@ const Promo = () => {
                 <div className="promo-text">
                   $20,000 <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://bc.game">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setbcR(true)}>
+
+<a href="https://bc.game">
+
+        {bcR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://bc.game">Claim</a>
                   </button>
+                  <a href="/BcPR" className="Promo-Review">BC.Game Promo code</a>
                 </div>
               </div>
             </div>
@@ -122,13 +182,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Rewards 2.0 enabled <br /> with promo code newbonus
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://gamdom.com">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setgameR(true)}>
+
+<a href="https://gamdom.com">
+
+      {gameR ? (
+        <span className="revealed-code">NEWBONUS</span> 
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://gamdom.com">Claim</a>
                   </button>
+                  <a href="/gameR" className="Promo-Review">Gamdom Sports Promo code</a>
                 </div>
               </div>
             </div>
@@ -145,13 +218,26 @@ const Promo = () => {
                 <div className="promo-text">
                   $130 Bonus - 30% extra <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://melbet.com">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setmetR(true)}>
+
+<a href="https://melbet.com">
+
+      {metR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://melbet.com">Claim</a>
                   </button>
+                  <a href="/metR" className="Promo-Review">Melbet Promo code</a>
                 </div>
               </div>
             </div>
@@ -168,13 +254,24 @@ const Promo = () => {
                 <div className="promo-text">
                   $5 Free Bet & 20% Cashback <br /> with promo code MAXBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://roobet.com">MAXBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setRootR(true)}>
+
+<a href="https://roobet.com">
+
+            {RootR ? (
+        <span className="revealed-code">MAXBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>  
+</div>
                   <button className="claim-btn">
                     <a href="https://roobet.com">Claim</a>
-                  </button>
+                    </button>
+                    <a href="/RootR" className="Promo-Review">Roobet Promo code</a>
                 </div>
               </div>
             </div>
@@ -191,13 +288,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Claim the Max Free Bet $1025 <br /> Use promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://1wpgjk.com/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setOnewinR(true)}>
+
+<a href="https://1wpgjk.com/">
+
+      {OnewinR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://1wpgjk.com/">Claim</a>
                   </button>
+                  <a href="/OnewinR" className="Promo-Review">1win Promo code</a>
                 </div>
               </div>
             </div>
@@ -214,13 +324,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Deposit $100 Get $100 <br /> Use referral code maxbonus
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://duelbits.com/en">maxbonus</a>
-                  </button>
+                <div className="d-flex justify-content-between  ">
+                <div className="promo-code-box mr-20" onClick={() => setDuelbitsR(true)}>
+
+<a href="https://duelbits.com/en">
+
+      {DuelbitsR ? (
+        <span className="revealed-code">MAXBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://duelbits.com/en">Claim</a>
                   </button>
+                  <a href="/DuelbitsR" className="Promo-Review">Duelbits Promo code</a>
                 </div>
               </div>
             </div>
@@ -238,13 +361,26 @@ const Promo = () => {
                   Bookmaker with biggest limits <br /> Use the NEWBONUS promo
                   code
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://www.pinnacle.bet/en/landing/sports-general?dvc=d&aup=True">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">    
+                <div className="promo-code-box mr-20" onClick={() => setPinnacleR(true)}>
+
+<a href="https://www.pinnacle.bet/en/landing/sports-general?dvc=d&aup=True">
+
+          {PinnacleR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+                                <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://www.pinnacle.bet/en/landing/sports-general?dvc=d&aup=True">Claim</a>
                   </button>
+                  <a href="/PinnacleR" className="Promo-Review">Pinnacle Promo code</a>
                 </div>
               </div>
             </div>
@@ -261,13 +397,26 @@ const Promo = () => {
                 <div className="promo-text">
                   7 BTC bonus <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://1xbit1.com/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setOnebitR(true)}>
+
+<a href="https://1xbit1.com/">
+
+      {OnebitR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://1xbit1.com/">Claim</a>
                   </button>
+                  <a href="/OnebitR" className="Promo-Review">1xBit Promo code</a>
                 </div>
               </div>
             </div>
@@ -287,13 +436,26 @@ const Promo = () => {
                 <div className="promo-text">
                   100% up to €500 <br /> Use promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://kingmaker-promo.com/234/en/?mid=99593_940513&fluid=1b7ad031-4f0a-4181-bb84-2170ad5d17a6">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setKingmakerR(true)}>
+
+<a href="https://kingmaker-promo.com/234/en/?mid=99593_940513&fluid=1b7ad031-4f0a-4181-bb84-2170ad5d17a6">
+
+      {KingmakerR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://kingmaker-promo.com/234/en/?mid=99593_940513&fluid=1b7ad031-4f0a-4181-bb84-2170ad5d17a6">Claim</a>
                   </button>
+                  <a href="/KingmakerR" className="Promo-Review">Kingmaker Sports Promo code</a>
                 </div>
               </div>
             </div>
@@ -310,13 +472,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Leading Sportsbook <br /> Immediate Bonuses
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://sportsbet.io/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                    <div className="promo-code-box mr-20" onClick={() => setSportsbetR(true)}>
+
+<a href="https://sportsbet.io/">
+
+      {SportsbetR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://sportsbet.io/">Claim</a>
                   </button>
+                  <a href="/SportsbetR" className="Promo-Review">Sportsbet.io Promo code</a>
                 </div>
               </div>
             </div>
@@ -333,13 +508,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Up to 1BTC free <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://67evav55.com/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                    <div className="promo-code-box mr-20" onClick={() => setVaveR(true)}>
+
+<a href="https://67evav55.com/">
+
+      {VaveR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://67evav55.com/">Claim</a>
                   </button>
+                  <a href="/VaveR" className="Promo-Review">Vave Promo code</a>
                 </div>
               </div>
             </div>
@@ -356,13 +544,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Get $8000 in Bonuses <br /> 500% with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://ybets.net/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                    <div className="promo-code-box mr-20" onClick={() => setYbetsR(true)}>
+
+<a href="https://ybets.net/">
+
+      {YbetsR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+        <span>
+          Get Code <span className="hidden-code">XXXX</span>  
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://ybets.net/">Claim</a>
                   </button>
+                  <a href="/YbetsR" className="Promo-Review">Ybets Promo code</a>
                 </div>
               </div>
             </div>
@@ -379,13 +580,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Deposit €600 Get €600 <br /> with promo code NEWBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://thunderpick.io/">NEWBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20  " onClick={() => setThunderpickR(true)}>
+
+<a href="https://thunderpick.io/">
+
+      {ThunderpickR ? (
+        <span className="revealed-code">NEWBONUS</span>
+      ) : (
+                    <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://thunderpick.io/">Claim</a>
                   </button>
+                  <a href="/ThunderpickR" className="Promo-Review">Thunderpick Promo code</a>
                 </div>
               </div>
             </div>
@@ -402,13 +616,26 @@ const Promo = () => {
                 <div className="promo-text">
                   Deposit $10,000, Get $10,000 <br /> Use code CRYPTOBETS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://rake.com/?a=CRYPTOBETS">CRYPTOBETS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setRakeR(true)}>
+
+<a href="https://rake.com/?a=CRYPTOBETS">
+
+      {RakeR ? (
+        <span className="revealed-code">CRYPTOBETS</span>
+      ) : (
+                    <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://rake.com/?a=CRYPTOBETS">Claim</a>
                   </button>
+                  <a href="/RakeR" className="Promo-Review">Rake Promo code</a>
                 </div>
               </div>
             </div>
@@ -425,14 +652,27 @@ const Promo = () => {
                 <div className="promo-text">
                   Deposit $1,000 Get $1,000 <br /> Referral code MAXBONUS
                 </div>
-                <div className="promo-code-box">
-                  <button className="get-code-btn">
-                    <a href="https://shuffle.com/">MAXBONUS</a>
-                  </button>
+                <div className="d-flex justify-content-between">
+                <div className="promo-code-box mr-20" onClick={() => setShuffleR(true)}>
+
+<a href="https://shuffle.com/">
+
+      {ShuffleR ? (
+        <span className="revealed-code">MAXBONUS</span>
+      ) : (
+                    <span>
+          Get Code <span className="hidden-code">XXXX</span>
+        </span>
+      )}
+</a>
+
+
+</div>
                   <button className="claim-btn">
                     <a href="https://shuffle.com/">Claim</a>
                   </button>
-                </div>
+                  <a href="/ShuffleR" className="Promo-Review">Shuffle Promo code</a>
+                    </div>
               </div>
             </div>
               </div>

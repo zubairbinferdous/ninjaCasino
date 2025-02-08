@@ -964,6 +964,255 @@ ul {
   border-bottom: 4px solid green;
 }
 
+.crypto-info a {
+  text-decoration: none;
+  color: #121212;
+}
+.promo-code-box {
+  position: relative;
+}
+.Promo-Review {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 500;
+  font-size: 13px;
+  position: absolute;
+  top: 121%;
+  right: 0%;
+}
+.promo-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 39px 20px;
+  max-width: 100%;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Promo Container */
+.promo-container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.promo-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Promo Box */
+.promo-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo-content {
+  background-color: #0d1c2e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  position: relative;
+}
+
+.stake-logo img {
+  height: 40px;
+}
+
+.promo-deposit {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.promo-deposit span {
+  font-weight: bold;
+}
+
+.promo-code-text {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Promo Code Box */
+.promo-code-box {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px dashed gray;
+}
+
+.hidden-code {
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.revealed-code {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Tested Info */
+.promo-tested {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.green-check {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.last-used {
+  color: #ccc;
+}
+
+/* Steps */
+.promo-steps {
+  width: 35%;
+}
+
+.promo-steps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-steps li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.step-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #28a745;
+  margin-right: 10px;
+}
+
+/* Visit Button */
+.visit-btn {
+  display: block;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.visit-btn:hover {
+  background-color: #218838;
+}
+
+.promo-container {
+  max-width: 1400px;
+  margin: auto;
+  background-color: white;
+  padding: 0px;
+}
+
+.promo-code-boxx {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  border: 2px dashed gray;
+}
+
+.promo-code-box a {
+  color: #111;
+  text-decoration: none;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.promo-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.promo-box {
+  position: relative;
+  padding: 30px 20px;
+}
+.Promo-Review {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 500;
+  font-size: 13px;
+  position: absolute;
+  top: 80%;
+  right: 3%;
+}
+
+.prom-title {
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  top: -10%;
+}
+
+.prom-title {
+  font-weight: 700;
+  font-size: 42px;
+  position: relative;
+  top: 19%;
+}
+
+.aR {
+  text-decoration: none;
+}
+
+.visit-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+  .promo-box {
+    flex-direction: column;
+  }
+
+  .promo-content,
+  .promo-steps {
+    width: 100%;
+  }
+
+  .promo-steps {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav ul {
     flex-direction: column;
