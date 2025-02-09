@@ -1,4 +1,6 @@
 
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import onwWin from '../assets/ORG_1win4001_36014.svg';
 import OneX from '../assets/ORG_1xbet.svg';
@@ -9,125 +11,118 @@ import met from '../assets/ORG_MelBet4781_43035.svg';
 import razed from '../assets/ORG_razed-logo5431_48891.svg';
 import Root from '../assets/ORG_roobet5510_49598.svg';
 import stake from '../assets/ORG_stake2726_24544.svg';
-
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Toggle menu visibility
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  // Close menu when clicking a link
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
   return (
     <div>
       <div className="container-fluid header-bg-color">
         <div className="container">
 
 
-<header className="header">
-        <div className="logo">
-            <a href="/">
-                <span>CRYPTO <span className="ninjas">NINJAS</span></span>
-            </a>
-        </div>
-        <nav className="nav">
-            <ul>
-                <li className="dropdown">
-                    <span className="text-center">
-                  
-                        <a href="/Promo">   <i className="fa-solid fa-diamond"></i> <br />Promo Codes</a>
-                    </span>
-                </li>
-                <li className="dropdown">
-                    <span className="text-center">
-                        <a href="/betting"> <i className="fa-solid fa-gear"></i> <br /> Betting Sites</a>
-                    </span>
+        <header className="header">
+      {/* Toggle Menu Button */}
+      <div className="toggle-menu" onClick={toggleMenu}>
+        <i className="fa-solid fa-bars"></i>
+      </div>
 
-                
-                    <div className="dropdown-content mega-menu">
-                        <div className="mega-menu-column">
-                         
-                            <a href="/Promo/Casino/FreeSpins">Esports</a>
-                            <a href="/Promo/Casino/DepositBonus">Football</a>
-                            <a href="/Promo/Casino/NoDeposit">Tennis</a>
-                            <a href="/Promo/Sports/WelcomeBonus">American Football</a>
-                            <a href="/Promo/Sports/Cashback">Basketball</a>
-                            <a href="/Promo/Poker/SignupBonus">Darts</a>
-
-                        </div>
-                        <div className="mega-menu-column">
-                         
-                            <a href="/Promo/Sports/BoostedOdds">Baseball</a>
-                            <a href="/Promo/Poker/Freerolls">Ice Hockey</a>
-                            <a href="/Promo/Poker/Rakeback">Boxing</a>
-                            <a href="/Promo/Poker/SignupBonus">Golf</a>
-                            <a href="/Promo/Poker/Rakeback">F1</a>
-
-                        </div>
-                        <div className="mega-menu-column">
-                          
-                            <a href="/Promo/Poker/Freerolls">UFC & MMA</a>
-                            <a href="/Promo/Poker/Rakeback">Horse Racing</a>
-                            <a href="/Promo/Poker/SignupBonus">Rugby League</a>
-                            <a href="/Promo/Poker/SignupBonus">Cricket</a>
-                            <a href="/Promo/Poker/Freerolls">Rugby Union</a>
-
-                        </div>
-                      
-                    </div>
-                </li>
-                <li className="dropdown">
-                    <span className="text-center">
-                        <a href="/Poker"> <i className="fa-solid fa-receipt"></i> <br /> Poker</a>
-                    </span>
-
-                </li>
-                <li className="dropdown">
-                    <span className="text-center">
-                        <a href="/Casinos"> <i className="fa-solid fa-cash-register"></i> <br />Casinos</a>
-                    </span>
-                    <div className="dropdown-content mega-menu">
-                        <div className="mega-menu-column">
-                         
-                            <a href="/Dealer">Live Dealer</a>
-                            <a href="/Blackjack">Blackjack</a>
-                        </div>
-                        <div className="mega-menu-column">
-                         
-                            <a href="/Baccarat">Baccarat</a>
-                            <a href="/Reviews">Reviews</a>
-                        </div>
-                        <div className="mega-menu-column">
-                          
-                            <a href="/CrashGames">Crash Games</a>
-                         
-                        </div>
-                    </div>
-                </li>
-                <li className="dropdown">
-                    <span className="text-center">
-                        <a href="/Currencies"> <i className="fa-solid fa-money-bill-transfer"></i> <br />  Currencies</a>
-
-                    </span>
-                    <div className="dropdown-content mega-menu">
-                        <div className="mega-menu-column">                          
-                            <a href="/Bitcoin">Bitcoin</a>
-                            <a href="/Ethereum">Ethereum</a>
-                            <a href="/Litecoin">Litecoin</a>
-                             <a href="/Tether">Tether</a>                             
-                        </div>
-                        <div className="mega-menu-column">                       
-                                <a href="/BNB">BNB</a>
-                                  <a href="/Dogecoin">Dogecoin</a>
-                                  <a href="/Tron">Tron</a>        
-                        </div>
-                        <div className="mega-menu-column">
-                        <a href="/EOS">EOS</a>
-                        <a href="/Solana">Solana</a>
-                                <a href="/SHIBA">Shiba Inu</a>                             
-                        </div>
-                    </div>
-                </li>
-            </ul>
+      {/* Side Navigation Menu */}
+      <div className={`side-menu ${menuOpen ? "open" : ""}`}>
+        <button className="close-btn" onClick={toggleMenu}>&times;</button>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/Promo" onClick={closeMenu}>
+                <i className="fa-solid fa-diamond"></i> Promo Codes
+              </Link>
+            </li>
+            <li>
+              <Link to="/betting" onClick={closeMenu}>
+                <i className="fa-solid fa-gear"></i> Betting Sites
+              </Link>
+            </li>
+            <li>
+              <Link to="/Poker" onClick={closeMenu}>
+                <i className="fa-solid fa-receipt"></i> Poker
+              </Link>
+            </li>
+            <li>
+              <Link to="/Casinos" onClick={closeMenu}>
+                <i className="fa-solid fa-cash-register"></i> Casinos
+              </Link>
+            </li>
+            <li>
+              <Link to="/Currencies" onClick={closeMenu}>
+                <i className="fa-solid fa-money-bill-transfer"></i> Currencies
+              </Link>
+            </li>
+          </ul>
         </nav>
-        <div className="actions">
-            <button className="crypto-betting">
-                <a href="/cryptoBetting">Crypto Betting</a>
-            </button>
-        </div>
+      </div>
+
+      {/* Main Logo */}
+      <div className="logo">
+        <Link to="/">
+          <span>CRYPTO <span className="ninjas">NINJAS</span></span>
+        </Link>
+      </div>
+
+      {/* Normal Navigation (Hidden on Mobile) */}
+      <nav className="nav">
+        <ul>
+          <li className="dropdown">
+            <span className="text-center">
+              <Link to="/Promo">
+                <i className="fa-solid fa-diamond"></i> <br />Promo Codes
+              </Link>
+            </span>
+          </li>
+          <li className="dropdown">
+            <span className="text-center">
+              <Link to="/betting">
+                <i className="fa-solid fa-gear"></i> <br /> Betting Sites
+              </Link>
+            </span>
+          </li>
+          <li className="dropdown">
+            <span className="text-center">
+              <Link to="/Poker">
+                <i className="fa-solid fa-receipt"></i> <br /> Poker
+              </Link>
+            </span>
+          </li>
+          <li className="dropdown">
+            <span className="text-center">
+              <Link to="/Casinos">
+                <i className="fa-solid fa-cash-register"></i> <br />Casinos
+              </Link>
+            </span>
+          </li>
+          <li className="dropdown">
+            <span className="text-center">
+              <Link to="/Currencies">
+                <i className="fa-solid fa-money-bill-transfer"></i> <br /> Currencies
+              </Link>
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+      {/* Action Button */}
+      <div className="actions">
+        <button className="crypto-betting">
+          <Link to="/cryptoBetting">Crypto Betting</Link>
+        </button>
+      </div>
     </header>
 
 

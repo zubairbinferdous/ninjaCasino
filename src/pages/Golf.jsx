@@ -5,7 +5,7 @@ import CasinoOnePart from './CasinoOnePart';
 import Footer from "./Footer";
 import Header from "./Header";
 
-const Dogecoin = () => {
+const Golf = () => {
     return (
         <div>
         <Header></Header>
@@ -216,4 +216,4 @@ Whichever cryptocurrency you pick, you will almost certainly be able to use it a
     );
 };
 
-export default Dogecoin;
+export default Golf;

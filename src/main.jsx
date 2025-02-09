@@ -7,7 +7,10 @@ import './index.css'
 import CryptoBeting from './pages/CryptoBeting.jsx'
 // import Home from './pages/Home.jsx'
 import Acr from './pages/Acr.jsx'
+import AmericanFootball from './pages/AmericanFootball.jsx'
 import Baccarat from './pages/Baccarat.jsx'
+import Baseball from './pages/Baseball.jsx'
+import Basketball from './pages/Basketball.jsx'
 import BcGameRev from './pages/BcGameRev.jsx'
 import BcPR from './pages/BcPR.jsx'
 import BetandyouRev from './pages/BetandyouRev.jsx'
@@ -16,21 +19,28 @@ import Bitcoin from './pages/Bitcoin.jsx'
 import Blackjack from './pages/Blackjack.jsx'
 import BlockBet from './pages/BlockBet.jsx'
 import BNB from './pages/BNB.jsx'
+import Boxing from './pages/Boxing.jsx'
 import Casinos from './pages/Casinos.jsx'
 import CbetggRev from './pages/CbetggRev.jsx'
 import CbetRev from './pages/CbetRev.jsx'
 import CoinpokerRev from './pages/CoinpokerRev.jsx'
 import CrashGames from './pages/CrashGames.jsx'
+import Cricket from './pages/Cricket.jsx'
 import Currencies from './pages/Currencies.jsx'
 import DAI from './pages/DAI.jsx'
+import Darts from './pages/Darts.jsx'
 import Dealer from './pages/Dealer.jsx'
 import Dogecoin from './pages/Dogecoin.jsx'
 import DuelbitsR from './pages/DuelbitsR.jsx'
 import EOS from './pages/EOS.jsx'
 import Ethereum from './pages/Ethereum.jsx'
+import Football from './pages/Football.jsx'
 import GamdomRev from './pages/GamdomRev.jsx'
 import GameR from './pages/GameR.jsx'
 import GGPokerRev from './pages/GGPokerRev.jsx'
+import Golf from './pages/Golf.jsx'
+import HorseRacing from './pages/HorseRacing.jsx'
+import IceHockey from './pages/IceHockey.jsx'
 import KingmakerR from './pages/KingmakerR.jsx'
 import Litecoin from './pages/Litecoin.jsx'
 import MelbetRev from './pages/MelbetRev.jsx'
@@ -55,6 +65,7 @@ import RevStake from './pages/RevStake.jsx'
 import Ripple from './pages/Ripple.jsx'
 import RoobetRev from './pages/RoobetRev.jsx'
 import RootR from './pages/RootR.jsx'
+import RugbyLeague from './pages/RugbyLeague.jsx'
 import SapphirebetRev from './pages/SapphirebetRev.jsx'
 import SHIBA from './pages/SHIBA.jsx'
 import ShuffleR from './pages/ShuffleR.jsx'
@@ -63,16 +74,19 @@ import SportsbetR from './pages/SportsbetR.jsx'
 import SportsbetRev from './pages/SportsbetRev.jsx'
 import StakeR from './pages/StakeR.jsx'
 import StarzRev from './pages/StarzRev.jsx'
+import Tennis from './pages/Tennis.jsx'
 import Tether from './pages/Tether.jsx'
 import ThunderpickR from './pages/ThunderpickR.jsx'
 import ThunderpickRev from './pages/ThunderpickRev.jsx'
 import Tron from './pages/Tron.jsx'
+import UFC from './pages/UFC.jsx'
 import VaveR from './pages/VaveR.jsx'
 import VaveRev from './pages/VaveRev.jsx'
 import WildioRev from './pages/WildioRev.jsx'
 import Ybets from './pages/Ybets.jsx'
 import YbetsR from './pages/YbetsR.jsx'
 import ZotabetRev from './pages/ZotabetRev.jsx'
+
   const router = createBrowserRouter([
   {
     path:'/',
@@ -125,6 +139,60 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     element:<CrashGames></CrashGames> 
   },
 
+  // betting nav
+  {
+    path:'/Football',
+    element:<Football></Football>
+  },
+  {
+    path:'/Tennis',
+    element:<Tennis></Tennis>
+  },
+  {
+    path:'/AmericanFootball',
+    element:<AmericanFootball></AmericanFootball>
+  },
+  {
+    path:'/Basketball',
+    element:<Basketball></Basketball>
+  },
+  {
+    path:'/Darts',
+    element:<Darts></Darts>
+  },
+  {
+    path:'/Baseball',
+    element:<Baseball></Baseball>
+  },
+  {
+    path:'/IceHockey',
+    element:<IceHockey></IceHockey>
+  },
+  {
+    path:'/Boxing',
+    element:<Boxing></Boxing>
+  },
+  {
+    path:'/Golf',
+    element:<Golf></Golf>
+  },
+
+  {
+    path:'/UFC',
+    element:<UFC></UFC>
+  },
+  {
+    path:'/HorseRacing',
+    element:<HorseRacing></HorseRacing>
+  },
+  {
+    path:'/RugbyLeague',
+    element:<RugbyLeague></RugbyLeague>
+  },
+  {
+    path:'/Cricket',
+    element:<Cricket></Cricket>
+  },
 
 
     // Currencies navber 
