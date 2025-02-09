@@ -1,31 +1,26 @@
-/* Toggle Button (Menu Icon) */
+/* Toggle Button */
 .toggle-menu {
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  background-color: #222;
   color: white;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  /* z-index: 1100; */
+  z-index: 0;
 }
 
-/* Sidebar Menu (Hidden by default) */
+/* Sidebar Menu */
 .sidebar-menu {
   position: fixed;
   top: 0;
-  left: -450px; /* Initially hidden */
+  left: -450px;
   width: 450px;
   height: 100%;
   background-color: #222;
   color: white;
   padding: 20px;
-  transition: 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
   z-index: 1000;
 }
 
-/* When Sidebar is Open */
 .sidebar-menu.open {
   left: 0;
 }
@@ -61,4 +56,42 @@
 
 .sidebar-menu a:hover {
   color: #ffcc00;
+}
+
+/* Submenu Styling */
+.sub-menu {
+  list-style: none;
+  padding-left: 15px;
+  display: none;
+}
+
+.sub-menu.show {
+  display: block;
+}
+
+/* Dropdown Arrow */
+.dropdown-arrow {
+  float: right;
+  font-size: 14px;
+  color: #ffcc00;
+  cursor: pointer;
+}
+.sub-menu li a {
+  color: #ffcc00;
+  font-size: 16px;
+}
+
+.logo span {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  padding-top: 7px;
+  display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  .mobile-data {
+    display: none !important;
+    overflow: hidden;
+  }
 }
