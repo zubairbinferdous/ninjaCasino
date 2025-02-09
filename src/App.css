@@ -1396,7 +1396,9 @@ ul {
   color: white;
   cursor: pointer;
 }
-
+.header-bg-color {
+  background-color: #633e19;
+}
 /* Responsive Styling */
 @media (max-width: 768px) {
   .nav {

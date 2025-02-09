@@ -7,11 +7,11 @@ const Footer = () => {
         <footer className="footer container-fluid">
             <div className="container">
                 <div className="row text-center">
-                    <div className="col-md-2"><strong>Promo Codes</strong></div>
-                    <div className="col-md-2"><strong>Betting Sites</strong><br />Esports<br />Football<br />Tennis</div>
-                    <div className="col-md-2"><strong>Poker</strong></div>
-                    <div className="col-md-2"><strong>Casinos</strong><br />Live Dealer<br />Blackjack<br />Baccarat</div>
-                    <div className="col-md-2"><strong>Currencies</strong><br />Bitcoin<br />Ethereum<br />Litecoin</div>
+                    <div className="col-md-2"><strong><a href="/Promo">Promo Codes</a></strong></div>
+                    <div className="col-md-2"><strong><a href="/BettingSites">Betting Sites</a></strong><br /><a href="/Esports">Esports</a><br /><a href="/Football">Football</a><br /><a href="/Tennis">Tennis</a></div>
+                    <div className="col-md-2"><strong><a href="/Poker">Poker</a></strong></div>
+                    <div className="col-md-2"><strong><a href="/Casinos">Casinos</a></strong><br /><a href="/LiveDealer">Live Dealer</a><br /><a href="/Blackjack">Blackjack</a><br /><a href="/Baccarat">Baccarat</a></div>
+                    <div className="col-md-2"><strong><a href="/Currencies">Currencies</a></strong><br /><a href="/Bitcoin">Bitcoin</a><br /><a href="/Ethereum">Ethereum</a><br /><a href="/Litecoin">Litecoin</a></div>
                 </div>
                 <hr className="bg-light" />
                 <div className="row text-center">
