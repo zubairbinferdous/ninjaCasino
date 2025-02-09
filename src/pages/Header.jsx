@@ -41,7 +41,7 @@ const Header = () => {
               <ul>
                 <li><a href="/Promo">Promo Codes</a></li>
                 <li onClick={() => toggleDropdown("betting")}>
-                  Betting Sites <span className="dropdown-arrow">▼</span>
+                  <a href="/betting">Betting Sites</a> <span className="dropdown-arrow">▼</span>
                   {dropdownOpen === "betting" && (
                     <ul className="sub-menu show">
                       <li><a href="/Football">Football</a></li>
@@ -54,7 +54,7 @@ const Header = () => {
                 </li>
                 <li><a href="/Poker">Poker</a></li>
                 <li onClick={() => toggleDropdown("casinos")}>
-                  Casinos <span className="dropdown-arrow">▼</span>
+                  <a href="/Casinos">Casinos</a> <span className="dropdown-arrow">▼</span>
                   {dropdownOpen === "casinos" && (
                     <ul className="sub-menu show">
                       <li><a href="/Dealer">Live Dealer</a></li>
@@ -66,7 +66,7 @@ const Header = () => {
                   )}
                 </li>
                 <li onClick={() => toggleDropdown("currencies")}>
-                  Currencies <span className="dropdown-arrow">▼</span>
+                  <a href="/Currencies">Currencies</a> <span className="dropdown-arrow">▼</span>
                   {dropdownOpen === "currencies" && (
                     <ul className="sub-menu show">
                       <li><a href="/Bitcoin">Bitcoin</a></li>
