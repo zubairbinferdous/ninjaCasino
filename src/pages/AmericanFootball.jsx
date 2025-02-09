@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import bg from "../assets/casino_bg.webp";
+import bg from "../assets/usa.webp";
 import CasinoOnePart from './CasinoOnePart';
 import Footer from "./Footer";
 import Header from "./Header";
@@ -12,10 +12,13 @@ const AmericanFootball = () => {
         <div className="container my-4">
           <div className="text-start text-white bg-dark p-5 rounded d-flex justify-content-between">
             <div className="">
-              <p className="text-uppercase small">Casinos</p>
-              <h1 className="fw-bold">Crypto Casinos</h1>
+              <p className="text-uppercase small">American Football</p>
+              <h1 className="fw-bold">  Home
+Betting Sites
+American Football
+Best American Football Crypto Betting Sites</h1>
               <p>
-              We've ranked rated and reviewed all the major crypto casinos to give you a list of the trusted sites for sports betting using cryptocurrencies.
+              This guide explores the best crypto American Football sites in February 2025
               </p>
             </div>
             <img src={bg} alt="" />

@@ -1,9 +1,10 @@
 import React from 'react';
 import "../App.css";
-import bg from "../assets/casino_bg.webp";
-import CasinoOnePart from './CasinoOnePart';
+
+import CasinoOnePartTwo from './CasinoOnePartTwo';
 import Footer from "./Footer";
 import Header from "./Header";
+
 
 const UFC = () => {
     return (
@@ -12,19 +13,21 @@ const UFC = () => {
         <div className="container my-4">
           <div className="text-start text-white bg-dark p-5 rounded d-flex justify-content-between">
             <div className="">
-              <p className="text-uppercase small">Casinos</p>
-              <h1 className="fw-bold">Crypto Casinos</h1>
+              <p className="text-uppercase small">UFC</p>
+              <h1 className="fw-bold">UFC Crypto Betting Sites</h1>
               <p>
-              We've ranked rated and reviewed all the major crypto casinos to give you a list of the trusted sites for sports betting using cryptocurrencies.
+              {/* We've ranked rated and reviewed all the major crypto casinos to give you a list of the trusted sites for sports betting using cryptocurrencies. */}
               </p>
             </div>
-            <img src={bg} alt="" />
+            {/* <img src={bg} alt="" /> */}
           </div>
           <div className="row mt-4">
-           <CasinoOnePart></CasinoOnePart>
+           {/* <CasinoOnePart></CasinoOnePart> */}
+           <CasinoOnePartTwo></CasinoOnePartTwo>
           </div>
         </div>
   
+
         <div className="container content-area my-4">
           <div className="row">
             <div className="col-md-8">

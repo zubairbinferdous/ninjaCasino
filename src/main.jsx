@@ -219,10 +219,7 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     path:'/Tether',
     element:<Tether></Tether>
   },
-  {
-    path:'/Ripple',
-    element:<Ripple></Ripple>
-  },
+
   {
     path:'/BNB',
     element:<BNB></BNB>
@@ -239,14 +236,7 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     path:'/SHIBA',
     element:<SHIBA></SHIBA>
   },
-  {
-    path:'/DAI',
-    element:<DAI></DAI>
-  },
-  {
-    path:'/Polkadot',
-    element:<Polkadot></Polkadot>
-  },
+
   {
     path:'/Solana',
     element:<Solana></Solana>

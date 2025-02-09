@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import bg from "../assets/casino_bg.webp";
+import bg from "../assets/ORG_Golf flag 3d render4071_36646.webp";
 import CasinoOnePart from './CasinoOnePart';
 import Footer from "./Footer";
 import Header from "./Header";
@@ -12,10 +12,11 @@ const Golf = () => {
         <div className="container my-4">
           <div className="text-start text-white bg-dark p-5 rounded d-flex justify-content-between">
             <div className="">
-              <p className="text-uppercase small">Casinos</p>
-              <h1 className="fw-bold">Crypto Casinos</h1>
+              <p className="text-uppercase small">
+              Golf</p>
+              <h1 className="fw-bold">Best Golf Crypto Betting Sites</h1>
               <p>
-              We've ranked rated and reviewed all the major crypto casinos to give you a list of the trusted sites for sports betting using cryptocurrencies.
+              This guide explores the best Crypto Golf Betting Sites in February 2025
               </p>
             </div>
             <img src={bg} alt="" />

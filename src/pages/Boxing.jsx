@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css";
-import bg from "../assets/casino_bg.webp";
-import CasinoOnePart from './CasinoOnePart';
+import bg from "../assets/ORG_Boxing glove 3d render2972_26754.webp";
+import CasinoOnePartThree from './CasinoOnePartThree';
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -12,16 +12,18 @@ const Boxing = () => {
         <div className="container my-4">
           <div className="text-start text-white bg-dark p-5 rounded d-flex justify-content-between">
             <div className="">
-              <p className="text-uppercase small">Casinos</p>
-              <h1 className="fw-bold">Crypto Casinos</h1>
+              <p className="text-uppercase small">
+              Boxing</p>
+              <h1 className="fw-bold">Best Boxing Crypto Betting Sites</h1>
               <p>
-              We've ranked rated and reviewed all the major crypto casinos to give you a list of the trusted sites for sports betting using cryptocurrencies.
+              This guide explores the best crypto boxing sites in February 2025
               </p>
             </div>
             <img src={bg} alt="" />
           </div>
           <div className="row mt-4">
-           <CasinoOnePart></CasinoOnePart>
+           {/* <CasinoOnePart></CasinoOnePart> */}
+           <CasinoOnePartThree></CasinoOnePartThree>
           </div>
         </div>
   

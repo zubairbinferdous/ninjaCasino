@@ -27,15 +27,156 @@ import Wild from "../assets/ORG_wild-io-logo4605_41452.svg";
 import Ybets from "../assets/ORG_ybets4069_36627.svg";
 import Zotabet from "../assets/ORG_zota_4383_39452.svg";
 
-const CasinoOnePart = () => {
-  const [showMore, setShowMore] = useState(false);
 
-
+const CasinoOnePartThree = () => {
+    const [showMore, setShowMore] = useState(false);
     return (
         <div>
 
 
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={xbet} alt="" />
+</div>
+</div>
 
+<div className="bonus-details">
+<div className="">
+  <div className="bonus-title">$ 1,025</div>
+  <div className="bonus-amount">Deposit $205 Get $1025</div>
+  <p>
+    Use promo code : <strong>NEWBONUS</strong>
+  </p>
+</div>
+</div>
+
+<div className="bonus-rating">
+<span className="fw-bold text-warning"> ★★★★☆</span>
+</div>
+
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  {" "}
+  <span className="rating-number">9.6</span>
+</span>
+</div>
+
+<div className="bonus-actions">
+<a href="https://1xlite-088578.top/en?tag=d_470241m_97c_NEWBONUS" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/OnewinRev" className="bonus-link">
+  Review 1Win Casino
+</a>
+</div>
+</div>
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={ggPoker} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+
+  <div className="bonus-title">$600</div>
+  <div className="bonus-amount">100% up to $600</div>
+  <p>
+    Use promo code : <strong>NEWBONUS</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">8.7</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://ggpoker.com/" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/GGPokerRev" className="bonus-link">
+
+  Visit GGPoker Casino
+</a>
+</div>
+</div>
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={bc} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+  <div className="bonus-title">$1,500</div>
+  <div className="bonus-amount">+150 Free Spins</div>
+  <p>
+    Use promo code : <strong>NEWBONUS</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+
+
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">9.8</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://bc.game/bn/?stag=12184_67a6fb7b1a20d4255fda90af&i=4cxse6dr&utm_source=4cxse6dr" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/BcGameRev" className="bonus-link">
+  
+Visit Bc.Game Sport
+</a>
+</div>
+</div>
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={roobet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+
+  <div className="bonus-title">$1,400</div>
+  <div className="bonus-amount">$1400 cashback</div>
+  <p>
+    Use promo code : <strong>MAXCASH</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">9.6</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://roobet.com/promotions/7-days-of-sportsbook-cashback/?affid=35432&cxd=35432_812940_cryptonin&utm_medium=[utm_medium]&utm_campaign=NEWBONUS&utm_content=[utm_content]&lng=en" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/RoobetRev" className="bonus-link">
+  Visit Roobet Casino
+</a>
+</div>
+</div>
 
 
 <div className="bonus-card ">
@@ -70,6 +211,160 @@ const CasinoOnePart = () => {
 </a>
 </div>
 </div>
+
+
+
+
+
+
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={Ybets} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+  <div className="bonus-title">$8,000</div>
+  <div className="bonus-amount">500% up to $8,000</div>
+  <p>
+    Use promo code : <strong>NEWBONUS</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">9.0</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://ybets.net/?stag=116632_67a70c3e1a20d4255fdbfda2&http_referrer=https%3A%2F%2Fwww.cryptoninjas.com%2F&loyaltyCode=NEWBONUS&tmp=2&tracking_link=http%3A%2F%2Fybetspromo.io%2Fdcc41354c" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/Ybets" className="bonus-link">
+  Visit Ybets Casino
+</a>
+</div>
+</div>
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={starz} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+  <div className="bonus-title">€1,950</div>
+  <div className="bonus-amount">+ 150 Spins</div>
+  <p>
+    Use promo code : <strong>NEWBONUS</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★★</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">9.0</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://saxoneu5.xyz/en/registration?tag=d_894251m_64133c_freetips_com_%7Bposition%7D_&pb=5f67f3dae1c546cc959563fb696ce998&click_id=2i60ci4bhvvo" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/StarzRev" className="bonus-link">
+  Visit 888Starz Casino
+</a>
+</div>
+</div>
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={blockBet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+  <div className="bonus-title">$5,000</div>
+  <div className="bonus-amount">Get $5,000 + 50 FS</div>
+  <p>
+    Use promo code : <strong>MAXBET</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">8.9</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://www.blockbet.gg/en/promotions/welcome-bonus?affiliateid=ADdV93UBZdh_yNxZGFcdnWNd7ZgqdRLk" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/BlockbetRev" className="bonus-link">
+  Visit Blockbet Casino
+</a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+{showMore && (
+   <div className="">
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+  <img src={mostbet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+
+  <div className="bonus-title">$300</div>
+  <div className="bonus-amount">125% cash match</div>
+  <p>
+    Use promo code : <strong>HUGE</strong>
+  </p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★★</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+  <span className="rating-number">9.5</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://zzbtp0p.com/?registration=1&cid=6285307656&pid=36360&sip=0" className="bonus-button">
+  Get Bonus
+</a>
+<a href="/MostbetRev" className="bonus-link">
+  Visit Mostbet Casino
+</a>
+</div>
+</div>
+
+
 
 <div className="bonus-card ">
 <div className="bonus-logo">
@@ -170,471 +465,6 @@ const CasinoOnePart = () => {
 </a>
 <a href="/MonkeyTIRev" className="bonus-link">
   Visit MonkeyTilt Casino
-</a>
-</div>
-</div>
-
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={xbet} alt="" />
-</div>
-</div>
-
-<div className="bonus-details">
-<div className="">
-  <div className="bonus-title">$ 1,025</div>
-  <div className="bonus-amount">Deposit $205 Get $1025</div>
-  <p>
-    Use promo code : <strong>NEWBONUS</strong>
-  </p>
-</div>
-</div>
-
-<div className="bonus-rating">
-<span className="fw-bold text-warning"> ★★★★☆</span>
-</div>
-
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  {" "}
-  <span className="rating-number">9.6</span>
-</span>
-</div>
-
-<div className="bonus-actions">
-<a href="https://1xlite-088578.top/en?tag=d_470241m_97c_NEWBONUS" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/OnewinRev" className="bonus-link">
-  Review 1Win Casino
-</a>
-</div>
-</div>
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={bc} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-  <div className="bonus-title">$1,500</div>
-  <div className="bonus-amount">+150 Free Spins</div>
-  <p>
-    Use promo code : <strong>NEWBONUS</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-
-
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">9.8</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://bc.game/bn/?stag=12184_67a6fb7b1a20d4255fda90af&i=4cxse6dr&utm_source=4cxse6dr" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/BcGameRev" className="bonus-link">
-  
-Visit Bc.Game Sport
-</a>
-</div>
-</div>
-
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={roobet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-
-  <div className="bonus-title">$1,400</div>
-  <div className="bonus-amount">$1400 cashback</div>
-  <p>
-    Use promo code : <strong>MAXCASH</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">9.6</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://roobet.com/promotions/7-days-of-sportsbook-cashback/?affid=35432&cxd=35432_812940_cryptonin&utm_medium=[utm_medium]&utm_campaign=NEWBONUS&utm_content=[utm_content]&lng=en" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/RoobetRev" className="bonus-link">
-  Visit Roobet Casino
-</a>
-</div>
-</div>
-
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={mostbet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-
-  <div className="bonus-title">$300</div>
-  <div className="bonus-amount">125% cash match</div>
-  <p>
-    Use promo code : <strong>HUGE</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★★</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">9.5</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://zzbtp0p.com/?registration=1&cid=6285307656&pid=36360&sip=0" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/MostbetRev" className="bonus-link">
-  Visit Mostbet Casino
-</a>
-</div>
-</div>
-
-
-
-
-
-
-
-{showMore && (
-
-
-
-
-
-   <div className="">
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={starz} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-  <div className="bonus-title">€1,950</div>
-  <div className="bonus-amount">+ 150 Spins</div>
-  <p>
-    Use promo code : <strong>NEWBONUS</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★★</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">9.0</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://saxoneu5.xyz/en/registration?tag=d_894251m_64133c_freetips_com_%7Bposition%7D_&pb=5f67f3dae1c546cc959563fb696ce998&click_id=2i60ci4bhvvo" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/StarzRev" className="bonus-link">
-  Visit 888Starz Casino
-</a>
-</div>
-</div>
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={blockBet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-  <div className="bonus-title">$5,000</div>
-  <div className="bonus-amount">Get $5,000 + 50 FS</div>
-  <p>
-    Use promo code : <strong>MAXBET</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">8.9</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://www.blockbet.gg/en/promotions/welcome-bonus?affiliateid=ADdV93UBZdh_yNxZGFcdnWNd7ZgqdRLk" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/BlockbetRev" className="bonus-link">
-  Visit Blockbet Casino
-</a>
-</div>
-</div>
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={Ybets} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-  <div className="bonus-title">$8,000</div>
-  <div className="bonus-amount">500% up to $8,000</div>
-  <p>
-    Use promo code : <strong>NEWBONUS</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">9.0</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://ybets.net/?stag=116632_67a70c3e1a20d4255fdbfda2&http_referrer=https%3A%2F%2Fwww.cryptoninjas.com%2F&loyaltyCode=NEWBONUS&tmp=2&tracking_link=http%3A%2F%2Fybetspromo.io%2Fdcc41354c" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/Ybets" className="bonus-link">
-  Visit Ybets Casino
-</a>
-</div>
-</div>
-
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Thunderpick} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">€600</div>
-<div className="bonus-amount">100% cash match</div>
-<p>Use promo code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.7</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://thunderpick.io/" className="bonus-button">Get Bonus</a>
-<a href="/ThunderpickRev" className="bonus-link">Visit Thunderpick Casino</a>
-</div>
-</div>
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Gamdom} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">Rewards 2.0 Enabled</div>
-<div className="bonus-amount">Use newbonus promo code</div>
-<p>Use promo code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.5</span>
-</span>
-</div>
-<div className="bonus-actions">
-  <a href="https://gamdom.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
-<a href="/GamdomRev" className="bonus-link">Visit Gamdom</a>
-</div>
-</div>
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Vave} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">BTC 1</div>
-<div className="bonus-amount">100% up to 1 BTC + 100 FS</div>
-<p>Use promo code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.5</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://vave.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
-<a href="/VaveRev" className="bonus-link">Visit Vave Casino</a>
-</div>
-</div>
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Cbet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">$2,000</div>
-<div className="bonus-amount">Deposit your deposit up to $2,000</div>
-<p>Use bonus code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.4</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://cbet.gg/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
-<a href="/CbetggRev" className="bonus-link">Visit Cbet.gg Casino</a>
-</div>
-</div>
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Betibet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">€1,600</div>
-<div className="bonus-amount">100% cash match up to €1,600</div>
-<p>Use promo code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★☆☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.2</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://betibet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
-<a href="/BetibetRev" className="bonus-link">Visit Betibet Casino</a>
-</div>
-</div>
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-<img src={Zotabet} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-<div className="bonus-title">€6,000</div>
-<div className="bonus-amount">100% up to €6,000 + 100 FS</div>
-<p>Use promo code : <strong>NEWBONUS</strong></p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★☆☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-<span className="rating-number">7.2</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://zotabet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
-<a href="/ZotabetRev" className="bonus-link">Visit Zotabet Casino</a>
-</div>
-</div>
-
-
-<div className="bonus-card ">
-<div className="bonus-logo">
-<div className="">
-  <img src={ggPoker} alt="" />
-</div>
-</div>
-<div className="bonus-details">
-<div className="">
-
-  <div className="bonus-title">$600</div>
-  <div className="bonus-amount">100% up to $600</div>
-  <p>
-    Use promo code : <strong>NEWBONUS</strong>
-  </p>
-</div>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">★★★★☆</span>
-</div>
-<div className="bonus-rating">
-<span className="fw-bold text-warning">
-  <span className="rating-number">8.7</span>
-</span>
-</div>
-<div className="bonus-actions">
-<a href="https://ggpoker.com/" className="bonus-button">
-  Get Bonus
-</a>
-<a href="/GGPokerRev" className="bonus-link">
-
-  Visit GGPoker Casino
 </a>
 </div>
 </div>
@@ -909,7 +739,171 @@ Visit Bc.Game Sport
 </div>
 
 
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Thunderpick} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">€600</div>
+<div className="bonus-amount">100% cash match</div>
+<p>Use promo code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.7</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://thunderpick.io/" className="bonus-button">Get Bonus</a>
+<a href="/ThunderpickRev" className="bonus-link">Visit Thunderpick Casino</a>
+</div>
+</div>
 
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Gamdom} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">Rewards 2.0 Enabled</div>
+<div className="bonus-amount">Use newbonus promo code</div>
+<p>Use promo code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.5</span>
+</span>
+</div>
+<div className="bonus-actions">
+  <a href="https://gamdom.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/GamdomRev" className="bonus-link">Visit Gamdom</a>
+</div>
+</div>
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Vave} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">BTC 1</div>
+<div className="bonus-amount">100% up to 1 BTC + 100 FS</div>
+<p>Use promo code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.5</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://vave.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/VaveRev" className="bonus-link">Visit Vave Casino</a>
+</div>
+</div>
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Cbet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">$2,000</div>
+<div className="bonus-amount">Deposit your deposit up to $2,000</div>
+<p>Use bonus code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★★☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.4</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://cbet.gg/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/CbetggRev" className="bonus-link">Visit Cbet.gg Casino</a>
+</div>
+</div>
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Betibet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">€1,600</div>
+<div className="bonus-amount">100% cash match up to €1,600</div>
+<p>Use promo code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★☆☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.2</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://betibet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/BetibetRev" className="bonus-link">Visit Betibet Casino</a>
+</div>
+</div>
+
+
+<div className="bonus-card ">
+<div className="bonus-logo">
+<div className="">
+<img src={Zotabet} alt="" />
+</div>
+</div>
+<div className="bonus-details">
+<div className="">
+<div className="bonus-title">€6,000</div>
+<div className="bonus-amount">100% up to €6,000 + 100 FS</div>
+<p>Use promo code : <strong>NEWBONUS</strong></p>
+</div>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">★★★☆☆</span>
+</div>
+<div className="bonus-rating">
+<span className="fw-bold text-warning">
+<span className="rating-number">7.2</span>
+</span>
+</div>
+<div className="bonus-actions">
+<a href="https://zotabet.com/en/casino?tag=d_1320883m_22557c_" className="bonus-button">Get Bonus</a>
+<a href="/ZotabetRev" className="bonus-link">Visit Zotabet Casino</a>
+</div>
+</div>
   </div>
 )}
 
@@ -925,8 +919,7 @@ Visit Bc.Game Sport
 
 
       </div>
-
     );
 };
 
-export default CasinoOnePart;
+export default CasinoOnePartThree;
