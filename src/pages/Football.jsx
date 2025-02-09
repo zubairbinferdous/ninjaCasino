@@ -41,7 +41,7 @@ There are also many advantages to using cryptocurrency for gambling purposes and
 On this page, we will discuss all of the above. We’ll also include a guide on some of the best markets for wagering on football matches so that even if you’re new to crypto sports betting you will not be at a disadvantage. <br /> <br />
               </p>
 
-              <h3 className="fw-bold" id="CasinoReviews">CWhat Makes A Great Crypto Football Site?</h3>
+              <h3 className="fw-bold" id="CasinoReviews">What Makes A Great Crypto Football Site?</h3>
   
               <p>
               There are a number of factors that work together to create a great football betting site. Some of these are more specific to crypto in particular, so we’ll cover those in more detail: <br /> <br />
@@ -136,10 +136,6 @@ When it comes to applying for loans and mortgages, even small-time gamblers may 
 When you use cryptocurrency to finance your football betting, there will be no trace of your actions on your bank statements, and the activity will have no impact on your loan applications.</p>
 
 
-
-  
-           
-  
               <h3 className="fw-bold" id="CryptoCasinoSitesFAQs">Crypto Football Betting - FAQs</h3>
               <div className="border-bottom pb-3 mb-3">
                 <h5 className="fw-bold">What Is Crypto Football Betting?</h5>
