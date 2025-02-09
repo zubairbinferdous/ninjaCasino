@@ -19,7 +19,7 @@ const BNB = () => {
               Top BNB Betting Sites where you can bet with BNB. Benefit from super low transaction fees on the BNB Chain when you deposit and withdraw to crypto bookmakers using BNB.
               </p>
             </div>
-            <img src={bg} alt="" />
+            <img src={bg} alt="" /> 
           </div>
           <div className="row mt-4">
            {/* <CasinoOnePart></CasinoOnePart> */}
@@ -31,147 +31,168 @@ const BNB = () => {
         <div className="container content-area my-4">
           <div className="row">
             <div className="col-md-8">
-              <h3 className="fw-bold" id="">Crypto Casinos</h3>
+              <h3 className="fw-bold" id="">BNB Betting Sites</h3>
   
               <p>
-              Online casinos have come a long way since their inception, which feels like a very long time ago now. <br />
+              If you’ve stumbled across this page, there’s a good chance you’re already familiar with what cryptocurrency is. The same applies to gambling. <br /> <br />
 
-Crypto is a newer concept, but it has been around long enough to establish a robust foundation that is safe and trusted by millions of people and companies all over the globe for their payments. <br /> <br />
+You may be yet to combine the two elements, though, which is what we’re here to help you with today. <br /> <br />
 
-When you combine the two, you have one of the most exciting, safe, and easy to use entertainment prospects available today. <br /> <br />
-
-Every gambling fan should take advantage of the ability to play on websites that mimic Vegas itself while utilising cryptocurrencies like Bitcoin and Ethereum to finance this spectacular experience. <br /> <br />
-
-But where do you begin this journey? With so many crypto casino sites springing up all over the internet, deciding where to play may be a daunting task. <br /> <br />
-
-Our experienced team is made up of crypto aficionados from all around the world who play, analyse, review, and rank casinos based on their value to users. <br /> <br />
-
-On this page, you’ll discover everything you need to know about what makes a good site and how we decipher which are the best of the bunch. <br /> <br />
+And don’t worry, if you are yet to fully understand exactly what BNB is, you’ll soon learn all you need to know thanks to this page. You can also enjoy BNB promo codes when you're ready to play.<br /> <br />
               </p>
 
-              <h3 className="fw-bold" id="CasinoReviews">Casino Reviews</h3>
+              <h3 className="fw-bold" id="CasinoReviews">What Is BNB?</h3>
   
               <p>
-              When it comes to crypto casino reviews, as with almost anything else, they need to be honest and informative. When we conduct our online casino reviews, this will always be the case. <br /> <br />
+              BNB is a cryptocurrency, or virtual currency, that can function as a method of payment for online gambling sites while being unrelated to any one person, organisation, or institution, removing the need for third-party involvement in financial transactions. <br /> <br />
 
-We break our reviews down into a handful of crucial categories, and give all the details you could need to make a decision on whether or not the casino in question meets your wants and needs.
+It's provided to blockchain miners in exchange for their work confirming transactions, and it's available for purchase on a variety of sites. <br /> <br />
+
+
+All BNB transactions are recorded in a public ledger, and copies are stored on servers across the globe. A node is a server that may be set up by anybody with a spare computer. <br /> <br />
+
+Rather than depending on a centralized source of trust like a bank, agreement on who owns which coins are obtained cryptographically among these nodes. <br /> <br />
+
+
+Every transaction is published to the whole network and shared across nodes. Miners aggregate these activities into a group known as a block and add it to the blockchain securely every ten minutes or so. <br /> <br />
               </p>
   
-              <h3 className="fw-bold">Blackjack Casinos</h3>
+              <h3 className="fw-bold">Benefits Of Using BNB For Gambling</h3>
   
               <p>
-              Blackjack is one of several of the most popular games played at all kinds of casino, whether physical, traditional online or online crypto, so we ensure we have all blackjack angles covered. <br /> <br />
+              Do you want to try your luck at an online casino or sportsbook site using BNB but aren't sure whether you should? <br /> <br />
 
-If you’re looking for a site that specialises in dealing with blackjack, you can rely on us to point you in the right direction.
+There are several reasons to begin; here are a few:
               </p>
              
   
-              <h3 className="fw-bold">Roulette Casinos</h3>
+              <h3 className="fw-bold">Financial Investment</h3>
   
               <p>
-              Everybody loves to gamble on the roulette table, whether it’s a quick spin or an entire sit-down session. <br /> <br />
+              There's no denying that digital currencies have exploded in popularity. The world of cryptocurrencies has only continued to flourish, fueled by the phenomenal rise of BNB.  <br /> <br />
 
-When it comes to crypto casino sites, the same applies, so we make sure absolutely everyone can access their favourite crypto roulette tables at any given time.
+There are currently numerous new forms of blockchain investment products, ranging from decentralised finance to non-fungible tokens, in addition to initial coin offerings. Many cryptocurrency aficionados think that these investments will result in the creation of a new generation of digital currency billionaires. <br /> <br />
+
+With BNB on the increase, even if you lose your bets, you can make money while gambling. <br /> <br />
               </p>
   
           
-              <h3 className="fw-bold">Baccarat Casinos</h3>
+              <h3 className="fw-bold">Safer Gambling Sites</h3>
   
               <p>
-              Whether you’re a seasoned baccarat expert or you’re looking to try something new, you can trust our “Baccarat” section to offer you all the information there is on the subject, as well as links to some of the most popular and most generous baccarat sites.
+              BNB is accepted by a large number of online gaming sites. The problem is that many of them provide subpar services. <br /> <br />
+
+These sites appear to be stuck in the past, with payouts taking days, poor customer service, and a slew of other problems. <br /> <br />
+
+On the other hand, the top BNB gambling sites are created with the current user in mind. As a result, they use superior technology and show respect for their viewers. <br /> <br />
+
+This leads to better, more competitive, and safer cryptocurrency gaming sites in general, with faster payouts, more frequent bonuses and promotions, higher-quality customer service, and more. <br /> <br />
               </p>
   
-              <h3 className="fw-bold">Live Dealer Casinos</h3>
+              <h3 className="fw-bold">Faster, Limitless Payments</h3>
   
               <p>
-              Like with most standard online casinos, crypto casino sites often feature live dealer sections.
+              Gambling companies are often lethargic because they must operate inside the financial system, which has strict rules. As a result, your deposit and withdrawal amounts are restricted on certain gaming sites, and transactions are delayed. <br /> <br />
 
-Live dealer sections do an incredible job at mimicking the true Las Vegas casino experience, and thanks to modern technology and the rise of cryptocurrency, you can place Bitcoin, Ethereum and many other popular cryptocurrencies on the virtual tables in real-time.
+Despite the fact that the greatest BNB gambling sites are licenced, they are subject to little financial control. This implies you might be paid right away and have reasonable limits. <br /> <br />
 
-Visit our “Live Dealer” section for more information!
+In certain situations, the best BNB gambling sites offer no deposit or withdrawal limitations, so you may retrieve your money right away. This isn't the case with typical gambling facilities. <br /> <br />
               </p>
           
   
-              <h3 className="fw-bold">Crash Games Sites</h3>
+              <h3 className="fw-bold">Fewer Geographical Restrictions</h3>
   
               <p>
               Crash casino games are all about placing a bet and cashing out before the multiplier crashes. Designed with many different themes, the heart of the game stays the same. Take off in a high-powered jet, blast off into space in a rocket or float away with balloons – no matter what you do, don’t let the game crash before you grab your winnings. <br /> <br />
 
-These exciting games of chance are inspired by the Bitcoin market. Every bet is thrilling, and they’re loads of fun to learn and play!
+These exciting games of chance are inspired by the BNB market. Every bet is thrilling, and they’re loads of fun to learn and play!
               </p>
   
-              <h3 className="fw-bold" id="WhatMakesAGoodCryptoCasino">What Makes A Good Crypto Casino?</h3>
+              <h3 className="fw-bold" id="WhatMakesAGoodCryptoCasino">Anonymity</h3>
   
               <p>
-              Decades of expertise playing at both online and traditional brick and mortar casinos are shared among the members of the team. Since Bitcoin became a global sensation, we've also been heavily invested in cryptocurrencies.
+              Banks are not fans of gambling, and there are several cases of people who have been refused mortgages because of their usage of online gambling sites, regardless of how little money was gambled.
 
-We've studied what constitutes an excellent site over time, and that includes exceeding expectations in each of the following criteria:
+With BNB gaming sites, things are a little different. You may use them without informing the bank, and no one else will be aware of it, either.
               </p>
   
-              <h3 className="fw-bold" id="">Bonuses Available</h3>
+              <h3 className="fw-bold" id="">What Can Crypto Be Used To Gamble On?</h3>
   
               <p>
-              There's no denying that casino bonuses and promotions attract a large number of gamers.
-
-It's a terrific opportunity to get a head start and play for bigger stakes than you normally would, or just to prolong your casino experience by having a larger budget. <br /> <br />
-
-We recognise that when it comes to bonuses and promotions, Bitcoin casinos are held to a higher standard than traditional casinos, therefore we make sure that all of the casinos on our listings give a sizable welcome bonus to new players. <br /> <br />
-
-Many of the casinos we evaluate have opted to provide Crypto Ninjas users a greater bonus than their standard welcome bonuses, so keep an eye out for unique offers on our listings.    
+              Pretty much any online casino or sportsbook that allows crypto as a payment method will have all the games and markets you would usually expect from a more traditional online gambling site. 
               </p>
 
 
-              <h3 className="fw-bold" id="PopularGamesAtCryptoCasinos">Popular Games At Crypto Casinos</h3>
-<p>Gambling games using cryptocurrencies aren't all that dissimilar to those offered by traditional internet casinos. Obviously, not every casino has the same selection of games in its catalogue. <br /> <br />
+              <h3 className="fw-bold" id="PopularGamesAtCryptoCasinos">Casino Games</h3>
+<p>There is no shadow of a doubt that playing casino games on online sites constitutes a significant portion of the overall gambling industry. <br /> <br />
+
+You will always be catered for at a casino, regardless of whether you favour slots, roulette, blackjack, baccarat, or live casino games. The only exception to this is if a site happens to specialise in one particular game.</p>
 
 
-Nonetheless, as a rule of thumb, you may anticipate being able to use your crypto coins to play the most popular casino games, such as slots, video poker, roulette, blackjack, craps, dice games, live casino games, and a variety of other games. <br /> <br />
+              <h3 className="fw-bold" id="Popular Cryptocurrencies">Poker
+              </h3>
+<p>The popularity of online poker increased nearly as swiftly as the gambling industry as a whole. Once you've registered, you'll be able to meet other poker fans at an online table.  <br /> <br />
 
-If you have a specific affinity for crypto games, you should double-check any casino you're thinking about joining to be sure they feature the games you desire. <br /> <br />
+Three Card Poker and Texas Hold'em are two of the most popular poker games on BNB gaming sites. <br /> <br />
 
-
-On this very site, we have some sections that are dedicated to some of these particular games so these areas should be your first port of call when deciding where to play those games. <br /> <br />
-
-
-Games that you won't find at other casinos are also accessible at crypto gaming sites. For example, you'll discover a decent selection of dice games that seem to be popular with crypto gamers. <br /> <br />
-
-
-As the appeal of cryptocurrency gambling sites expands, you'll find that you will be able to choose from a wider range of games.</p>
-
-
-              <h3 className="fw-bold" id="Popular Cryptocurrencies">Popular Cryptocurrencies</h3>
-<p>Bitcoin is undeniably the most well-known and commonly utilised kind of virtual currency at the moment. It has come to the point where some casinos only accept Bitcoin as a form of payment. On the other hand, an increasing number of companies are increasingly offering alternatives to traditional cryptocurrencies. <br /> <br />
-
-
-As was said previously, some of the most well-known cryptocurrencies today include Ethereum, Litecoin, Dogecoin, USDC, and Tether. There are always a select few cryptocurrencies, such as those that were just described, that stay prominent. The factors that influence the popularity of these cryptocurrencies vary, and it is reasonable to anticipate that they will alter over time. <br /> <br />
-
-No matter which cryptocurrency you choose, it is almost certain that you will be able to use it at one of the crypto gambling websites that we have recommended.
+Winning in a massive online poker event held by a BNB gambling service might also net you a large sum of money. <br /> <br />
   </p>
 
 
   
            
   
-              <h3 className="fw-bold" id="CryptoCasinoSitesFAQs">What Is A Crypto Casino Site?</h3>
+              <h3 className="fw-bold" id="CryptoCasinoSitesFAQs">
+              BNB Betting Sites - FAQs</h3>
               <div className="border-bottom pb-3 mb-3">
-                <h5 className="fw-bold">What Is The Best Crypto Poker Site?</h5>
+                <h5 className="fw-bold">What Is A 
+BNB
+ Betting Site?</h5>
                 <p>
-                A crypto casino site is essentially a traditional online casino site that accepts cryptocurrencies as a payment option for deposits and withdrawals. <br /> <br />
-
-
-Using crypto at an online casino site offers a number of benefits over fiat currencies, including the speed of payments, fewer restrictions, anonymity and an all-around safer experience. <br /> <br />
+                BNB betting sites are those that accept cryptocurrency as payment. Gamblers utilise BNBs to pay for their games on the websites. Many people believe digital money to be the safest type of gambling since it gives the player complete control and privacy.
                 </p>
               </div>
               <div className="border-bottom pb-3 mb-3">
                 <h5 className="fw-bold">
-                What Are The Most Popular Cryptos For Casino Games?
+                What Are The Benefits of Gambling With 
+BNB
+?
                 </h5>
                 <p>
-                Bitcoin, Ethereum, Litecoin, Dogecoin, USDC, and Tether are some of the most popular cryptocurrencies for gaming today. <br /> <br />
+                Using BNB to fund your gambling at online casinos and sportsbooks has a number of benefits over gambling with alternative payment systems, including safety, privacy, fewer limits and an investment opportunity.
+                </p>
+              </div>
+              <div className="border-bottom pb-3 mb-3">
+                <h5 className="fw-bold">
+                Where Can I Buy 
+BNB
+ For Gambling?
+                </h5>
+                <p>
+                There are many platforms online that are used to create crypto wallets for buying and selling BNB. The most popular of these include Coinbase, FTX and Gemini.
 
-These cryptocurrencies' popularity is affected by a combination of variables, and it is realistic to assume that these variables will change over time. <br /> <br />
+If you ever plan to invest in and gamble with altcoins, it may be worth checking out which of these each platform deals in so that you will not have to attain a new wallet in the future to do so.
+                </p>
+              </div>
+              <div className="border-bottom pb-3 mb-3">
+                <h5 className="fw-bold">
+                How do I begin betting with 
+BNB
+?
+                </h5>
+                <p>
+                There are a few steps you’ll need to complete to get started. Joining an exchange is key and opening a BNB wallet is essential. Once you’ve connected your wallet to your bank account, you’ll be ready to start.
+                </p>
+              </div>
 
-Whichever cryptocurrency you pick, you will almost certainly be able to use it at one of the crypto gambling sites we have suggested.
+              <div className="border-bottom pb-3 mb-3">
+                <h5 className="fw-bold">
+                Is 
+BNB
+ a good investment?
+                </h5>
+                <p>
+                BNB has high volatility making it one of the riskiest cryptos to buy into. However, it also has the highest value. If you’re willing to take the risk, this crypto could pay off in the long run.
                 </p>
               </div>
           
@@ -179,35 +200,73 @@ Whichever cryptocurrency you pick, you will almost certainly be able to use it a
             <div className="col-md-4">
               <div className="p-3 border rounded bg-light bg-menu sticky-top">
                 {/* <h5 className="fw-bold">Navigation</h5> */}
+
+
                 <ul className="list-unstyled">
                   <li>
                     <a href="#CasinoReviews" className="text-decoration-none">
                       {" "}
-                      Casino Reviews
+                      What Is BNB?
                     </a>
                   </li>
                   <li>
                     <a href="#WhatMakesAGoodCryptoCasino" className="text-decoration-none">
-                    What Makes A Good Crypto Casino?
+                    Benefits Of Using BNB For Gambling
                     </a>
                   </li>
 
                   <li>
                     <a href="#PopularGamesAtCryptoCasinos" className="text-decoration-none">
-                    Popular Games At Crypto Casinos
+                    Financial Investment
                     </a>
                   </li>
                   <li>
 
                     <a href="#Popular Cryptocurrencies" className="text-decoration-none">
-                    Popular Cryptocurrencies
+                    Safer Gambling Sites
                     </a>
                   </li>
                   <li>
                     <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
-                    Crypto Casino Sites - FAQs
+                    Faster, Limitless Payments
                     </a>
                   </li>
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    Fewer Geographical Restrictions
+                    </a>
+                  </li> 
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    Anonymity
+                    </a>
+                  </li> 
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    What Can Crypto Be Used To Gamble On?
+                    </a>
+                  </li> 
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    Casino Games
+                    </a>
+                  </li>  
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    Poker
+                    </a>
+                  </li>   
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    Sportsbooks
+                    </a>
+                  </li>   
+                  <li>
+                    <a href="#CryptoCasinoSitesFAQs" className="text-decoration-none">
+                    FAQ
+                    </a>
+                  </li>   
+                  
                 </ul>
 
               </div>
