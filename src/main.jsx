@@ -7,20 +7,23 @@ import './index.css'
 import CryptoBeting from './pages/CryptoBeting.jsx'
 // import Home from './pages/Home.jsx'
 import Acr from './pages/Acr.jsx'
+import Baccarat from './pages/Baccarat.jsx'
 import BcGameRev from './pages/BcGameRev.jsx'
 import BcPR from './pages/BcPR.jsx'
 import BetandyouRev from './pages/BetandyouRev.jsx'
 import BetibetRev from './pages/BetibetRev.jsx'
 import Bitcoin from './pages/Bitcoin.jsx'
+import Blackjack from './pages/Blackjack.jsx'
 import BlockBet from './pages/BlockBet.jsx'
 import BNB from './pages/BNB.jsx'
-import Cardano from './pages/Cardano.jsx'
 import Casinos from './pages/Casinos.jsx'
 import CbetggRev from './pages/CbetggRev.jsx'
 import CbetRev from './pages/CbetRev.jsx'
 import CoinpokerRev from './pages/CoinpokerRev.jsx'
+import CrashGames from './pages/CrashGames.jsx'
 import Currencies from './pages/Currencies.jsx'
 import DAI from './pages/DAI.jsx'
+import Dealer from './pages/Dealer.jsx'
 import Dogecoin from './pages/Dogecoin.jsx'
 import DuelbitsR from './pages/DuelbitsR.jsx'
 import EOS from './pages/EOS.jsx'
@@ -32,7 +35,6 @@ import KingmakerR from './pages/KingmakerR.jsx'
 import Litecoin from './pages/Litecoin.jsx'
 import MelbetRev from './pages/MelbetRev.jsx'
 import MetR from './pages/MetR.jsx'
-import Monero from './pages/Monero.jsx'
 import MonkeyTIRev from './pages/MonkeyTIRev.jsx'
 import MostbetRev from './pages/MostbetRev.jsx'
 import Natural8Rev from './pages/Natural8Rev.jsx'
@@ -48,6 +50,7 @@ import Polkadot from './pages/Polkadot.jsx'
 import Promo from './pages/Promo.jsx'
 import RakeR from './pages/RakeR.jsx'
 import RazedrRev from './pages/RazedrRev.jsx'
+import Reviews from './pages/Reviews.jsx'
 import RevStake from './pages/RevStake.jsx'
 import Ripple from './pages/Ripple.jsx'
 import RoobetRev from './pages/RoobetRev.jsx'
@@ -100,6 +103,29 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
     path:'/Currencies',
     element:<Currencies></Currencies>
   },
+  //  casino nav
+  {
+    path:'/Baccarat',
+    element:<Baccarat></Baccarat>
+  },
+  {
+    path:'/Dealer',
+    element:<Dealer></Dealer>
+  },
+  {
+    path:'/Blackjack',
+    element:<Blackjack></Blackjack>
+  },
+  {
+    path:'/Reviews',
+    element:<Reviews></Reviews>
+  },
+  {
+    path:'/CrashGames',
+    element:<CrashGames></CrashGames> 
+  },
+
+
 
     // Currencies navber 
   {
@@ -136,14 +162,6 @@ import ZotabetRev from './pages/ZotabetRev.jsx'
   {
     path:'/Tron',
     element:<Tron></Tron>
-  },
-  {
-    path:'/Cardano',
-    element:<Cardano></Cardano>
-  },
-  {
-    path:'/Monero',
-    element:<Monero></Monero>
   },
   {
     path:'/EOS',

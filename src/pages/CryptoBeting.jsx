@@ -8,7 +8,6 @@ import bcgame from "../assets/ORG_2515_22641.svg";
 import gamdom from "../assets/ORG_Gamdom logo2710_24394.svg";
 import melbet from "../assets/ORG_MelBet4781_43035.svg";
 import pinnacle from "../assets/ORG_Pinnacle2223_20016.svg";
-import shuffle from "../assets/ORG_Sportaza3214_28934.svg";
 import sportsbet from "../assets/ORG_Sportsbet.io3524_31724.svg";
 import stake from "../assets/ORG_stake2726_24544.svg";
 import thunderpick from "../assets/ORG_Thunderpick logo4610_41502.svg";
@@ -61,14 +60,17 @@ const CryptoBeting = () => {
                   </ul>
                 </div>
               </div>
-              <div className="coin-rating">
+               <div className="coin-rating">
                 <span className="fw-bold text-warning">
                   {" "}
                   <span className="fw-boldd">9.9</span> <br /> ★★★★★
                 </span>
               </div>
-              <div className="mt-2 button-area">
-                <a href="https://stake.com/en/welcome-bonus"> visit stake</a>
+              <div className="">
+                <div className="mt-2 button-area">
+                  <a href="https://stake.com/en/welcome-bonus"> visit stake</a>
+                </div>
+                 <span className="acr_promo"><a href="/RevStake">visit stake review</a></span>
               </div>
             </div>
 
@@ -103,8 +105,11 @@ const CryptoBeting = () => {
                   <span className="fw-boldd">9.8</span> <br /> ★★★★★
                 </span>
               </div>
-              <div className="mt-2 button-area">
+              <div className="">
+                <div className="mt-2 button-area">
                 <a href="https://1xbet.com"> visit 1xbet</a>
+              </div>
+              <span className="acr_promo"><a href="/OnewinRev">visit 1xbet review</a></span>
               </div>
             </div>
 
@@ -140,8 +145,13 @@ const CryptoBeting = () => {
                   <span className="fw-boldd">9.6</span> <br /> ★★★★☆
                 </span>
               </div>
-              <div className="mt-2 button-area">
-                <a href="https://bc.game"> visit bc.game</a>
+              <div className="">
+                <div className="mt-2 button-area">
+                  <a href="https://bc.game"> visit bc.game</a>
+                </div>
+                <span className="acr_promo">
+                  <a href="/BcgameRev">visit bc.game review</a>
+                </span>
               </div>
             </div>
 
@@ -163,7 +173,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.6</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://1win.com"> visit onewin</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://1win.com"> visit onewin</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/OnewinR">visit onewin review</a>
+          </span>
+        </div>
       </div>
 
       {/* 2. Gamdom */}
@@ -183,7 +200,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.5</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://gamdom.com"> visit gamdom</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://gamdom.com"> visit gamdom</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/GamdomRev">visit gamdom review</a>
+          </span>
+        </div>
       </div>
 
       {/* 3. Sportsbet */}
@@ -203,7 +227,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.3</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://sportsbet.io"> visit sportsbet</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://sportsbet.io"> visit sportsbet</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/SportsbetRev">visit sportsbet review</a>
+          </span>
+        </div>
       </div>
 
             <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
@@ -222,11 +253,18 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.0</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://pinnacle.com"> visit pinnacle</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://pinnacle.com"> visit pinnacle</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/PinnacleRev">visit pinnacle review</a>
+          </span>
+        </div>
       </div>
 
       {/* 2. Shuffle */}
-      <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
+      {/* <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
         <div className="d-flex promo-area">
           <img src={shuffle} className="me-3" alt="Shuffle Logo" />
           <div className="promo-areaa ms-3">
@@ -242,8 +280,16 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">8.9</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://shuffle.com"> visit shuffle</a></div>
-      </div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://shuffle.com"> visit shuffle</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/ShuffleRev">visit shuffle review</a>
+          </span>
+        </div>
+      
+      </div> */}
 
       {/* 3. Thunderpick */}
       <div className="casino-bg p-3 mb-3 border-warning d-flex justify-content-between">
@@ -262,7 +308,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">8.7</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://thunderpick.com"> visit thunderpick</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://thunderpick.com"> visit thunderpick</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/ThunderpickRev">visit thunderpick review</a>
+          </span>
+        </div>
       </div>
 
       {/* 4. Vave */}
@@ -282,7 +335,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.3</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://vave.com"> visit vave</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://vave.com"> visit vave</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/VaveRev">visit vave review</a>
+          </span>
+        </div>
       </div>
 
       {/* 5. 1xBit */}
@@ -302,8 +362,13 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.2</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area">
-          <a href="https://1xbit.com"> visit 1xbit</a>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://1xbit.com"> visit 1xbit</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/OnexbitRev">visit 1xbit review</a>
+          </span>
         </div>
       </div>
 
@@ -324,7 +389,14 @@ const CryptoBeting = () => {
         <div className="coin-rating">
           <span className="fw-bold text-warning"><span className="fw-boldd">9.0</span> <br /> ★★★★☆</span>
         </div>
-        <div className="mt-2 button-area"><a href="https://melbet.com"> visit melbet</a></div>
+        <div className="">
+          <div className="mt-2 button-area">
+            <a href="https://melbet.com"> visit melbet</a>
+          </div>
+          <span className="acr_promo">
+            <a href="/MelbetRev">visit melbet review</a>
+          </span>
+        </div>
       </div>
 
 

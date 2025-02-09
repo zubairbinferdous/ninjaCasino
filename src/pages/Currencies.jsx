@@ -8,18 +8,13 @@ import Header from "./Header";
 // Importing crypto icons (replace with actual image paths)
 import bitcoin from "../assets/bitC.webp";
 import bnb from "../assets/bnb.webp";
-import cardano from "../assets/car.webp";
 import dogecoin from "../assets/DogC.webp";
 import ethereum from "../assets/eieC.webp";
 import litecoin from "../assets/litC.webp";
 import tether from "../assets/ORG_Tether coin 3d render1133_10198.webp";
 import tron from "../assets/ORG_Tron coin 3d render4607_41467.webp";
-import ripple from "../assets/RipC.webp";
 
-import dai from "../assets/DaiC.webp";
 import eos from "../assets/eieC.webp";
-import monero from "../assets/monC.webp";
-import polkadot from "../assets/PolC.webp";
 import shiba from "../assets/ShinC.webp";
 
 import solana from "../assets/solC.webp";
@@ -31,16 +26,12 @@ const cryptoList = [
     { name: "Ethereum", brands: 99, icon: ethereum, path: "/Ethereum" },
     { name: "Litecoin", brands: 99, icon: litecoin, path: "/Litecoin" },
     { name: "Tether", brands: 88, icon: tether, path: "/Tether" },
-    { name: "Ripple", brands: 80, icon: ripple, path: "/Ripple" },
     { name: "BNB", brands: 61, icon: bnb, path: "/BNB" },
     { name: "Dogecoin", brands: 76, icon: dogecoin, path: "/Dogecoin" },
     { name: "Tron", brands: 71, icon: tron, path: "/Tron" },
-    { name: "Cardano", brands: 69, icon: cardano, path: "/Cardano" },
-    { name: "Monero", brands: 65, icon: monero, path: "/Monero" },
     { name: "EOS", brands: 63, icon: eos, path: "/EOS" },
     { name: "SHIBA INU", brands: 53, icon: shiba, path: "/SHIBA-INU" },
-    { name: "DAI", brands: 63, icon: dai, path: "/DAI" },
-    { name: "Polkadot", brands: 62, icon: polkadot, path: "/Polkadot" },
+    // { name: "Polkadot", brands: 62, icon: polkadot, path: "/Polkadot" },
     { name: "Solana", brands: 43, icon: solana, path: "/Solana" },
   ];
 const Currencies = () => {

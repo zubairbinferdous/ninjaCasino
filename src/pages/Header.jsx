@@ -82,17 +82,17 @@ const Header = () => {
                     <div className="dropdown-content mega-menu">
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Casino/FreeSpins">Live Dealer</a>
-                            <a href="/Promo/Casino/DepositBonus">Blackjack</a>
+                            <a href="/Dealer">Live Dealer</a>
+                            <a href="/Blackjack">Blackjack</a>
                         </div>
                         <div className="mega-menu-column">
                          
-                            <a href="/Promo/Casino/NoDeposit">Baccarat</a>
-                            <a href="/Promo/Sports/WelcomeBonus">Reviews</a>
+                            <a href="/Baccarat">Baccarat</a>
+                            <a href="/Reviews">Reviews</a>
                         </div>
                         <div className="mega-menu-column">
                           
-                            <a href="/Promo/Sports/Cashback">Crash Games</a>
+                            <a href="/CrashGames">Crash Games</a>
                          
                         </div>
                     </div>
@@ -103,45 +103,21 @@ const Header = () => {
 
                     </span>
                     <div className="dropdown-content mega-menu">
-                        <div className="mega-menu-column">
-                           
-                            <a href="/Currencies/Bitcoin">Bitcoin</a>
-                            <a href="/Currencies/Ethereum">Ethereum</a>
-                            <a href="/Currencies/Litecoin">Litecoin</a>
-                                <a href="/Currencies/Tether USD">Tether USD</a>
-                                <a href="/Currencies/Ripple">Ripple</a>
-                                <a href="/Currencies/BNB">BNB</a>
-                                <a href="/Currencies/Dogecoin">Dogecoin</a>
-                                <a href="/Currencies/Tron">Tron</a>
-                                <a href="/Currencies/Cardano">Cardano</a>
-                                <a href="/Currencies/Monero">Monero</a>
-                               
-                               
-                              
-                                
+                        <div className="mega-menu-column">                          
+                            <a href="/Bitcoin">Bitcoin</a>
+                            <a href="/Ethereum">Ethereum</a>
+                            <a href="/Litecoin">Litecoin</a>
+                             <a href="/Tether">Tether</a>                             
+                        </div>
+                        <div className="mega-menu-column">                       
+                                <a href="/BNB">BNB</a>
+                                  <a href="/Dogecoin">Dogecoin</a>
+                                  <a href="/Tron">Tron</a>        
                         </div>
                         <div className="mega-menu-column">
-                        <a href="/Currencies/EOS">EOS</a>
-                        <a href="/Currencies/USD Coin">USD Coin</a>
-                                <a href="/Currencies/Shiba Inu">Shiba Inu</a>
-                                <a href="/Currencies/Solana">Solana</a>
-                                <a href="/Currencies/Terra">Terra</a>
-                                <a href="/Currencies/Avalanche">Avalanche</a>
-                                <a href="/Currencies/Polkadot">Polkadot</a>
-                                <a href="/Currencies/ApeCoin">ApeCoin</a>
-                                <a href="/Currencies/Binance USD">Binance USD</a>
-                                <a href="/Currencies/Bitcoin Cash">Bitcoin Cash</a>
-                        </div>
-                        <div className="mega-menu-column">
-                        <a href="/Currencies/Cronos">Cronos</a>
-                                <a href="/Currencies/Chainlink">Chainlink</a>
-                                <a href="/Currencies/CAD Coin">CAD Coin</a>
-                                <a href="/Currencies/Borealis">Borealis</a>
-                                <a href="/Currencies/The Sandbox">The Sandbox</a>
-                        <a href="/Currencies/DAI">DAI</a>
-                            <a href="/Currencies/Uniswap">Uniswap</a>
-                                <a href="/Currencies/JPY Coin">JPY Coin</a>
-                                <a href="/Currencies/Polygon">Polygon</a>
+                        <a href="/EOS">EOS</a>
+                        <a href="/Solana">Solana</a>
+                                <a href="/SHIBA">Shiba Inu</a>                             
                         </div>
                     </div>
                 </li>
@@ -221,7 +197,7 @@ const Header = () => {
             </div>
 
             <div className="icon text-center">
-              <a href="">See all</a>
+              <a href="/Casinos">See all</a>
             </div>
 
           </div>

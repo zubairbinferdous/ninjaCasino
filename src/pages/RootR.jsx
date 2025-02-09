@@ -185,7 +185,7 @@ const RootR = () => {
       </div>
     </div>
   </div>
-</div>
+         </div>
 
         <Footer />
       </div>
