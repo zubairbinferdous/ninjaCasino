@@ -1,9 +1,10 @@
 import React from 'react';
 import "../App.css";
 import bg from "../assets/blac.webp";
-import CasinoOnePart from './CasinoOnePart';
+import CasinoOnePartThree from './CasinoOnePartThree';
 import Footer from "./Footer";
 import Header from "./Header";
+
 
 const Blackjack = () => {
     return (
@@ -21,7 +22,9 @@ const Blackjack = () => {
             <img src={bg} alt="" />
           </div>
           <div className="row mt-4">
-           <CasinoOnePart></CasinoOnePart>
+           {/* <CasinoOnePart></CasinoOnePart> */}
+           {/* <CasinoOnePartTwo></CasinoOnePartTwo> */}
+           <CasinoOnePartThree></CasinoOnePartThree>
           </div>
         </div>
   

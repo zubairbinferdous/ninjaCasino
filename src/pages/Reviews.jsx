@@ -1,9 +1,10 @@
 import React from 'react';
 import "../App.css";
 import bg from "../assets/review.webp";
-import CasinoOnePart from './CasinoOnePart';
+import CasinoOnePartTwo from './CasinoOnePartTwo';
 import Footer from "./Footer";
 import Header from "./Header";
+
 
 const Reviews = () => {
     return (
@@ -22,7 +23,8 @@ const Reviews = () => {
             <img src={bg} alt="" />
           </div>
           <div className="row mt-4">
-           <CasinoOnePart></CasinoOnePart>
+           {/* <CasinoOnePart></CasinoOnePart> */}
+           <CasinoOnePartTwo></CasinoOnePartTwo>
           </div>
         </div>
   
